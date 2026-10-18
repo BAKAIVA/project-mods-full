@@ -1,0 +1,5 @@
+[
+  {"version":3},
+  {"ingredient":{"id":"powah:reactor_nitro"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"allthemodium:teleport_pad"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

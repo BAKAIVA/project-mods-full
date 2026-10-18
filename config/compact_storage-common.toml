@@ -1,0 +1,32 @@
+#Maximum inventory width of Compact Barrels (Default Value: 12, Range 3 - 12)
+compactBarrelMaxHeight = 12
+#Size increased by using item drum upgrade (Default Value: 8, Range: 1 - 16)
+itemDrumUpgradeAmount = 8
+#Use per-type inventory rendering? eg: Oak Chest has Oak Texture in GUI
+useFancyInventoryRendering = true
+#Maximum inventory width of Compact Barrels (Default Value: 6 Range 3 - 12)
+compactBarrelDefaultHeight = 6
+#Default size of item drums (Default: 64, Range: 1 - 256)
+itemDrumDefaultSize = 64
+#Maximum inventory width of Backpacks (Default Value: 12, Range 3 - 12)
+backpackMaxHeight = 12
+#Maximum inventory width of Backpacks (Default Value: 6 Range 3 - 12)
+backpackDefaultHeight = 6
+#Maximum inventory width of Compact Chests (Default Value: 9, Range: 9 - 21)
+compactChestDefaultWidth = 9
+#Maximum inventory width of Compact Chests (DefaultValue: 21, Range: 9 - 21)
+compactChestMaxWidth = 21
+#Maximum inventory width of Compact Barrels (DefaultValue: 21, Range: 9 - 21)
+compactBarrelMaxWidth = 21
+#Maximum inventory width of Compact Barrels (Default Value: 9, Range: 9 - 21)
+compactBarrelDefaultWidth = 9
+#Maximum inventory width of Backpacks (Default Value: 9, Range: 9 - 21)
+backpackDefaultWidth = 9
+#Maximum size of item drums (Default: 256, Range: default size - 256)
+itemDrumMaximumSize = 256
+#Maximum inventory width of Compact Chests (Default Value: 6, Range 3 - 12)
+compactChestDefaultHeight = 6
+#Maximum inventory width of Compact Chests (Default Value: 12, Range 3 - 12)
+compactChestMaxHeight = 12
+#Maximum inventory width of Backpacks (DefaultValue: 21, Range: 9 - 21)
+backpackMaxWidth = 21

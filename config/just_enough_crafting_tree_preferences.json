@@ -1,0 +1,26 @@
+{
+  "recipePreference": {
+    "minecraft:bucket": 0
+  },
+  "ingredientPreference": {},
+  "expandedPreference": {
+    "minecraft:item_stack|minecraft:cherry_door": true,
+    "minecraft:item_stack|minecraft:cherry_door/ingredient:0:1wxefbsa9pljd": true,
+    "minecraft:item_stack|ae2omnicells:multidimensional_expansion_processor/ingredient:0:19t6omfdcg8g4/ingredient:0:31un3mcn0dimw": true,
+    "minecraft:item_stack|voidminersremastered:aurantium": true,
+    "minecraft:item_stack|minecraft:bucket": true,
+    "minecraft:item_stack|ae2omnicells:multidimensional_expansion_processor/ingredient:0:19t6omfdcg8g4": true,
+    "minecraft:item_stack|minecraft:cherry_door/ingredient:0:1wxefbsa9pljd/ingredient:0:ie0t5psnz99h": true,
+    "minecraft:item_stack|ae2omnicells:multidimensional_expansion_processor": true,
+    "minecraft:item_stack|ae2omnicells:multidimensional_expansion_processor/ingredient:0:19t6omfdcg8g4/ingredient:0:31un3mcn0dimw/station:0:10yekcy9szhvs": true,
+    "minecraft:item_stack|ae2omnicells:multidimensional_expansion_processor/ingredient:0:19t6omfdcg8g4/ingredient:0:31un3mcn0dimw/station:0:10yekcy9szhvs/ingredient:0:kqft0h3cvlxv": true,
+    "minecraft:item_stack|ae2omnicells:multidimensional_expansion_processor/ingredient:0:19t6omfdcg8g4/ingredient:0:31un3mcn0dimw/station:0:10yekcy9szhvs/ingredient:0:kqft0h3cvlxv/ingredient:0:21wrp774herpb/ingredient:0:1uub8cv862z9b": true,
+    "minecraft:item_stack|toms_storage:storage_terminal": true,
+    "minecraft:item_stack|ae2omnicells:multidimensional_expansion_processor/ingredient:0:19t6omfdcg8g4/ingredient:0:31un3mcn0dimw/station:0:10yekcy9szhvs/ingredient:0:kqft0h3cvlxv/ingredient:0:21wrp774herpb": true
+  },
+  "naturalAllow": [],
+  "naturalDeny": [],
+  "disabledRecipeMethods": [],
+  "disabledRecipeMethodsByComponent": {},
+  "treeLoadingTargetFps": 30
+}

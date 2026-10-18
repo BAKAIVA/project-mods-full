@@ -1,0 +1,6 @@
+#Determines whether Nautec's ocean biomes are added to the world's biome layout. Turning this off leaves vanilla oceans untouched
+#This only applies when Lithostitched is absent. With Lithostitched installed, placement comes from the biome injectors in data/nautec/lithostitched/biome_injector, which a datapack can override or empty out
+enableBiomeInjection = true
+#The multi-noise presets Nautec's ocean biomes are added to. Packs using a custom overworld preset should list it here
+#Ignored when Lithostitched is installed, since the biome injectors target the overworld dimension directly and work with Terralith and Tectonic
+injectableWorldPresets = ["minecraft:overworld"]

@@ -1,0 +1,16 @@
+[
+  {"version":3},
+  {"ingredient":{"id":"endrem:black_eye"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"endrem:cold_eye"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"endrem:corrupted_eye"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"endrem:cursed_eye"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"endrem:evil_eye"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"endrem:exotic_eye"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"endrem:guardian_eye"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"endrem:lost_eye"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"endrem:magical_eye"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"endrem:nether_eye"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"endrem:old_eye"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"endrem:rogue_eye"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"securitycraft:universal_block_reinforcer_lvl2"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

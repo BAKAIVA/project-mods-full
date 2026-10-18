@@ -1,0 +1,7 @@
+[
+  {"version":3},
+  {"ingredient":{"id":"sophisticatedbackpacks:backpack"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:leather"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"silentgear:sinew_fiber"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"integrateddynamics:crystalized_menril_chunk"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

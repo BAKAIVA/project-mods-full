@@ -1,0 +1,7 @@
+{
+  "crashReporting": {
+    "enabled": false,
+    "notifyOperators": true,
+    "dsnOverride": ""
+  }
+}

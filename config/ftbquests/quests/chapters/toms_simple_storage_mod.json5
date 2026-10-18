@@ -1,0 +1,456 @@
+{
+  id: "40DF7F26EA926EF3",
+  group: "17E2AB316D282CBF",
+  order_index: 0,
+  icon: {
+    id: "toms_storage:storage_terminal",
+    count: 1,
+  },
+  filename: "toms_simple_storage_mod",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  quests: [
+    {
+      x: 4.0,
+      y: 0.0,
+      dependencies: [
+        "6AB90822B9356B90",
+      ],
+      size: 1.0,
+      id: "798A7E8EB3446414",
+      tasks: [
+        {
+          id: "183590AD6896A01D",
+          type: "item",
+          item: {
+            id: "toms_storage:inventory_connector",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "753E07366EC30C39",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      size: 1.0,
+      id: "3A3507074F453DFA",
+      tasks: [
+        {
+          id: "1CDBEB45EFFD84F5",
+          type: "item",
+          item: {
+            id: "toms_storage:storage_terminal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "598482A131A91CA5",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: 0.0,
+      dependencies: [
+        "3A3507074F453DFA",
+      ],
+      size: 1.0,
+      id: "6AB90822B9356B90",
+      tasks: [
+        {
+          id: "3E46BDD68AE2CCD0",
+          type: "item",
+          item: {
+            id: "toms_storage:crafting_terminal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0B43F81C9D415544",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 9.0,
+      y: 2.0,
+      dependencies: [
+        "28B70BC9946C5F01",
+      ],
+      size: 1.0,
+      id: "08537CE435DAF42A",
+      tasks: [
+        {
+          id: "2ED5F0283210880C",
+          type: "item",
+          item: {
+            id: "toms_storage:open_crate",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6CDB72275A1BA605",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: 4.0,
+      dependencies: [
+        "4C03DD43AEFF1C1E",
+      ],
+      size: 1.0,
+      id: "0B750A507EA7F77C",
+      tasks: [
+        {
+          id: "4FEA1AE686968CE9",
+          type: "item",
+          item: {
+            id: "toms_storage:trim",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "630738D02C3D0202",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 11.0,
+      y: 2.0,
+      dependencies: [
+        "188D5E62AE5CFBBB",
+      ],
+      size: 1.0,
+      id: "76CBCC3D64838F06",
+      tasks: [
+        {
+          id: "35A9BDC47EBD1001",
+          type: "item",
+          item: {
+            id: "toms_storage:level_emitter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2AC2D12D22712038",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: 2.0,
+      dependencies: [
+        "798A7E8EB3446414",
+      ],
+      size: 1.0,
+      id: "4C03DD43AEFF1C1E",
+      tasks: [
+        {
+          id: "320875BD53AE0A65",
+          type: "item",
+          item: {
+            id: "toms_storage:inventory_cable",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "771CDCC04C8893A7",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: 4.0,
+      dependencies: [
+        "76CBCC3D64838F06",
+      ],
+      size: 1.0,
+      id: "151C4E56934FC00B",
+      tasks: [
+        {
+          id: "3967A1BE6E0B939D",
+          type: "item",
+          item: {
+            id: "toms_storage:basic_inventory_hopper",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: 6.0,
+      dependencies: [
+        "0B750A507EA7F77C",
+      ],
+      size: 1.0,
+      id: "055D28A6C7DA57CA",
+      tasks: [
+        {
+          id: "2A825436C356A887",
+          type: "item",
+          item: {
+            id: "toms_storage:inventory_interface",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 9.0,
+      y: 0.5,
+      dependencies: [
+        "08537CE435DAF42A",
+      ],
+      size: 1.0,
+      id: "188D5E62AE5CFBBB",
+      tasks: [
+        {
+          id: "7BA984E58020834C",
+          type: "item",
+          item: {
+            id: "toms_storage:inventory_cable_connector",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5DDCFED6D3143490",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: 2.0,
+      dependencies: [
+        "055D28A6C7DA57CA",
+      ],
+      size: 1.0,
+      id: "28B70BC9946C5F01",
+      tasks: [
+        {
+          id: "59DEF3D2DDA447DC",
+          type: "item",
+          item: {
+            id: "toms_storage:inventory_proxy",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "485EC29A6F0E3C09",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 15.0,
+      y: 4.0,
+      dependencies: [
+        "61433E624076B0D4",
+      ],
+      size: 1.0,
+      id: "73AFF7739F987EED",
+      tasks: [
+        {
+          id: "32B57A81999969D3",
+          type: "item",
+          item: {
+            id: "toms_storage:paint_kit",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "086E9173B9ECD697",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 15.0,
+      y: 2.0,
+      shape: "gear",
+      dependencies: [
+        "73AFF7739F987EED",
+      ],
+      size: 2.5,
+      id: "585AFB1AC7E5C3E2",
+      tasks: [
+        {
+          id: "176C6475137E4895",
+          type: "item",
+          item: {
+            id: "toms_storage:wireless_terminal",
+            count: 1,
+          },
+        },
+        {
+          id: "505476F54F761070",
+          type: "item",
+          item: {
+            id: "toms_storage:adv_wireless_terminal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "08C2533D4837B59B",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5588771312301384621,
+        },
+      ],
+    },
+    {
+      x: 10.0,
+      y: 4.0,
+      dependencies: [
+        "151C4E56934FC00B",
+      ],
+      size: 1.0,
+      id: "0A089EF0D2EB423C",
+      tasks: [
+        {
+          id: "333BBFDF727D6AE9",
+          type: "item",
+          item: {
+            id: "toms_storage:item_filter",
+            count: 1,
+          },
+        },
+        {
+          id: "50F240F53705E1B5",
+          type: "item",
+          item: {
+            id: "toms_storage:polymorphic_item_filter",
+            count: 1,
+          },
+        },
+        {
+          id: "0CA7BEA83D13D6CE",
+          type: "item",
+          item: {
+            id: "toms_storage:tag_item_filter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7978DE2CBAC73A5B",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 12.5,
+      y: 4.0,
+      dependencies: [
+        "0A089EF0D2EB423C",
+      ],
+      size: 1.0,
+      id: "61433E624076B0D4",
+      tasks: [
+        {
+          id: "0A720ABEA98C75B4",
+          type: "item",
+          item: {
+            id: "toms_storage:inventory_configurator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "771CEF220429FC19",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 0.0,
+      y: 3.5,
+      width: 5.0,
+      height: 3.0,
+      rotation: 0.0,
+      image: "nlp:textures/questpics/toms.png",
+      id: "38C83A28594528E6",
+    },
+    {
+      x: 2.0,
+      y: -1.5,
+      width: 5.0,
+      height: 3.0,
+      rotation: 0.0,
+      image: "nlp:textures/questpics/toms2.png",
+      id: "44A452768F8193A8",
+    },
+    {
+      x: 9.0,
+      y: -1.0,
+      width: 5.0,
+      height: 3.0,
+      rotation: 0.0,
+      image: "nlp:textures/questpics/toms3.png",
+      id: "176CB38F730A6D95",
+    },
+  ],
+}

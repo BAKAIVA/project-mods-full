@@ -1,0 +1,4 @@
+#Disable features.
+[Features]
+	#Bow Ammo Tooltips enabled?
+	bowAmmoTooltip = true

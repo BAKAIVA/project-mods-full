@@ -1,0 +1,6 @@
+[
+  {"version":3},
+  {"ingredient":{"id":"ae2:fluix_glass_cable"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:spruce_trapdoor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"arsmagicalegacy:inscription_table","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"}
+]

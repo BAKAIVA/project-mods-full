@@ -1,0 +1,1 @@
+{"jarName":"Super Factory Manager (SFM)-MC26.1.2-4.34.0.jar","modId":"sfm","name":"Super Factory Manager (SFM)","version":"4.34.0","mixinConfigs":["sfm.mixins.json"],"jarJarMods":[{"jarName":"antlr4-runtime-4.13.1.jar","mixinConfigs":[],"jarJarMods":[],"pathFromJarJar":"/META-INF/jarjar/"}],"curseForgeHash":646082064,"modrinthHash":"aedcd1c6b87fd8b2df3305d30834e2a7401dcc61"}

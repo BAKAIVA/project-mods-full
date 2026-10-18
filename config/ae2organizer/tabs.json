@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "settings": {},
+  "windows": [
+    {
+      "id": "main",
+      "scale": 1.208032128514056
+    }
+  ],
+  "tabs": [
+    {
+      "id": "enchanted",
+      "name": "Enchanted",
+      "icon": "minecraft:enchanted_book"
+    },
+    {
+      "id": "ingots",
+      "name": "Ingots",
+      "icon": "minecraft:iron_ingot",
+      "conditions": [
+        {
+          "tag": "c:ingots",
+          "type": "tag"
+        }
+      ]
+    },
+    {
+      "id": "named",
+      "name": "Named",
+      "icon": "minecraft:name_tag",
+      "conditions": [
+        {
+          "match": "named",
+          "type": "component"
+        }
+      ]
+    }
+  ],
+  "terminalNames": {
+    "ae2:patternterm": "",
+    "ae2:craftingterm": ""
+  }
+}

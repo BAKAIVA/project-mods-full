@@ -1,0 +1,7 @@
+[
+  {"version":3},
+  {"ingredient":{"id":"toms_storage:storage_terminal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"toms_storage:inventory_connector"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2:item_storage_cell_256k"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:stripped_cherry_wood"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

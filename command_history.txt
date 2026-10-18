@@ -1,0 +1,50 @@
+/kubejs hand
+/kubejs reload
+/reload
+/kubejs hand
+/reload
+/back
+/locate structure betterstrongholds:stronghold
+/tp @s 2880 ~ 7024
+/gamemode spectator
+/back
+/rtp
+/back
+/rtg
+/rtp
+/locate structure betterstrongholds:stronghold
+/tp @s 19056 ~ 8544
+/gamemode spectator
+/rtp
+/locate structure minecraft:end_city
+/tp @s -7648 ~ 1008
+/rtp
+/kill
+/spark tps
+/op
+/kubejs hand
+/weather thunder 600
+/weather thunder 600d
+/kubejs hand
+/reload
+/spark tickmonitor
+/spark tps
+/spark gcmonitor
+/rtp
+/spark gcmonitor
+/spark tps
+/rtp
+/kubejs hand
+/rtp
+/thaumaturge research kira_777 category appliedthaumaturge:energistics
+/gamerule doWeatherCycle false
+/weather clear
+/kubejs hand
+/weather clear
+/reload
+/kubejs hand
+/reload
+/weather clear
+/spark tps
+/weather clear
+/kubejs hand

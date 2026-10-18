@@ -1,0 +1,10 @@
+#Casting Startup Config
+[Casting]
+	#Amount of experience given when using the experience ball, default = 10
+	"Experience Ball Experience" = 10
+	#Default speed for the controller, default = 200
+	"Default Controller Speed" = 200
+	#Default speed for the solidifier, default = 200
+	"Default Solidifier Speed" = 200
+	#Default speed for the mixer, default = 200
+	"Default Mixer Speed" = 200

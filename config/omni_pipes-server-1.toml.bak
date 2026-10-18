@@ -1,0 +1,134 @@
+#Pipe settings
+[Pipes]
+	#Pause pipes that keep failing to extract, instead of retrying at full speed.
+	enablePipeOptimizations = true
+	#How many failed extracts that can happen before pausing
+	# Default: 2
+	# Range: 0 ~ 100
+	retriesBeforePausing = 2
+	#Ticks a pipe pauses for once it runs out of retries.
+	# Default: 50
+	# Range: 0 ~ 1200
+	extractRecheckDelay = 50
+
+#Pipe transfer settings, sub sections override these for each upgrade
+[settings]
+	#Ticks between transfers.
+	# Default: 40
+	# Range: 1 ~ 1200
+	transferRate = 40
+	#Items moved per transfer.
+	# Default: 8
+	# Range: 1 ~ 1024
+	itemTransferRate = 8
+	#Fluid in mB moved per transfer.
+	# Default: 2000
+	# Range: > 1
+	fluidTransferRate = 2000
+	#Energy moved per transfer.
+	# Default: 4000
+	# Range: > 1
+	energyTransferRate = 4000
+
+	[settings.upgrade_tier_1]
+		#Ticks between transfers.
+		# Default: 30
+		# Range: 1 ~ 1200
+		transferRate = 30
+		#Items moved per transfer.
+		# Default: 16
+		# Range: 1 ~ 1024
+		itemTransferRate = 16
+		#Fluid in mB moved per transfer.
+		# Default: 5000
+		# Range: > 1
+		fluidTransferRate = 5000
+		#Energy moved per transfer.
+		# Default: 12000
+		# Range: > 1
+		energyTransferRate = 12000
+
+	[settings.upgrade_tier_2]
+		#Ticks between transfers.
+		# Default: 15
+		# Range: 1 ~ 1200
+		transferRate = 15
+		#Items moved per transfer.
+		# Default: 32
+		# Range: 1 ~ 1024
+		itemTransferRate = 32
+		#Fluid in mB moved per transfer.
+		# Default: 16000
+		# Range: > 1
+		fluidTransferRate = 16000
+		#Energy moved per transfer.
+		# Default: 36000
+		# Range: > 1
+		energyTransferRate = 36000
+
+	[settings.upgrade_tier_3]
+		#Ticks between transfers.
+		# Default: 5
+		# Range: 1 ~ 1200
+		transferRate = 5
+		#Items moved per transfer.
+		# Default: 48
+		# Range: 1 ~ 1024
+		itemTransferRate = 48
+		#Fluid in mB moved per transfer.
+		# Default: 32000
+		# Range: > 1
+		fluidTransferRate = 32000
+		#Energy moved per transfer.
+		# Default: 98000
+		# Range: > 1
+		energyTransferRate = 98000
+
+	[settings.upgrade_tier_4]
+		#Ticks between transfers.
+		# Default: 1
+		# Range: 1 ~ 1200
+		transferRate = 1
+		#Items moved per transfer.
+		# Default: 64
+		# Range: 1 ~ 1024
+		itemTransferRate = 64
+		#Fluid in mB moved per transfer.
+		# Default: 64000
+		# Range: > 1
+		fluidTransferRate = 64000
+		#Energy moved per transfer.
+		# Default: 232000
+		# Range: > 1
+		energyTransferRate = 232000
+
+#BBL Rifts settings, used by the Rift Upgrade when BBL Rifts is installed. Sub sections override this for each upgrade
+[rifts]
+	#Rift energy moved per transfer.
+	# Default: 600
+	# Range: > 1
+	riftEnergyTransferRate = 600
+
+	[rifts.upgrade_tier_1]
+		#Rift energy moved per transfer.
+		# Default: 18000
+		# Range: > 1
+		riftEnergyTransferRate = 18000
+
+	[rifts.upgrade_tier_2]
+		#Rift energy moved per transfer.
+		# Default: 42000
+		# Range: > 1
+		riftEnergyTransferRate = 42000
+
+	[rifts.upgrade_tier_3]
+		#Rift energy moved per transfer.
+		# Default: 98000
+		# Range: > 1
+		riftEnergyTransferRate = 98000
+
+	[rifts.upgrade_tier_4]
+		#Rift energy moved per transfer.
+		# Default: 152000
+		# Range: > 1
+		riftEnergyTransferRate = 152000

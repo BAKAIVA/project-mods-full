@@ -1,0 +1,110 @@
+#Individual options for each bucket.
+[Buckets]
+
+	[Buckets.Copper]
+		enabled = true
+		# Default: 1
+		# Range: > 1
+		capacity = 1
+
+	[Buckets.Quartz]
+		enabled = true
+		# Default: 2
+		# Range: > 1
+		capacity = 2
+
+	[Buckets.Obsidian]
+		enabled = true
+		# Default: 3
+		# Range: > 1
+		capacity = 3
+
+	[Buckets.Gold]
+		enabled = true
+		# Default: 4
+		# Range: > 1
+		capacity = 4
+
+	[Buckets.Emerald]
+		enabled = true
+		# Default: 8
+		# Range: > 1
+		capacity = 8
+
+	[Buckets.Diamond]
+		enabled = true
+		# Default: 10
+		# Range: > 1
+		capacity = 10
+
+	[Buckets.Aluminum]
+		enabled = true
+		# Default: 1
+		# Range: > 1
+		capacity = 1
+
+	[Buckets.Tin]
+		enabled = true
+		# Default: 1
+		# Range: > 1
+		capacity = 1
+
+	[Buckets.Rubber]
+		enabled = true
+		# Default: 1
+		# Range: > 1
+		capacity = 1
+
+	[Buckets.Silver]
+		enabled = true
+		# Default: 3
+		# Range: > 1
+		capacity = 3
+
+	[Buckets.Bronze]
+		enabled = true
+		# Default: 4
+		# Range: > 1
+		capacity = 4
+
+	[Buckets.Steel]
+		enabled = true
+		# Default: 6
+		# Range: > 1
+		capacity = 6
+
+	[Buckets.Inferium]
+		enabled = true
+		# Default: 2
+		# Range: > 1
+		capacity = 2
+
+	[Buckets.Prudentium]
+		enabled = true
+		# Default: 4
+		# Range: > 1
+		capacity = 4
+
+	[Buckets.Tertium]
+		enabled = true
+		# Default: 8
+		# Range: > 1
+		capacity = 8
+
+	[Buckets.Imperium]
+		enabled = true
+		# Default: 16
+		# Range: > 1
+		capacity = 16
+
+	[Buckets.Supremium]
+		enabled = true
+		# Default: 32
+		# Range: > 1
+		capacity = 32
+
+	[Buckets.Insanium]
+		enabled = true
+		# Default: 64
+		# Range: > 1
+		capacity = 64

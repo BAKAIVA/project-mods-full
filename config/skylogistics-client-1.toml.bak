@@ -1,0 +1,3 @@
+[gui]
+	#Whether the configurator line details render active Sky Necklaces as player heads.
+	renderConfiguratorPlayerHeads = true

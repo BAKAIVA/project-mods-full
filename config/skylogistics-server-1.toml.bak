@@ -1,0 +1,529 @@
+[vaults]
+	#Maximum item/fluid type slots a Celestial Vault can be expanded to with capacity nectar.
+	#使用容量甘露扩容后，天穹仓库可拥有的最大物品/流体类型槽位数。
+	# Default: 36
+	# Range: 1 ~ 63
+	maxVaultTypes = 36
+	#Maximum serialized NBT bytes allowed for one distinct item stored in an item vault.
+	#物品库中单种物品允许的最大序列化 NBT 字节数。
+	# Default: 8192
+	# Range: 128 ~ 1048576
+	maxVaultItemEntryNbtBytes = 8192
+	#Maximum serialized NBT bytes allowed for one distinct fluid stored in a fluid vault.
+	#流体库中单种流体允许的最大序列化 NBT 字节数。
+	# Default: 4096
+	# Range: 128 ~ 1048576
+	maxVaultFluidEntryNbtBytes = 4096
+
+[transfers]
+	#Maximum item count moved by a logistics node per normal item transfer operation.
+	#物流节点每次普通物品传输操作可搬运的最大物品数量。
+	# Default: 2147483647
+	# Range: > 1
+	nodeItemTransferLimit = 2147483647
+	#Maximum energy moved by a logistics node per energy transfer operation.
+	#物流节点每次能量传输操作可搬运的最大能量。
+	# Default: 2147483647
+	# Range: > 1
+	nodeEnergyTransferLimit = 2147483647
+	#Maximum amount moved per direct transfer operation between Sky Logistics vault containers.
+	#天穹物流仓库容器之间每次直接传输操作可搬运的最大数量。
+	# Default: 9223372036854775807
+	# Range: 1 ~ 9223372036854775807
+	skyContainerTransferLimit = 9223372036854775807
+	#Maximum maintained storage-unit count configurable on a logistics face. Face value 0 still means unlimited.
+	#物流面可配置的维持存储单元数上限；面配置值 0 仍表示无限制。
+	# Default: 256
+	# Range: 1 ~ 999
+	maxItemSlotLimit = 36
+	#Maximum Slot Parallel Upgrades that stack in one node upgrade slot. Each upgrade adds one scanned slot per tick to the base rate of one. It is recommended to set preferredItemSlotCacheSize to at least this value plus one.
+	#单个节点升级槽内可堆叠的槽位并行升级上限；基础速率为每 tick 1 槽，每个升级额外增加 1 槽。建议 preferredItemSlotCacheSize 的配置值至少为此升级数加 1。
+	# Default: 8
+	# Range: 1 ~ 64
+	maxSpeedUpgradesPerNode = 8
+	#Whether slot-count maintenance keeps filling occupied storage units after the configured unit count has been reached. Native amount maintenance is unaffected.
+	#按槽数维持任意资源时，达到配置存储单元数后是否继续填满已有匹配单元。按原生数量维持不受影响。
+	fillMaintainedItemSlots = true
+
+	[transfers.astages]
+		#Whether AStages player stages limit and unlock per-operation transfer amounts. Requires AStages 2.x.
+		#是否由 AStages 玩家阶段限制并解锁单次操作传输量。需要 AStages 2.x。
+		enabled = false
+		#AStages unlock entries. Each entry requires stage and may define any of: items, fluids, chemicals, energy, mana, source.
+		#AStages 解锁条目。每项必须包含 stage，并可定义 items、fluids、chemicals、energy、mana、source 中的任意字段。
+		#Example / 示例: [{ stage = "logistics_tier_1", items = 128, fluids = 20000 }]
+		stageRates = []
+
+		[transfers.astages.initialRates]
+			# Default: 64
+			# Range: 1 ~ 9223372036854775807
+			items = 64
+			# Default: 10000
+			# Range: 1 ~ 9223372036854775807
+			fluids = 10000
+			# Default: 10000
+			# Range: 1 ~ 9223372036854775807
+			chemicals = 10000
+			# Default: 100000
+			# Range: 1 ~ 9223372036854775807
+			energy = 100000
+			# Default: 100000
+			# Range: 1 ~ 9223372036854775807
+			mana = 100000
+			# Default: 100000
+			# Range: 1 ~ 9223372036854775807
+			source = 100000
+
+	#Simple pipe enable switches, transfer rates, and connection limits.
+	#简易管道的启用开关、传输速率与连接上限。
+	[transfers.simplePipes]
+		#Whether simple item pipes connect to inventories and transfer items.
+		#简易物品管道是否连接物品容器并传输物品。
+		enableSimpleItemPipe = true
+		#Whether simple fluid pipes connect to tanks and transfer fluids.
+		#简易流体管道是否连接储罐并传输流体。
+		enableSimpleFluidPipe = true
+		#Whether simple energy pipes connect to FE storages and transfer energy.
+		#简易能量管道是否连接 FE 储能设备并传输能量。
+		enableSimpleEnergyPipe = true
+		#Maximum items moved by each extracting simple item pipe per tick. A transfer still uses at most one source slot and one target slot.
+		#每个抽取型简易物品管道每 tick 最多搬运的物品数；一次传输仍最多使用一个来源槽和一个目标槽。
+		# Default: 64
+		# Range: > 1
+		simpleItemPipeTransferRate = 64
+		#Maximum fluid amount in mB moved by each extracting simple fluid pipe per tick.
+		#每个抽取型简易流体管道每 tick 最多搬运的流体量（mB）。
+		# Default: 10000
+		# Range: > 1
+		simpleFluidPipeTransferRate = 10000
+		#Maximum FE moved by each extracting simple energy pipe per tick.
+		#每个抽取型简易能量管道每 tick 最多搬运的 FE。
+		# Default: 100000
+		# Range: > 1
+		simpleEnergyPipeTransferRate = 100000
+		#Maximum Mekanism chemical amount moved by each extracting simple fluid pipe per tick.
+		#每个抽取型简易流体管道每 tick 最多搬运的 Mekanism 化学品数量。
+		# Default: 10000
+		# Range: > 1
+		simpleChemicalPipeTransferRate = 10000
+		#Maximum Botania mana moved by each extracting simple energy pipe per tick.
+		#每个抽取型简易能量管道每 tick 最多搬运的 Botania 魔力。
+		# Default: 50
+		# Range: > 1
+		simpleManaPipeTransferRate = 50
+		#Maximum Ars Nouveau source moved by each extracting simple energy pipe per tick.
+		#每个抽取型简易能量管道每 tick 最多搬运的 Ars Nouveau 源质。
+		# Default: 50
+		# Range: > 1
+		simpleSourcePipeTransferRate = 50
+		#Whether new simple pipe connections are rejected when they would exceed simplePipeMaxConnectedBlocks.
+		#新建简易管道连接超过 simplePipeMaxConnectedBlocks 时，是否拒绝该连接。
+		enforceSimplePipeConnectionLimit = true
+		#Maximum connected blocks in one simple pipe line. New pipe edges that would exceed this limit stay disconnected.
+		#单条简易管道线路允许连接的最大方块数；超过上限的新连接会保持断开。
+		# Default: 1024
+		# Range: 16 ~ 65536
+		simplePipeMaxConnectedBlocks = 1024
+
+	#Transfer operation budgets and scan attempt limits.
+	#传输操作预算与扫描尝试上限。
+	[transfers.performance]
+		#Maximum endpoint, slot, tank, and energy transfer operations Sky Logistics may process per server tick.
+		#天穹物流每个服务器 tick 可处理的端点、槽位、储罐和能量传输操作总上限。
+		# Default: 32768
+		# Range: 1 ~ 1000000
+		serverOpsPerTick = 32768
+		#Maximum endpoint, slot, tank, energy, and distributor target probes one logistics line may consume per server tick.
+		#单条物流线路每个服务器 tick 可消耗的端点、槽位、储罐、能量和分配器内部目标探测上限。
+		# Default: 1024
+		# Range: 1 ~ 1000000
+		lineOpsPerTick = 1024
+		#Maximum receiving endpoints one source endpoint may try after failures for one transfer candidate. A successful transfer still stops immediately.
+		#一个来源端点针对单个传输候选在失败后最多尝试的接收端点数；成功传输后仍会立即停止。
+		# Default: 4
+		# Range: 1 ~ 1000000
+		endpointTargetAttempts = 4
+		#Maximum external fluid tanks one source endpoint may scan per tick. Node operation rate still applies.
+		#一个来源端点每 tick 最多扫描的外部流体储罐数；仍受节点操作速率限制。
+		# Default: 8
+		# Range: 1 ~ 1000000
+		externalTankScansPerEndpoint = 8
+		#Maximum slot/tank cursor positions one source endpoint may skip while searching for work in one transfer attempt.
+		#一个来源端点在单次传输尝试中寻找可执行工作时最多跳过的槽位/储罐游标位置数。
+		# Default: 64
+		# Range: 1 ~ 1000000
+		sourceSearchAttemptsPerEndpoint = 64
+
+	#Third-party storage and resource transfer integrations.
+	#第三方存储与资源传输联动。
+	[transfers.integrations]
+		#Whether Sky ME Interfaces may transfer items stored in AE2 networks.
+		#天穹 ME 接口是否可传输 AE2 网络中存储的物品。
+		allowAe2ItemTransfer = true
+		#Whether transfers treat a Sophisticated Storage stack-upgraded slot as one transportable slot.
+		#传输时是否将 Sophisticated Storage 堆叠升级后的槽位视为一个可搬运槽位。
+		allowSophisticatedStorageStackUpgradeTransfer = true
+		#Whether Sky ME Interfaces may transfer fluids stored in AE2 networks.
+		#天穹 ME 接口是否可传输 AE2 网络中存储的流体。
+		allowAe2FluidTransfer = true
+		#Whether Sky RS Interfaces may transfer items stored in Refined Storage networks.
+		#天穹 RS 接口是否可传输 Refined Storage 网络中存储的物品。
+		allowRefinedStorageItemTransfer = true
+		#Whether Sky RS Interfaces may transfer fluids stored in Refined Storage networks.
+		#天穹 RS 接口是否可传输 Refined Storage 网络中存储的流体。
+		allowRefinedStorageFluidTransfer = true
+		#Whether fluid-enabled logistics faces may also transfer Mekanism chemicals.
+		#启用流体的物流面是否也可传输 Mekanism 化学品。
+		allowFluidChemicalTransfer = true
+		#Whether energy-enabled logistics faces may also transfer Botania mana.
+		#启用能量的物流面是否也可传输 Botania 魔力。
+		allowEnergyManaTransfer = true
+		#Whether energy-enabled logistics faces may also transfer Ars Nouveau source.
+		#启用能量的物流面是否也可传输 Ars Nouveau 源质。
+		allowEnergySourceTransfer = true
+		#Whether Sky ME Interfaces may transfer AppFlux FE stored in AE2 networks.
+		#天穹 ME 接口是否可传输 AE2 网络中由 AppFlux 存储的 FE。
+		allowAe2AppFluxEnergyTransfer = true
+		#Whether Sky ME Interfaces may transfer Applied Mekanistics chemicals stored in AE2 networks.
+		#天穹 ME 接口是否可传输 AE2 网络中由 Applied Mekanistics 存储的化学品。
+		allowAe2AppliedMekanisticsChemicalTransfer = true
+		#Whether Sky Dimension Interfaces may transfer items stored in Beyond Dimensions networks.
+		#天穹维度接口是否可传输 Beyond Dimensions 网络中存储的物品。
+		allowBeyondDimensionsItemTransfer = true
+		#Whether Sky Dimension Interfaces may transfer fluids stored in Beyond Dimensions networks.
+		#天穹维度接口是否可传输 Beyond Dimensions 网络中存储的流体。
+		allowBeyondDimensionsFluidTransfer = true
+		#Whether Sky Dimension Interfaces may transfer FE stored in Beyond Dimensions networks.
+		#天穹维度接口是否可传输 Beyond Dimensions 网络中存储的 FE。
+		allowBeyondDimensionsEnergyTransfer = true
+		#Whether Sky Dimension Interfaces may transfer Mekanism chemicals stored in Beyond Dimensions networks.
+		#天穹维度接口是否可传输 Beyond Dimensions 网络中存储的 Mekanism 化学品。
+		allowBeyondDimensionsMekanismChemicalTransfer = true
+		#Whether Sky Dimension Interfaces may transfer Ars Nouveau source stored in Beyond Dimensions networks.
+		#天穹维度接口是否可传输 Beyond Dimensions 网络中存储的 Ars Nouveau 源质。
+		allowBeyondDimensionsSourceTransfer = true
+		#Whether Sky ME Interfaces may transfer Applied Botanics mana stored in AE2 networks.
+		#天穹 ME 接口是否可传输 AE2 网络中由 Applied Botanics 存储的魔力。
+		allowAe2AppliedBotanicsManaTransfer = true
+		#Whether Sky ME Interfaces may transfer Ars Energistique source stored in AE2 networks.
+		#天穹 ME 接口是否可传输 AE2 网络中由 Ars Energistique 存储的源质。
+		allowAe2ArsEnergistiqueSourceTransfer = true
+		#Whether the Celestial Wrench is hidden when AE2 or Refined Storage is installed. The item remains registered for world compatibility.
+		#安装 AE2 或精致存储时是否隐藏天穹扳手。物品会保持注册，以兼容已有世界。
+		hideSkyWrenchWhenAe2OrRefinedStorageLoaded = true
+
+		[transfers.integrations.forceExtractionUpgrade]
+			#Device block mod IDs allowed for force extraction. An empty list disables the upgrade; only matching mod devices enable its behavior.
+			#允许强制抽取的设备方块 modID 列表。列表为空时禁用该升级；仅匹配列表中模组的设备会启用其功能。
+			deviceModIdWhitelist = ["mekanism_extras"]
+
+	#Transfer retry delays, cursors, and endpoint caches.
+	#传输重试延迟、游标与端点缓存。
+	[transfers.retryAndCaching]
+		#Number of successful item source slots remembered as hot slots per source endpoint.
+		#每个来源端点记忆为热槽的成功物品来源槽数量。
+		# Default: 9
+		# Range: 1 ~ 256
+		preferredItemSlotCacheSize = 9
+		#Target item insertion cursor lanes per multi-slot endpoint. Single-slot targets bypass cursors; the active count never exceeds the target slot count; 0 disables cursor-based slot ordering.
+		#每个多槽端点的目标物品插入游标通道数。单槽目标绕过游标；实际数量不超过目标槽数；0 表示禁用基于游标的槽位排序。
+		# Default: 9
+		# Range: 0 ~ 64
+		targetItemInsertionCursorCount = 9
+		#Maximum recent item, fluid, or chemical accept-reject records remembered per receiving endpoint.
+		#每个接收端点记忆的近期物品、流体或化学品接受/拒绝记录上限。
+		# Default: 9
+		# Range: 1 ~ 64
+		rejectedAcceptCacheSize = 9
+		#Ticks to wait after the first failed transfer attempt. Shared by sending endpoint failures and receiving endpoint accept-reject retries.
+		#首次传输尝试失败后的等待 tick 数；发送端点失败与接收端点接受/拒绝重试共用。
+		# Default: 5
+		# Range: 1 ~ 1200
+		transferRetryFirstTicks = 5
+		#Ticks to wait after the second consecutive failed transfer attempt.
+		#连续第二次传输尝试失败后的等待 tick 数。
+		# Default: 10
+		# Range: 1 ~ 1200
+		transferRetrySecondTicks = 10
+		#Ticks to wait after the third consecutive failed transfer attempt.
+		#连续第三次传输尝试失败后的等待 tick 数。
+		# Default: 20
+		# Range: 1 ~ 1200
+		transferRetryThirdTicks = 20
+		#Ticks to wait after the fourth and later consecutive failed transfer attempts.
+		#连续第四次及后续传输尝试失败后的等待 tick 数。
+		# Default: 40
+		# Range: 1 ~ 1200
+		transferRetryMaxTicks = 40
+		#Whether maintained item paths cap every related retry to the configured maintained backoff interval. The legacy key name is retained for compatibility.
+		#物品路径经过非零维持值时，是否把相关退避限制到配置的维持退避时长；字段名为兼容旧配置保留。
+		enableMaintainedItemHotSlotPolling = true
+		#Maximum retry interval for maintained resource paths. Every related backoff uses min(original, this value). The legacy key name is retained for compatibility.
+		#全资源维持路径的最大退避 tick；所有相关退避使用 min(原值, 本值)，字段名为兼容旧配置保留。
+		# Default: 5
+		# Range: 1 ~ 1200
+		maintainedItemHotSlotPollTicks = 5
+		#Enable the maintained fluid retry cap.
+		#启用流体维持路径退避上限。
+		enableMaintainedFluidPolling = true
+		#Enable the maintained chemical retry cap.
+		#启用化学品维持路径退避上限。
+		enableMaintainedChemicalPolling = true
+		#Enable the maintained FE retry cap.
+		#启用 FE 维持路径退避上限。
+		enableMaintainedEnergyPolling = true
+		#Enable the maintained Mana retry cap.
+		#启用 Mana 维持路径退避上限。
+		enableMaintainedManaPolling = true
+		#Enable the maintained Source retry cap.
+		#启用魔源维持路径退避上限。
+		enableMaintainedSourcePolling = true
+		#Enable the maintained Souls retry cap when supported.
+		#在版本支持时启用 Souls 维持路径退避上限。
+		enableMaintainedSoulPolling = true
+
+	[transfers.advancements]
+		#Whether vanilla advancements completed by the line owner limit and unlock per-operation transfer amounts.
+		#是否由线路持有者完成的原版进度限制并解锁单次操作传输量。
+		enabled = true
+
+		[transfers.advancements.initialRates]
+			# Default: 4
+			# Range: 1 ~ 9223372036854775807
+			items = 4
+			# Default: 625
+			# Range: 1 ~ 9223372036854775807
+			fluids = 625
+			# Default: 625
+			# Range: 1 ~ 9223372036854775807
+			chemicals = 625
+			# Default: 6250
+			# Range: 1 ~ 9223372036854775807
+			energy = 6250
+			# Default: 3
+			# Range: 1 ~ 9223372036854775807
+			mana = 3
+			# Default: 3
+			# Range: 1 ~ 9223372036854775807
+			source = 3
+
+		#Vanilla advancement unlock entries. Resource rates accept positive integers or the string "unlimited".
+		#原版进度解锁条目。资源速率可填写正整数或字符串 "unlimited"（无限制）。
+		[[transfers.advancements.advancementRates]]
+			advancement = "minecraft:story/smelt_iron"
+			icon = "minecraft:iron_ingot"
+			title = "advancements.story.smelt_iron.title"
+			frame = "task"
+			items = 16
+			fluids = 2500
+			chemicals = 2500
+			energy = 25000
+			mana = 13
+			source = 13
+		#Vanilla advancement unlock entries. Resource rates accept positive integers or the string "unlimited".
+		#原版进度解锁条目。资源速率可填写正整数或字符串 "unlimited"（无限制）。
+		[[transfers.advancements.advancementRates]]
+			advancement = "minecraft:story/mine_diamond"
+			icon = "minecraft:diamond"
+			title = "advancements.story.mine_diamond.title"
+			frame = "task"
+			items = 64
+			fluids = 10000
+			chemicals = 10000
+			energy = 100000
+			mana = 50
+			source = 50
+		#Vanilla advancement unlock entries. Resource rates accept positive integers or the string "unlimited".
+		#原版进度解锁条目。资源速率可填写正整数或字符串 "unlimited"（无限制）。
+		[[transfers.advancements.advancementRates]]
+			advancement = "minecraft:story/enchant_item"
+			icon = "minecraft:enchanting_table"
+			title = "advancements.story.enchant_item.title"
+			frame = "task"
+			items = 1024
+			fluids = 160000
+			chemicals = 160000
+			energy = 1600000
+			mana = 800
+			source = 800
+		#Vanilla advancement unlock entries. Resource rates accept positive integers or the string "unlimited".
+		#原版进度解锁条目。资源速率可填写正整数或字符串 "unlimited"（无限制）。
+		[[transfers.advancements.advancementRates]]
+			advancement = "minecraft:adventure/trade_at_world_height"
+			icon = "minecraft:emerald"
+			title = "advancements.adventure.trade_at_world_height.title"
+			frame = "task"
+			items = 32768
+			fluids = 5120000
+			chemicals = 5120000
+			energy = 51200000
+			mana = 25600
+			source = 25600
+		#Vanilla advancement unlock entries. Resource rates accept positive integers or the string "unlimited".
+		#原版进度解锁条目。资源速率可填写正整数或字符串 "unlimited"（无限制）。
+		[[transfers.advancements.advancementRates]]
+			advancement = "minecraft:nether/create_beacon"
+			icon = "minecraft:beacon"
+			title = "advancements.nether.create_beacon.title"
+			frame = "task"
+			items = 1048576
+			fluids = 163840000
+			chemicals = 163840000
+			energy = 1638400000
+			mana = 819200
+			source = 819200
+		#Vanilla advancement unlock entries. Resource rates accept positive integers or the string "unlimited".
+		#原版进度解锁条目。资源速率可填写正整数或字符串 "unlimited"（无限制）。
+		[[transfers.advancements.advancementRates]]
+			advancement = "minecraft:nether/create_full_beacon"
+			icon = "minecraft:beacon"
+			title = "advancements.nether.create_full_beacon.title"
+			frame = "goal"
+			items = 2147483647
+			fluids = 2147483647
+			chemicals = 2147483647
+			energy = 2147483647
+			mana = 2147483647
+			source = 2147483647
+		#Vanilla advancement unlock entries. Resource rates accept positive integers or the string "unlimited".
+		#原版进度解锁条目。资源速率可填写正整数或字符串 "unlimited"（无限制）。
+		[[transfers.advancements.advancementRates]]
+			advancement = "minecraft:end/elytra"
+			icon = "minecraft:elytra"
+			title = "advancements.end.elytra.title"
+			frame = "goal"
+			items = "unlimited"
+			fluids = "unlimited"
+			chemicals = "unlimited"
+			energy = "unlimited"
+			mana = "unlimited"
+			source = "unlimited"
+
+[distributor]
+	#Whether Celestial Distributors proxy item storage.
+	#天穹分配器是否代理物品存储。
+	enableItems = true
+	#Whether Celestial Distributors proxy fluid storage.
+	#天穹分配器是否代理流体存储。
+	enableFluids = true
+	#Whether Celestial Distributors proxy energy storage.
+	#天穹分配器是否代理能量存储。
+	enableEnergy = true
+	#Maximum adjacent container targets discovered by one Celestial Distributor. Higher values increase scan and proxy costs.
+	#单个天穹分配器最多发现的相邻容器目标数；数值越高，扫描和代理开销越大。
+	# Default: 32
+	# Range: 1 ~ 64
+	maxTargets = 16
+	#Maximum BFS positions one Celestial Distributor may inspect per server tick. This budget is independent from transfer operations.
+	#单个天穹分配器每个服务器 tick 最多检查的 BFS 位置数；该预算独立于传输操作。
+	# Default: 16
+	# Range: 1 ~ 4096
+	scanOpsPerTick = 16
+	#Ticks a logistics endpoint waits before retrying a distributor whose machine index is still rebuilding. This local defer does not count as a transfer failure.
+	#分配器机器索引仍在重建时，物流端点再次尝试前等待的 tick；该局部延后不计为传输失败。
+	# Default: 20
+	# Range: 1 ~ 1200
+	indexingRetryTicks = 20
+	#Whether distributor item extraction and insertion use independent adaptive per-machine routing tiers.
+	#分配器物品抽取与插入是否使用独立的按机器自适应路由等级。
+	enableAdaptiveItemTargetProbes = true
+	#Whether distributor fluid extraction and insertion use adaptive per-machine routing tiers.
+	#分配器流体抽取与插入是否使用按机器自适应路由等级。
+	enableAdaptiveFluidTargetProbes = true
+	#Whether distributor chemical extraction and insertion use adaptive per-machine routing tiers.
+	#分配器化学品抽取与插入是否使用按机器自适应路由等级。
+	enableAdaptiveChemicalTargetProbes = true
+	#Maximum exact resource keys retained per item, fluid, or chemical route bank on each distributor face. The legacy key name is retained for config compatibility.
+	#分配器每个面、每种物品/流体/化学品路由库保留的精确资源 key 数量上限；为兼容旧配置保留原字段名。
+	# Default: 64
+	# Range: 1 ~ 256
+	itemRouteCacheSize = 64
+	#Retry interval for hot distributor resource machines after successful extraction or keyed insertion.
+	#物品、流体或化学品成功抽取或按 key 插入后的热机器重试间隔 tick。
+	# Default: 1
+	# Range: 1 ~ 1200
+	itemTargetHotProbeTicks = 1
+	#Retry interval for warm distributor machine routes after repeated misses.
+	#分配器机器路由连续失败后进入温热等级时的重试间隔 tick。
+	# Default: 5
+	# Range: 1 ~ 1200
+	itemTargetWarmProbeTicks = 5
+	#Retry interval for cool distributor machine routes after further misses.
+	#分配器机器路由进一步连续失败后进入低频等级时的重试间隔 tick。
+	# Default: 20
+	# Range: 1 ~ 1200
+	itemTargetCoolProbeTicks = 20
+	#Fallback interval for cold distributor machine routes. Extraction probes are staggered across this window.
+	#冷分配器机器路由的兜底间隔 tick；抽取首次探测会在该窗口内错峰安排。
+	# Default: 40
+	# Range: 1 ~ 1200
+	itemTargetFallbackProbeTicks = 40
+	#Consecutive empty extraction or rejected insertion probes required to demote an item, fluid, or chemical target by one tier.
+	#物品、流体或化学品目标每次降低一个抽取或插入探测等级所需的连续失败次数。
+	# Default: 3
+	# Range: 1 ~ 64
+	itemTargetMissesPerDemotion = 3
+
+[necklaces]
+	#Server ticks between Sky Necklace work scans. Higher values reduce player inventory and backpack scanning frequency.
+	#天穹项链两次工作扫描之间的服务器 tick 数；数值越高，扫描玩家背包和附属背包的频率越低。
+	# Default: 10
+	# Range: 1 ~ 1200
+	skyNecklaceTickInterval = 10
+	#Maximum inventory, backpack, or network item slots one Sky Necklace may scan each work tick.
+	#一条天穹项链每次工作最多扫描的物品栏、背包或网络物品槽数量。
+	# Default: 64
+	# Range: 1 ~ 1000000
+	skyNecklaceSlotScansPerTick = 64
+	#Maximum logistics endpoints one Sky Necklace may visit during one work interval (outputs while extracting, inputs while inserting).
+	#一条天穹项链每次工作最多访问的物流端点数（抽取时访问输出端，插入时访问输入端）。
+	# Default: 1
+	# Range: 1 ~ 1000000
+	skyNecklaceTargetAttemptsPerWork = 1
+
+[rituals]
+	#Minimum block Y for Eulogia Crystals to charge and sky offering altars to work.
+	#尤洛伽水晶充能及天穹供奉祭坛工作的最低方块 Y 坐标。
+	# Default: 96
+	# Range: -64 ~ 320
+	skyRitualMinY = 200
+	#Seconds an uncharged Eulogia Crystal must spend at or above skyRitualMinY before it becomes charged. One second is 20 ticks.
+	#未充能尤洛伽水晶在 skyRitualMinY 或更高处完成充能所需的秒数；1 秒为 20 tick。
+	# Default: 20
+	# Range: 1 ~ 3600
+	eulogiaCrystalChargeSeconds = 60
+	#Seconds an uncharged Eulogia Companion Stone must spend at or above eulogiaCompanionStoneMinY before it becomes charged. One second is 20 ticks.
+	#未充能尤洛伽配石在 eulogiaCompanionStoneMinY 或更高处完成充能所需的秒数；1 秒为 20 tick。
+	# Default: 10
+	# Range: 1 ~ 3600
+	eulogiaCompanionStoneChargeSeconds = 10
+	#Base work speed multiplier of a tier 3 sky offering altar. Particle effects keep their normal speed.
+	#三阶天穹供奉祭坛的基础工作速度倍率；粒子效果始终保持正常速度。
+	# Default: 4
+	# Range: 1 ~ 64
+	tierThreeAltarWorkSpeedMultiplier = 4
+	#Minimum block Y for Eulogia Companion Stones to charge.
+	#尤洛伽配石充能的最低方块 Y 坐标。
+	# Default: 64
+	# Range: -64 ~ 320
+	eulogiaCompanionStoneMinY = 64
+
+#Ordered Matching Upgrade behavior.
+#顺序匹配升级行为。
+[orderedMatchingUpgrade]
+	#Whether Per Slot maps source slots cyclically with slotIndex % targetCount. When disabled, source slots beyond the receiving endpoint count are not dispatched.
+	#逐槽模式是否按 槽位号 % 接收端数量 循环映射。关闭后，超出接收端数量的来源槽位不再发配。
+	wrapTargets = true
+	#Whether Per Slot may pass a failed or temporarily unavailable target.
+	#逐槽模式是否允许越过拒收或暂时不可用的目标。
+	continueAfterTargetFailure = true
+
+[kleisDominionWand]
+	#Whether the Kleis Dominion Wand teleports left-clicked entities.
+	#克莱斯支配之杖左击实体时是否启用传送功能。
+	enableEntityTeleport = true
+	#Target Y coordinate used when the Kleis Dominion Wand teleports an entity.
+	#克莱斯支配之杖传送实体时使用的目标 Y 坐标。
+	# Default: 256
+	# Range: -20000000 ~ 20000000
+	teleportY = 256

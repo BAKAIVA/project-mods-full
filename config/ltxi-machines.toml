@@ -1,0 +1,197 @@
+[energy_cell_array]
+	#Base energy capacity of the Energy Cell Array
+	# Default: 1000000
+	# Range: > 1
+	energy_capacity = 1000000
+	#Base transfer rate (per tick) of the Energy Cell Array
+	# Default: 10000
+	# Range: > 1
+	transfer_rate = 10000
+
+[digital_furnace]
+	#Base energy capacity of the Digital Furnace
+	# Default: 100000
+	# Range: > 1
+	energy_capacity = 100000
+	#Base energy usage per operation tick of the Digital Furnace
+	# Default: 25
+	# Range: > 1
+	energy_usage = 25
+
+[digital_smoker]
+	#Base energy capacity of the Digital Smoker
+	# Default: 100000
+	# Range: > 1
+	energy_capacity = 100000
+	#Base energy usage per operation tick of the Digital Smoker
+	# Default: 10
+	# Range: > 1
+	energy_usage = 10
+
+[digital_blast_furnace]
+	#Base energy capacity of the Digital Blast Furnace
+	# Default: 100000
+	# Range: > 1
+	energy_capacity = 100000
+	#Base energy usage per operation tick of the Digital Blast Furnace
+	# Default: 15
+	# Range: > 1
+	energy_usage = 15
+
+[grinder]
+	#Base energy capacity of the Grinder
+	# Default: 100000
+	# Range: > 1
+	energy_capacity = 100000
+	#Base energy usage per operation tick of the Grinder
+	# Default: 30
+	# Range: > 1
+	energy_usage = 30
+
+[material_fusing_chamber]
+	#Base energy capacity of the Material Fusing Chamber
+	# Default: 100000
+	# Range: > 1
+	energy_capacity = 100000
+	#Base energy usage per operation tick of the Material Fusing Chamber
+	# Default: 30
+	# Range: > 1
+	energy_usage = 30
+
+[electrocentrifuge]
+	#Base energy capacity of the ElectroCentrifuge
+	# Default: 100000
+	# Range: > 1
+	energy_capacity = 100000
+	#Base energy usage per operation tick of the ElectroCentrifuge
+	# Default: 40
+	# Range: > 1
+	energy_usage = 40
+
+[mixer]
+	#Base energy capacity of the Mixer
+	# Default: 100000
+	# Range: > 1
+	energy_capacity = 100000
+	#Base energy usage per operation tick of the Mixer
+	# Default: 30
+	# Range: > 1
+	energy_usage = 30
+
+[voltaic_injector]
+	#Base energy capacity of the Voltaic Injector
+	# Default: 100000
+	# Range: > 1
+	energy_capacity = 100000
+	#Base energy usage per operation tick of the Voltaic Injector
+	# Default: 25
+	# Range: > 1
+	energy_usage = 25
+
+[chem_lab]
+	#Base energy capacity of the Chem Lab
+	# Default: 250000
+	# Range: > 1
+	energy_capacity = 250000
+	#Base energy usage per operation tick of the Chem Lab
+	# Default: 80
+	# Range: > 1
+	energy_usage = 80
+
+[assembler]
+	#Base energy capacity of the Assembler
+	# Default: 250000
+	# Range: > 1
+	energy_capacity = 250000
+	#Base energy usage per operation tick of the Assembler
+	# Default: 80
+	# Range: > 1
+	energy_usage = 80
+
+[geo_synthesizer]
+	#Base energy capacity of the Geo Synthesizer
+	# Default: 100000
+	# Range: > 1
+	energy_capacity = 100000
+	#Base energy usage per operation tick of the Geo Synthesizer
+	# Default: 10
+	# Range: > 1
+	energy_usage = 10
+
+[digital_garden]
+	#Base energy capacity of the Bio/ARU Garden
+	# Default: 250000
+	# Range: > 1
+	energy_capacity = 250000
+	#Base energy usage per operation tick of the Bio/ARU Garden
+	# Default: 100
+	# Range: > 1
+	energy_usage = 100
+
+[fabricator]
+	#Base energy capacity of the Fabricator.
+	# Default: 250000
+	# Range: > 1
+	energy_capacity = 250000
+	#The energy usage of the Fabricator. Affects how quickly the fabricator completes recipes.
+	# Default: 2500
+	# Range: > 1
+	energy_usage = 2500
+	#If set to true, AE2 Pattern Providers will automatically re-configure the Auto Fabricator's IO item configuration when inserting a pattern.
+	ae2_pattern_auto_reconfigure = true
+
+[arc_turret]
+	#Base energy capacity of the Ionos turret.
+	# Default: 200000
+	# Range: > 1
+	energy_capacity = 200000
+	#Base energy usage per tick of the Ionos turret.
+	# Default: 200
+	# Range: > 1
+	energy_usage = 200
+	#Base damage per tick of the Ionos turret's electricity.
+	# Default: 2.0
+	# Range: 0.5 ~ 1.7976931348623157E308
+	base_damage = 2.0
+
+[rocket_turret]
+	#Base energy capacity of the Atmos turret.
+	# Default: 200000
+	# Range: > 1
+	energy_capacity = 200000
+	#Base energy usage per rocket fired.
+	# Default: 10000
+	# Range: > 1
+	energy_per_target = 10000
+	#Base damage dealt by rockets from the Atmos turret.
+	# Default: 40.0
+	# Range: 1.0 ~ 1.7976931348623157E308
+	base_damage = 40.0
+
+[railgun_turret]
+	#Base energy capacity of the Noctis turret.
+	# Default: 1500000
+	# Range: > 1
+	energy_capacity = 1500000
+	#Base energy usage per shot fired.
+	# Default: 500000
+	# Range: > 1
+	energy_per_target = 500000
+	#Base damage per shot of the Noctis turret.
+	# Default: 200.0
+	# Range: 1.0 ~ 1.7976931348623157E308
+	base_damage = 200.0
+
+[repair_station]
+	#Base energy capacity of the Repair Station
+	# Default: 250000
+	# Range: > 1
+	energy_capacity = 250000
+	#Base energy usage per operation tick of the Repair Station
+	# Default: 100
+	# Range: > 1
+	energy_usage = 100
+	#The base tick count needed for one Repair Station operation.
+	# Default: 40
+	# Range: > 1
+	ticks_per_operation = 40

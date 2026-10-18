@@ -1,0 +1,133 @@
+{
+  id: "10B0A14D4B8EB91F",
+  order_index: 1,
+  icon: {
+    id: "ftbquests:custom_icon",
+    count: 1,
+    components: {
+      "ftbquests:icon": "refurbished_furniture:textures/tv_channels/heart_screensaver.png",
+    },
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "62DE21494BE9CAB0",
+      item: {
+        id: "minecraft:diamond",
+        count: 1,
+      },
+      count: 4,
+      weight: 0.3,
+    },
+    {
+      id: "318EA614912658AE",
+      item: {
+        id: "minecraft:diamond_pickaxe",
+        count: 1,
+      },
+      weight: 0.1,
+    },
+    {
+      id: "1A683EEDE715CD81",
+      item: {
+        id: "alltheores:osmium_ingot",
+        count: 1,
+      },
+      count: 16,
+      weight: 0.5,
+    },
+    {
+      id: "6239B16043BEE7AC",
+      item: {
+        id: "minecraft:copper_ingot",
+        count: 1,
+      },
+      count: 16,
+      weight: 0.5,
+    },
+    {
+      id: "5AB064ED59AB7E4B",
+      item: {
+        id: "alltheores:tin_ingot",
+        count: 1,
+      },
+      count: 16,
+      weight: 0.5,
+    },
+    {
+      id: "7BE4AECAF69B2C7B",
+      item: {
+        id: "alltheores:lead_ingot",
+        count: 1,
+      },
+      count: 16,
+      weight: 0.5,
+    },
+    {
+      id: "6DEECEAFFDCE7455",
+      item: {
+        id: "alltheores:steel_ingot",
+        count: 1,
+      },
+      count: 8,
+      weight: 0.5,
+    },
+    {
+      id: "4F4D53F6DE902EE9",
+      item: {
+        id: "minecraft:emerald",
+        count: 1,
+      },
+      count: 15,
+      weight: 1.2,
+    },
+    {
+      id: "794096F01D6774BE",
+      item: {
+        id: "sophisticatedbackpacks:backpack",
+        count: 1,
+        components: {
+          "sophisticatedcore:number_of_inventory_slots": 27,
+          "sophisticatedcore:number_of_upgrade_slots": 1,
+        },
+      },
+      weight: 0.2,
+    },
+    {
+      id: "30AD7A51A6A9E9F2",
+      item: {
+        id: "apotheosis:gem",
+        count: 1,
+        components: {
+          "apotheosis:gem": "apotheosis:core/lightning",
+          "apotheosis:purity": "normal",
+        },
+      },
+      weight: 0.4,
+    },
+    {
+      id: "534CB58B834F7A22",
+      item: {
+        id: "integrateddynamics:menril_sapling",
+        count: 1,
+      },
+    },
+    {
+      id: "4E0277022E90CDA4",
+      item: {
+        id: "integrateddynamics:wrench",
+        count: 1,
+      },
+    },
+    {
+      id: "455D084AFE6FD32A",
+      item: {
+        id: "mysticalagriculture:supremium_watering_can",
+        count: 1,
+      },
+      weight: 0.1,
+    },
+  ],
+}

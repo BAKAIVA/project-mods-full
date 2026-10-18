@@ -1,0 +1,28 @@
+{
+  "configVersion": 1,
+  "logMoreStatistics": false,
+  "showInGameNames": true,
+  "showConfigConditionalBlocks": false,
+  "showCharts": true,
+  "tooltipColors": {
+    "text": "gold",
+    "value": "aqua",
+    "error": "red",
+    "branch": "dark_gray",
+    "secondary": "gray",
+    "levels": [
+      "green",
+      "yellow",
+      "light_purple",
+      "blue",
+      "red",
+      "gold"
+    ]
+  },
+  "spawnInfo": {
+    "entities": [],
+    "whitelist": false
+  },
+  "dimensions": [],
+  "dimensionIcons": {}
+}

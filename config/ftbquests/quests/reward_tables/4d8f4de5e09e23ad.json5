@@ -1,0 +1,147 @@
+{
+  id: "4D8F4DE5E09E23AD",
+  order_index: 2,
+  icon: {
+    id: "ftbquests:custom_icon",
+    count: 1,
+    components: {
+      "ftbquests:icon": "refurbished_furniture:textures/tv_channels/herobrine.png",
+    },
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "3618DD9E8EC43558",
+      item: {
+        id: "minecraft:netherite_ingot",
+        count: 1,
+      },
+      weight: 0.5,
+    },
+    {
+      id: "3B99577AB9F8D337",
+      item: {
+        id: "allthemodium:allthemodium_nugget",
+        count: 1,
+      },
+      count: 8,
+      weight: 0.3,
+    },
+    {
+      id: "0004B8D3E73F98EA",
+      item: {
+        id: "ironfurnaces:iron_furnace",
+        count: 1,
+      },
+    },
+    {
+      id: "1C02621E73EDBA29",
+      item: {
+        id: "ironfurnaces:netherite_furnace",
+        count: 1,
+      },
+      weight: 0.7,
+    },
+    {
+      id: "0FC5DB97C4344020",
+      item: {
+        id: "ae2:cell_component_256k",
+        count: 1,
+      },
+      weight: 0.1,
+    },
+    {
+      id: "543A29A45B926D6C",
+      item: {
+        id: "refinedstorage:64k_storage_part",
+        count: 1,
+      },
+      weight: 0.1,
+    },
+    {
+      id: "162C3DE75268A3A3",
+      item: {
+        id: "justdirethings:gooblock_tier4",
+        count: 1,
+      },
+      weight: 0.2,
+    },
+    {
+      id: "5803C1E2B41E3138",
+      item: {
+        id: "justtieredgens:celestigem_coal_generator",
+        count: 1,
+      },
+      weight: 1.5,
+    },
+    {
+      id: "53565918BA683B11",
+      item: {
+        id: "artifacts:night_vision_goggles",
+        count: 1,
+      },
+    },
+    {
+      id: "41B75F8DA020E7F9",
+      item: {
+        id: "allthemodium:teleport_pad",
+        count: 1,
+      },
+      weight: 1.2,
+    },
+    {
+      id: "2287FAF0EF8C6050",
+      item: {
+        id: "solargeneration:solar_panel_resonant",
+        count: 1,
+      },
+    },
+    {
+      id: "620F1D59AC2869BD",
+      item: {
+        id: "productivelib:upgrade_productivity_4",
+        count: 1,
+      },
+    },
+    {
+      id: "0EE22E5E55469C7A",
+      item: {
+        id: "forbidden_arcanus:eternal_stella",
+        count: 1,
+      },
+      weight: 0.5,
+    },
+    {
+      id: "295C00BE1DE3B1FE",
+      item: {
+        id: "pipez:ultimate_upgrade",
+        count: 1,
+      },
+    },
+    {
+      id: "42EE631D787739C2",
+      item: {
+        id: "tiab:time_in_a_bottle",
+        count: 1,
+      },
+      weight: 0.23,
+    },
+    {
+      id: "3F516990E52CBE60",
+      item: {
+        id: "chisel:chisel_diamond",
+        count: 1,
+      },
+      weight: 1.7,
+    },
+    {
+      id: "0E8A7B34B04AEBE0",
+      item: {
+        id: "artifacts:crystal_heart",
+        count: 1,
+      },
+    },
+  ],
+}

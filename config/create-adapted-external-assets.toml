@@ -1,0 +1,5 @@
+# Official Create 6.0.10 for Minecraft 1.21.1 used as the external resource source.
+# Set this to a JAR file or a directory containing it.
+# Relative paths are resolved from the game directory. Use an absolute path to share one JAR between instances.
+# Forward slashes are recommended on Windows, for example: C:/Minecraft/shared/create-1.21.1-6.0.10.jar
+official_create_path = ""

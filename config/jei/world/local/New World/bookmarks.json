@@ -1,0 +1,20 @@
+[
+  {"version":3},
+  {"recipe":"sophisticatedstorage:stack_upgrade_omega_tier","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"iceandfire:dragon_meal","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"evilcraft:bloody_cobblestone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:quartz_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:comparator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"productivebees:honey_generator","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"minecraft:honeycomb"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"mysticalagriculture:essence/minecraft/sugar_cane","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"kubejs:growable_ores/gold_cane","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"mysticalagriculture:inferium_seeds"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mysticalautomation:infusion_altarnator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mysticalautomation:awakening_altarnator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"mysticalagriculture:prosperity_block_uncraft","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"mysticalagriculture:prosperity_seed_base","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"refinedstorage:processor_binding","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"refinedstorage:machine_casing"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"refinedstorage:controller"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

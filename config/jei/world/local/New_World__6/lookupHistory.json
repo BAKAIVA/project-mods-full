@@ -1,0 +1,12 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"artifacts:night_vision_goggles"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"integrateddynamics:crystalized_menril_chunk"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"integrateddynamics:crystalized_menril_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"integrateddynamics:menril_resin"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"integrateddynamics:menril_log"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:ancient_debris"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedbackpacks:backpack","components":{"sophisticatedcore:number_of_inventory_slots":27,"sophisticatedcore:number_of_upgrade_slots":1}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedbackpacks:backpack","components":{"sophisticatedcore:main_color":-393218,"sophisticatedcore:accent_color":-393218,"sophisticatedcore:number_of_inventory_slots":27,"sophisticatedcore:number_of_upgrade_slots":1}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -1,0 +1,514 @@
+#Vector Things Configuration
+[vector_plates]
+	#Speed of the Slow Vector Plate
+	# Default: 0.1
+	# Range: 0.0 ~ 100.0
+	000_slowVectorSpeed = 0.1
+	#Speed of the Moderate Vector Plate
+	# Default: 0.5
+	# Range: 0.0 ~ 100.0
+	001_moderateVectorSpeed = 0.5
+	#Speed of the Fast Vector Plate
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	002_fastVectorSpeed = 1.0
+	#Speed of the Extreme Vector Plate
+	# Default: 5.0
+	# Range: 0.0 ~ 100.0
+	003_extremeVectorSpeed = 5.0
+	#Speed of the Ultra Vector Plate
+	# Default: 15.0
+	# Range: 0.0 ~ 100.0
+	004_ultraVectorSpeed = 15.0
+	#Vertical boost factor for players on vertical vector plates
+	# Default: 0.5
+	# Range: -100.0 ~ 100.0
+	005_verticalBoostPlayer = 0.5
+	#Vertical boost factor for mobs/entities on vertical vector plates (higher values help heavier mobs overcome gravity)
+	# Default: 1.2
+	# Range: -100.0 ~ 100.0
+	006_verticalBoostEntity = 1.2
+	#Enable vertical conveyor belts
+	007_verticalConveyorEnabled = true
+	#Enable vertical vector charm
+	100_verticalCharmEnabled = true
+	#Enable horizontal vector charm
+	101_horizontalCharmEnabled = true
+	#Energy capacity of the Vector Charm in RF/FE
+	#Recommended value: 1000000, but set to 0 to disable energy consumption
+	# Default: 0
+	# Range: > 0
+	102_vectorCharmEnergyCapacity = 0
+	#Energy consumed per tick by the Vector Charm when active in RF/FE
+	#Array with 7 values for: [none, slow, moderate, fast, extreme, ultra, hover]
+	#Recommended values: [0, 5, 15, 30, 50, 100, 3], but set to 0 to disable energy consumption
+	103_vectorCharmEnergyConsume = [0, 0, 0, 0, 0, 0, 0]
+
+#General Utilities Configuration
+[general_utilities]
+	#Amount of energy consumed by the Hellfire Igniter
+	#Recommended value: 10, but set to 0 to disable energy consumption
+	# Default: 0
+	# Range: > 0
+	000_hellfireIgniterConsume = 0
+	#Quantity of energy the Hellfire Igniter can be stored
+	#Recommended value: 1000, but set to 0 to disable energy consumption
+	# Default: 0
+	# Range: > 0
+	001_hellfireIgniterBuffer = 0
+	#If true, Hellfire Igniter uses vanilla-like behavior (always PULSE mode, no mode switching)
+	#When enabled, shift+click will always set to PULSE mode and no mode change message is shown
+	#Also disables inverted placement (Shift when placing the block has no effect on direction)
+	002_hellfireIgniterVanillaLike = false
+	#Energy capacity of the Portable Dislocator in RF/FE
+	#Recommended value: 5000, but set to 0 to disable energy consumption
+	# Default: 5000
+	# Range: > 0
+	100_portableDislocatorEnergyCapacity = 5000
+	#Energy consumed per teleportation by the Portable Dislocator in RF/FE
+	#Recommended value: 1000 or 100, but set to 0 to disable energy consumption
+	# Default: 100
+	# Range: > 0
+	100_portableDislocatorEnergyConsume = 100
+	#Experience points consumed per teleportation by the Portable Dislocator when energy is not available
+	#Set to 0 to disable experience consumption
+	# Default: 10
+	# Range: > 0
+	101_portableDislocatorXpConsume = 10
+	#Energy capacity of the Weather Alterer in RF/FE
+	#Recommended value: 100000, but set to 0 to disable energy consumption
+	# Default: 0
+	# Range: > 0
+	210_weatherAltererEnergyBuffer = 0
+	#Energy consumed per tick by the Weather Alterer in RF/FE
+	#Recommended value: 5000, but set to 0 to disable energy consumption
+	# Default: 0
+	# Range: > 0
+	211_weatherAltererEnergyConsume = 0
+	#Energy capacity of the Time Alterer in RF/FE
+	#Recommended value: 100000, but set to 0 to disable energy consumption
+	# Default: 0
+	# Range: > 0
+	220_timeAltererEnergyBuffer = 0
+	#Energy consumed per tick by the Time Alterer in RF/FE
+	#Recommended value: 5000, but set to 0 to disable energy consumption
+	# Default: 0
+	# Range: > 0
+	221_timeAltererEnergyConsume = 0
+	#Energy capacity of the Temporal Overclocker in RF/FE
+	#Recommended value: 5000000, but set to 0 to disable energy consumption
+	# Default: 5000000
+	# Range: > 0
+	230_temporalOverclockerEnergyBuffer = 5000000
+	#Energy consumed per acceleration degree per linked block per tick by the Temporal Overclocker in RF/FE
+	#Formula: consumption = energyPerAcceleration * accelerationFactor * linkedBlocks
+	#Example: with energyPerAcceleration=250, accelerationFactor=2, 1 block = 500 RF/tick
+	#Example: with energyPerAcceleration=250, accelerationFactor=20, 1 block = 5000 RF/tick
+	#Example: with energyPerAcceleration=250, accelerationFactor=40, 1 block = 10000 RF/tick
+	# Default: 250
+	# Range: > 0
+	231_temporalOverclockerEnergyPerAcceleration = 250
+	#Maximum number of blocks that can be linked to a Temporal Overclocker
+	# Default: 5
+	# Range: > 1
+	232_temporalOverclockerMaxLinks = 5
+	#Minimum acceleration factor for Temporal Overclocker
+	#Default: 2, range: 2 to Integer.MAX_VALUE
+	# Default: 2
+	# Range: > 2
+	233_temporalOverclockerAccelerationFactorMin = 2
+	#Maximum acceleration factor for Temporal Overclocker
+	#Default: 40, range: 2 to Integer.MAX_VALUE
+	# Default: 40
+	# Range: > 2
+	234_temporalOverclockerAccelerationFactorMax = 40
+	#Default acceleration factor for Temporal Overclocker
+	#Default: 20, range: 2 to Integer.MAX_VALUE
+	# Default: 20
+	# Range: > 2
+	235_temporalOverclockerAccelerationFactor = 20
+	#Maximum distance in blocks for linking blocks to the Temporal Overclocker
+	#Blocks beyond this range cannot be linked
+	# Default: 16
+	# Range: 1 ~ 256
+	236_temporalOverclockerLinkRange = 16
+	#If true, energy will be consumed before XP when both are available
+	#If both this and prioritizeXp are true, both resources will be consumed
+	102_portableDislocatorPrioritizeEnergy = true
+	#If true, XP will be consumed before energy when both are available
+	#If both this and prioritizeEnergy are true, both resources will be consumed
+	103_portableDislocatorPrioritizeXp = false
+	#Speed of the Rubber Sap Extractor in ticks (lower is faster)
+	# Default: 10
+	# Range: > 1
+	200_rubberSapExtractorSpeed = 10
+	#Energy consumed per block placed by the Structure Placer Machine in RF/FE
+	# Default: 50
+	# Range: > 0
+	300_structurePlacerMachineEnergyConsume = 50
+	#Energy capacity of the Structure Placer Machine in RF/FE
+	# Default: 10000
+	# Range: > 0
+	301_structurePlacerMachineEnergyBuffer = 10000
+	#Maximum range (blocks) for Sound Muffler effect. Minimum is always 8. Allowed values in GUI: 8, 16, 32, and up to this max (default 500).
+	# Default: 16
+	# Range: 8 ~ 1024
+	302_soundMufflerRangeMax = 16
+	#List of item tags that can be stored in the Deep Drawers
+	#Tags starting with # are item tags (e.g. #c:enchantables)
+	#Items without # are item IDs (e.g. apotheosis:gem, minecraft:enchanted_book)
+	#Only items matching these tags/IDs will be accepted
+	400_deep_drawers_allowed_tags = ["#c:enchantables", "apotheosis:gem", "minecraft:enchanted_book", "minecraft:potion", "#c:tools", "#c:armors"]
+	#List of item tags/IDs that are explicitly forbidden in the Deep Drawers
+	#This blacklist overrides the allowed tags list
+	#Tags starting with # are item tags, items without # are item IDs
+	#Default includes minecraft:book for safety reasons
+	401_deep_drawers_blacklist = ["minecraft:book", "#c:skulls", "#minecraft:skulls"]
+	#Number of slots in the Deep Drawers storage
+	#Default: 1024
+	# Default: 1024
+	# Range: > 1
+	402_deep_drawers_slot_count_v2 = 1024
+	#Legacy: hoppers and pipes always interact with the main Deep Drawer block (NeoForge item transfer).
+	#This option is kept for config file compatibility but is no longer read by the game.
+	404_deep_drawers_direct_pipe_access = true
+	#Enable debug extraction: Shift+Right-click to extract one item directly from the Deep Drawer
+	#Default: false - debug extraction is disabled
+	#WARNING: Debug feature, use only for testing
+	405_deep_drawers_debug_extraction_enabled = false
+	#Extraction interval in ticks for the Deep Drawer Extractor (lower is faster)
+	#Default: 1 (extracts every tick, maximum speed)
+	#1 tick = 0.05 seconds
+	# Default: 1
+	# Range: > 1
+	410_deep_drawer_extractor_interval = 1
+	#Maximum number of filter fields in the Deep Drawer Extractor GUI
+	#Default: 50
+	#All EditBoxes are always created, even if empty
+	# Default: 50
+	# Range: > 1
+	411_deep_drawer_extractor_max_filters = 50
+	#Enable optional integration with FTB Teams for shop teams.
+	#When enabled and FTB Teams is present, team membership and roles are mirrored from FTB Teams,
+	#while balances remain stored in IskaUtils saved data.
+	#Default: true
+	420_ftb_teams_sync_enabled = true
+	#When true (default), hoppers and pipes can insert into Deep Drawers via the item handler.
+	#When false, automated insertion is rejected (player GUI insertion still works).
+	#Extraction via the exposed item handler is always disabled; use the Deep Drawer Extractor block to pull items.
+	406_deep_drawers_allow_automation_insert = true
+
+	#Dolly Configuration
+	[general_utilities.dolly]
+		#List of block tags/IDs that can be picked up by the Dolly
+		#Tags starting with # are block tags (e.g. #minecraft:mineable/pickaxe)
+		#Blocks without # are block IDs (e.g. minecraft:chest, minecraft:furnace)
+		#Empty list means all blocks are allowed (subject to blacklist and hardness/tool requirements)
+		#If whitelist is not empty, only blocks matching these tags/IDs will be allowed
+		000_dolly_whitelist = []
+		#List of block tags/IDs that are explicitly forbidden from being picked up by the Dolly
+		#This blacklist ALWAYS takes priority over the whitelist
+		#Tags starting with # are block tags, blocks without # are block IDs
+		#Examples: minecraft:bedrock, minecraft:end_portal_frame, #c:ores
+		001_dolly_blacklist = ["minecraft:spawner", "minecraft:trial_spawner"]
+		#List of block tags that represent allowed mining levels for the Dolly
+		#Only blocks matching these mining level tags can be picked up
+		#Default includes wooden, stone, and iron tool levels
+		#Tags must start with #
+		#Empty list means no mining level check (only hardness < 0 blocks are rejected)
+		#Examples: #minecraft:mineable/pickaxe, #minecraft:needs_stone_tool, #minecraft:needs_iron_tool
+		002_dolly_allowed_mining_level_tags = ["#minecraft:mineable/axe", "#minecraft:mineable/pickaxe", "#minecraft:mineable/shovel", "#minecraft:mineable/hoe", "#minecraft:needs_stone_tool", "#minecraft:needs_iron_tool"]
+		#If true, allows the Dolly to move all unbreakable blocks (hardness < 0)
+		#When enabled, unbreakable blocks are checked against unbreakable whitelist/blacklist
+		#Default: false
+		003_dolly_can_move_all_unbreakable = false
+		#List of unbreakable block IDs that can be picked up by the Dolly
+		#Only used when can_move_all_unbreakable is true
+		#Blocks without # are block IDs (e.g. iska_utils:hard_ice)
+		#Empty list means no unbreakable blocks allowed (except blacklisted ones are always rejected)
+		#If whitelist has entries, only those unbreakable blocks allowed
+		004_dolly_unbreakable_whitelist = ["iska_utils:hard_ice"]
+		#List of unbreakable block IDs that are explicitly forbidden from being picked up by the Dolly
+		#Only used when can_move_all_unbreakable is true
+		#This blacklist ALWAYS takes priority over the unbreakable whitelist
+		#Blocks without # are block IDs (e.g. minecraft:bedrock, minecraft:end_portal_frame)
+		005_dolly_unbreakable_blacklist = []
+		#List of block tags/IDs that can be picked up by the Hard Dolly
+		#Tags starting with # are block tags (e.g. #minecraft:mineable/pickaxe)
+		#Blocks without # are block IDs (e.g. minecraft:chest, minecraft:furnace)
+		#Empty list (default) means ALL blocks are allowed (except indestructible ones with hardness < 0)
+		#If whitelist is not empty, only blocks matching these tags/IDs will be allowed
+		010_hard_dolly_whitelist = []
+		#List of block tags/IDs that are explicitly forbidden from being picked up by the Hard Dolly
+		#This blacklist ALWAYS takes priority over the whitelist
+		#Tags starting with # are block tags, blocks without # are block IDs
+		#Empty list (default) means no blocks are blacklisted
+		#Examples: minecraft:bedrock, minecraft:end_portal_frame, #c:ores
+		011_hard_dolly_blacklist = []
+		#List of block tags that represent allowed mining levels for the Hard Dolly
+		#Empty list (default) means NO mining level check - all blocks allowed except indestructible ones (hardness < 0)
+		#Tags must start with #
+		#If not empty, only blocks matching these mining level tags can be picked up
+		#Examples: #minecraft:mineable/pickaxe, #minecraft:needs_stone_tool, #minecraft:needs_iron_tool
+		012_hard_dolly_allowed_mining_level_tags = []
+		#If true, allows the Hard Dolly to move all unbreakable blocks (hardness < 0)
+		#When enabled, unbreakable blocks are checked against unbreakable whitelist/blacklist
+		#Default: false
+		013_hard_dolly_can_move_all_unbreakable = false
+		#List of unbreakable block IDs that can be picked up by the Hard Dolly
+		#Only used when can_move_all_unbreakable is true
+		#Blocks without # are block IDs (e.g. iska_utils:hard_ice)
+		#Empty list means no unbreakable blocks allowed (except blacklisted ones are always rejected)
+		#If whitelist has entries, only those unbreakable blocks allowed
+		014_hard_dolly_unbreakable_whitelist = ["iska_utils:hard_ice"]
+		#List of unbreakable block IDs that are explicitly forbidden from being picked up by the Hard Dolly
+		#Only used when can_move_all_unbreakable is true
+		#This blacklist ALWAYS takes priority over the unbreakable whitelist
+		#Blocks without # are block IDs (e.g. minecraft:bedrock, minecraft:end_portal_frame)
+		015_hard_dolly_unbreakable_blacklist = []
+		#If true, allows the Creative Dolly to move all unbreakable blocks (hardness < 0)
+		#When enabled, unbreakable blocks are checked against unbreakable whitelist/blacklist
+		#Default: true (Creative Dolly can move everything by default)
+		020_creative_dolly_can_move_all_unbreakable = true
+		#List of unbreakable block IDs that can be picked up by the Creative Dolly
+		#Only used when can_move_all_unbreakable is true
+		#Blocks without # are block IDs (e.g. iska_utils:hard_ice)
+		#Empty list (default) means all unbreakable blocks allowed (except blacklisted ones are always rejected)
+		#If whitelist has entries, only those unbreakable blocks allowed
+		021_creative_dolly_unbreakable_whitelist = []
+		#List of unbreakable block IDs that are explicitly forbidden from being picked up by the Creative Dolly
+		#Only used when can_move_all_unbreakable is true
+		#This blacklist ALWAYS takes priority over the unbreakable whitelist
+		#Blocks without # are block IDs (e.g. minecraft:bedrock, minecraft:end_portal_frame)
+		#Empty list (default) means no unbreakable blocks are blacklisted
+		022_creative_dolly_unbreakable_blacklist = []
+		#Number of info tooltip lines to display for the Dolly
+		#Each line uses tooltip.iska_utils.dolly.info0, info1, info2, etc.
+		#Default: 1 (shows only info0)
+		# Default: 1
+		# Range: > 0
+		100_dolly_info_lines = 1
+		#Number of info tooltip lines to display for the Hard Dolly
+		#Each line uses tooltip.iska_utils.dolly_hard.info0, info1, info2, etc.
+		#Default: 1 (shows only info0)
+		# Default: 1
+		# Range: > 0
+		101_hard_dolly_info_lines = 1
+		#Number of info tooltip lines to display for the Creative Dolly
+		#Each line uses tooltip.iska_utils.dolly_creative.info0, info1, info2, etc.
+		#Default: 1 (shows only info0)
+		# Default: 1
+		# Range: > 0
+		102_creative_dolly_info_lines = 1
+
+	#Dye Bush Configuration
+	[general_utilities.dye_bush]
+		#Minimum time in ticks for a dye bush to refill with berries (1 tick = 1/20 second, default 30 seconds)
+		# Default: 600
+		# Range: > 0
+		000_minDyeBushRefillTime = 600
+		#Maximum time in ticks for a dye bush to refill with berries (1 tick = 1/20 second, default 1 minute)
+		# Default: 1200
+		# Range: > 0
+		001_maxDyeBushRefillTime = 1200
+
+	#Artifacts Settings
+	[general_utilities.artifacts_settings]
+		#If false not desplay where obtain the artifacts or mod dependecy required for obtain it (only for lootable artifacts)
+		900_artifacts_info = true
+		#Chance for Greedy Shield to completely block damage (0.0 to 1.0)
+		#Default: 0.3 (30%)
+		# Default: 0.3
+		# Range: 0.0 ~ 1.0
+		000_greedy_shield_block_chance = 0.3
+		#Chance for Greedy Shield to reduce damage by 80% if block fails (0.0 to 1.0)
+		#Default: 0.3 (30%)
+		# Default: 0.3
+		# Range: 0.0 ~ 1.0
+		001_greedy_shield_reduce_chance = 0.3
+		#Damage remaining amount when Greedy Shield reduces damage (0.0 to 1.0)
+		#Default: 0.8 (blocks 20% of damage, so 80% of original damage remains)
+		# Default: 0.8
+		# Range: 0.0 ~ 1.0
+		002_greedy_shield_reduce_amount = 0.8
+		#If false, hide where to obtain the Greedy Shield (only for lootable artifacts)
+		003_greedy_shield_info = true
+		#Speed of the Gauntlet of Climbing (0.0 to 10.0)
+		#Default: 0.15 (0.288 is like a ladder speed)
+		# Default: 0.15
+		# Range: 0.0 ~ 10.0
+		010_gauntlet_climbing_speed = 0.15
+
+#Fan Configuration
+[fan]
+	#Maximum horizontal range (left/right) for the fan (in blocks)
+	#This is the maximum value that can be set for range_left and range_right
+	#NOTE: This parameter is WITHOUT upgrades
+	# Default: 2
+	# Range: > 0
+	000_fanRangeHorizontalMax = 2
+	#Maximum vertical range (up/down) for the fan (in blocks)
+	#This is the maximum value that can be set for range_up and range_down
+	#NOTE: This parameter is WITHOUT upgrades
+	# Default: 2
+	# Range: > 0
+	001_fanRangeVerticalMax = 2
+	#Maximum front range for the fan (in blocks)
+	#This is automatically calculated as horizontal range * 2 to maintain a cube shape
+	#Default: 5 (horizontal 2 * 2) for a 5x5 cube (2+1+2)
+	#NOTE: This parameter is WITHOUT upgrades and should be horizontal * 2
+	# Default: 5
+	# Range: > 0
+	002_fanRangeFrontMax = 5
+	#Default power/force with which the fan pushes entities
+	#Default: 0.3 (midway between slow and moderate vector plates)
+	#NOTE: This parameter is WITHOUT upgrades
+	# Default: 0.3
+	# Range: 0.0 ~ 100.0
+	003_fanDefaultPower = 0.3
+	#Maximum number of range module upgrades that can be installed
+	#Each range module increases the maximum range by 1
+	#Default: 5
+	# Default: 5
+	# Range: > 0
+	100_fanRangeUpgradeMax = 5
+	#Maximum number of acceleration module upgrades (slow, moderate, fast, extreme, ultra) that can be installed
+	#Each acceleration module increases the fan's power
+	#Default: 3
+	# Default: 3
+	# Range: > 0
+	101_fanAccelerationUpgradeMax = 3
+	#Power values for acceleration modules (slow, moderate, fast, extreme, ultra)
+	#Each module adds this power value to the fan's base power
+	#Order: [slow, moderate, fast, extreme, ultra]
+	#Defaults match vector plate speeds: [0.1, 0.5, 1.0, 5.0, 15.0]
+	102_fanAccelerationModulePowers = [0.1, 0.5, 1.0, 5.0, 15.0]
+	#If true, the Ghost Module allows airflow to pass through unbreakable blocks (hardness < 0)
+	#When false (default), unbreakable blocks still block airflow even with Ghost Module
+	103_fanGhostModuleBypassUnbreakable = false
+	#Energy capacity of the Fanpack in RF/FE
+	#Recommended value: same as Vector Charm, but set to 0 to disable energy consumption
+	# Default: 500000
+	# Range: > 0
+	200_fanpackEnergyCapacity = 500000
+	#Energy consumed per tick for creative flight
+	#Default: 5 RF/tick
+	#Set to 0 to disable energy consumption for flight
+	# Default: 5
+	# Range: > 0
+	201_fanpackFlightEnergyConsume = 5
+
+#Rubber Tree Configuration
+[rubber_tree]
+	#Minimum time in ticks for a rubber log to refill with sap (1 tick = 1/20 second)
+	# Default: 600
+	# Range: > 0
+	000_minSapRefillTime = 600
+	#Maximum time in ticks for a rubber log to refill with sap (1 tick = 1/20 second)
+	# Default: 1800
+	# Range: > 0
+	001_maxSapRefillTime = 1800
+	#Amount of energy consumed by the Electric Treetap
+	# Default: 10
+	# Range: > 0
+	002_electricTreetapEnergyConsume = 10
+	#Amount of energy the Electric Treetap can be stored
+	# Default: 1000
+	# Range: > 0
+	003_electricTreetapEnergyBuffer = 1000
+	#Amount of energy consumed by the Rubber Sap Extractor per operation
+	# Default: 10
+	# Range: > 0
+	004_rubberSapExtractorEnergyConsume = 10
+	#Amount of energy the Rubber Sap Extractor can store
+	# Default: 10000
+	# Range: > 0
+	005_rubberSapExtractorEnergyBuffer = 10000
+
+#Tweaks Configuration
+[tweaks]
+	#List of fluids that should be sticky
+	000_sticky_fluids = ["#c:oil"]
+	#List of fluids that should be crude oil
+	001_crude_oils = ["#c:oil"]
+
+#Scanner Configuration
+[scanner]
+	#DEPRECATED: This parameter has been moved to 200_scannerRangeOptions.
+	#The maximum scan range is now determined by the highest value in the scannerRangeOptions array.
+	#This parameter is kept for backward compatibility but is no longer used.
+	# Default: 64
+	# Range: > 1
+	000_scannerScanRange = 64
+	#Available scan range options that can be cycled with keybind
+	200_scannerRangeOptions = [16, 24, 32, 64, 96]
+	#Default scan range value (must be one of the values in scannerRangeOptions)
+	# Default: 32
+	# Range: > 1
+	201_scannerDefaultRange = 32
+	#Duration in ticks needed to hold the scanner for scanning (1 second = 20 ticks)
+	# Default: 60
+	# Range: 1 ~ 200
+	001_scannerScanDuration = 60
+	#Maximum number of blocks that can be scanned at once
+	# Default: 8192
+	# Range: > 1
+	002_scannerMaxBlocks = 8192
+	#Amount of energy consumed per scan operation by the Scanner
+	# Default: 50
+	# Range: > 0
+	003_scannerEnergyConsume = 50
+	#Energy capacity of the Scanner in RF/FE
+	# Default: 10000
+	# Range: > 0
+	004_scannerEnergyBuffer = 10000
+	#Time to live for the scanner markers in ticks (1 second = 20 ticks)
+	# Default: 600
+	# Range: > 1
+	005_scannerMarkerTTL = 600
+	#Default alpha value for scanner markers (in hexadecimal)
+	006_scannerDefaultAlpha = "80"
+	#Default color for ore markers (in hexadecimal RGB)
+	007_scannerDefaultOreColor = "00BFFF"
+	#Default color for mob markers (in hexadecimal RGB)
+	008_scannerDefaultMobColor = "EB3480"
+	#List of ore entries that can be scanned with their colors
+	#Format: 'ore_name;RRGGBB' where:
+	#- ore_name is a special prefix that will match all blocks containing this name
+	#- RRGGBB is the hexadecimal RGB color
+	#Example: 'gold;FFD700' will match all gold ores with gold color
+	100_scanner_ore_entries = ["gold;FFD700", "iron;C0C0C0", "diamond;00FFFF", "emerald;00FF00", "coal;333333", "lapis;0000FF", "redstone;FF0000", "copper;D2691E", "quartz;FFFAFA", "netherite;4B0082", "ancient_debris;4B0082", "amethyst;9966CC", "certus;BCF7F7", "uraninite;00FF00", "uranium;365226", "fluorite;FC79CF", "tin;BCF7F7", "lead;381C80", "silver;B6B6B8", "platinum;A1D1CC", "osmium;A1D1CC", "nickel;CED1A1", "aluminum;B6B6B8", "zinc;00FF00", "allthemodium;C78938", "vibranium;40BBBF", "unubtanium;993BAC"]
+	#List of mob entries that can be scanned with their colors
+	#Format: '$mob_name;RRGGBB' for prefix matching or 'modid:exact_mob;RRGGBB' for exact match
+	#- $mob_name will match all entities containing this name
+	#- RRGGBB is the hexadecimal RGB color
+	#Example: '$zombie;00AA00' will match all zombie variants
+	101_scanner_mob_entries = ["$creeper;00FF00", "$zombie;00AA00", "$skeleton;CCCCCC", "$spider;222222", "$enderman;AA00AA", "$slime;55FF55", "$witch;AA00FF", "$blaze;FF6600", "$ghast;FFFFFF", "$wither;333333", "$dragon;AA00AA", "minecraft:evoker;0000FF", "$villager;AA8866", "$golem;CCCCCC", "$axolotl;FF99FF", "$allay;99CCFF", "$cow;AA5522", "$sheep;FFFFFF", "$chicken;FFFF00", "$mimic;4A2150"]
+	#List of ore tags that should be scanned when using the ore scanner chip
+	#These tags will be used to identify blocks as ores
+	#You can use * as a wildcard at the end of a tag name
+	102_scanner_ore_tags = ["c:ores", "c:raw_materials", "c:storage_blocks", "c:budding_blocks"]
+
+#Development and Advanced Configuration
+[dev]
+	#Directory where client-saved structure JSON files are stored (player structures).
+	#Default: 'iska_utils_client/structures'
+	001_client_structure_path = "iska_utils_client/structures"
+	#If true, the client will be able to use the structures saved by the server
+	#Default: true
+	002_accept_client_structure = true
+	#If true, the client structure are placed like players
+	#Default: true
+	003_allow_client_structure_player_like = true
+
+#Evil Things - Fun but Fiery!
+[evil_things]
+	#If true, makes the Burning Brazier extra hot - when placing a flame, set on fire the player!
+	#Also activates automatically if player has stage 'iska_utils_internal-curse_flame'
+	000_burning_brazier_super_hot = false
+	#If true, makes Burning Flame blocks extra hot - mobs & players touching them will catch fire!
+	#Also activates automatically if world has stage 'iska_utils_internal-curse_flame'
+	001_burning_flame_super_hot = false
+	#If true, breaking a Gift block will place a Hard Ice block after 3 seconds
+	#Hard Ice is indestructible and cannot be broken
+	100_gift_place_hard_ice = true

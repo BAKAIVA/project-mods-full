@@ -1,0 +1,61 @@
+#BlazeGold Coal Generator
+[blazegold_coal_generator]
+	#Max FE energy storage
+	# Default: 8000000
+	# Range: > 1
+	blazegold_coal_generator_max_fe = 2000000
+	#FE transfer every tick
+	# Default: 2000
+	# Range: > 1
+	blazegold_coal_generator_fe_per_tick = 2000
+	#FE created per burn tick of fuel
+	# Default: 30
+	# Range: > 1
+	blazegold_coal_generator_fe_per_fuel_tick = 30
+	#Multiplier to increase generator speed value
+	# Default: 8
+	# Range: > 1
+	blazegold_coal_generator_burn_speed_multiplier = 8
+
+#Celestigem Coal Generator
+[celestigem_coal_generator]
+	#Max FE energy storage
+	# Default: 32000000
+	# Range: > 1
+	celestigem_coal_generator_max_fe = 3000000
+	#FE transfer every tick
+	# Default: 3000
+	# Range: > 1
+	celestigem_coal_generator_fe_per_tick = 3000
+	#FE created per burn tick of fuel
+	# Default: 45
+	# Range: > 1
+	celestigem_coal_generator_fe_per_fuel_tick = 45
+	#Multiplier to increase generator speed value
+	# Default: 12
+	# Range: > 1
+	celestigem_coal_generator_burn_speed_multiplier = 12
+
+#Eclipse Alloy Coal Generator
+[eclipse_alloy_coal_generator]
+	#Max FE energy storage
+	# Default: 128000000
+	# Range: > 1
+	eclipse_alloy_coal_generator_max_fe = 4000000
+	#FE transfer every tick
+	# Default: 4000
+	# Range: > 1
+	eclipse_alloy_coal_generator_fe_per_tick = 4000
+	#FE created per burn tick of fuel
+	# Default: 60
+	# Range: > 1
+	eclipse_alloy_coal_generator_fe_per_fuel_tick = 60
+	#Multiplier to increase generator speed value
+	# Default: 16
+	# Range: > 1
+	eclipse_alloy_coal_generator_burn_speed_multiplier = 16
+
+#Misc
+[misc]
+	#Show only JDT fuels as valid fuels on generators jei
+	show_only_coals = false

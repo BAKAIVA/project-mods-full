@@ -1,0 +1,77 @@
+[serenity]
+	#Weapon base damage (each full number is half a heart).
+	# Default: 3.0
+	# Range: 0.5 ~ 4096.0
+	base_damage = 3.0
+
+[mirage]
+	#Weapon base damage (each full number is half a heart).
+	# Default: 4.5
+	# Range: 0.5 ~ 4096.0
+	base_damage = 4.5
+
+[aurora]
+	#Base damage PER PELLET of the Aurora. It fires 7 pellets by default.
+	# Default: 9.0
+	# Range: 0.5 ~ 4096.0
+	base_damage = 9.0
+
+[hanabi]
+	#Explosive shell base damage
+	# Default: 30.0
+	# Range: 0.5 ~ 4096.0
+	explosive_base_damage = 30.0
+	#Flame shell base damage
+	# Default: 10.0
+	# Range: 0.5 ~ 4096.0
+	flame_base_damage = 10.0
+	#Flame shells' damage multiplier to mobs that are weak to fire damage
+	# Default: 3.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	flame_multiplier = 3.0
+	#Cryo shell base damage
+	# Default: 4.0
+	# Range: 0.5 ~ 4096.0
+	cryo_base_damage = 4.0
+	#Cryo shell damage multiplier to mobs that are weak to freeze damage
+	# Default: 8.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	cryo_multiplier = 8.0
+	#Electric shell base damage
+	# Default: 30.0
+	# Range: 0.5 ~ 4096.0
+	electric_base_damage = 30.0
+	#Electric shell damage multiplier to mobs in rain, water, or who are weak to electricity
+	# Default: 3.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	electric_multiplier = 3.0
+	#Acid shell base damage
+	# Default: 50.0
+	# Range: 0.5 ~ 4096.0
+	acid_base_damage = 50.0
+	#Neuro shell base damage
+	# Default: 4.0
+	# Range: 0.5 ~ 4096.0
+	neuro_base_damage = 4.0
+
+[stargazer]
+	#Weapon base damage (each full number is half a heart).
+	# Default: 25.0
+	# Range: 0.5 ~ 4096.0
+	base_damage = 25.0
+
+[daybreak]
+	#Base direct hit damage of Daybreak's rockets
+	# Default: 100.0
+	# Range: 0.5 ~ 4096.0
+	base_impact_damage = 100.0
+	#Base splash (AOE) damage of Daybreak's rockets
+	# Default: 40.0
+	# Range: 0.5 ~ 4096.0
+	base_splash_damage = 40.0
+
+[nova]
+	#Weapon base damage (each full number is half a heart).
+	# Default: 75.0
+	# Range: 0.5 ~ 4096.0
+	base_damage = 75.0

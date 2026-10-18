@@ -1,0 +1,10 @@
+#Strainers Startup Config
+[Strainers]
+	#Add crops to the seed bag, eg minecraft:wheat, by default all crops in the tag are allowed
+	add_to_seed_bag = [""]
+	#Remove crops from the seed bag, eg minecraft:wheat, by default all crops in the tag are allowed
+	remove_from_seed_bag = ["minecraft:pitcher_crop", "minecraft:torchflower_crop"]
+	#Add saplings to the sapling bag, eg minecraft:oak_sapling, by default all saplings in the tag are allowed
+	add_to_sapling_bag = [""]
+	#Remove saplings from the sapling bag, eg minecraft:oak_sapling, by default all saplings in the tag are allowed
+	remove_from_sapling_bag = [""]

@@ -1,0 +1,1 @@
+{"jarName":"nerospace-neoforge-26.1.2-1.0.0.jar","modId":"nerospace","name":"NeroSpace","version":"1.0.0","mixinConfigs":["nerospace-common.mixins.json"],"jarJarMods":[{"jarName":"sentry-8.45.0.jar","mixinConfigs":[],"jarJarMods":[],"pathFromJarJar":"/META-INF/jarjar/"}],"curseForgeHash":1822253888,"modrinthHash":"12c40ba55c2fcb2f19cb5123163879017302f2aa"}

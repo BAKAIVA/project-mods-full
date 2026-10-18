@@ -1,0 +1,19 @@
+{
+  "quest.6AC30F45EA222B51.quest_desc": [
+    "&6&lPT-BR&r \uD83D\uDCA1 Precisa de sinal de redstone pulsante (use um clock) para acelerar o crescimento. Fabricado com 2 areias.",
+    "",
+    "",
+    "",
+    "&6&lEN&r \uD83D\uDCA1 Needs a pulsing redstone signal (use a clock) to speed up growth. Crafted from 2 sand.",
+  ],
+  "quest.0BA88AF974A511BF.quest_desc": [
+    "&6&lPT-BR&r",
+    "O Growable Ores permite cultivar minérios e materiais como se fossem cana-de-açúcar. Cada cana é feita com 1 bloco do material, com Essência de Prudentium logo abaixo, cercados por canas-de-açúcar. Ela cresce como a cana comum, perto de água. Colha, junte 9 canas e você recebe o material de volta.",
+    "\uD83D\uDCA1 A Cana de Redstone é a exceção: 9 canas rendem 4 pós de redstone. Plante sobre Snad para crescer mais rápido.",
+    "",
+    "&6&lEN&r",
+    "Growable Ores lets you grow ores and materials like sugar cane. Each cane is made from 1 block of the material, with Prudentium Essence right below it, surrounded by sugar canes. It grows like regular sugar cane, next to water. Harvest it, combine 9 canes, and you get the material back.",
+    "\uD83D\uDCA1 The Redstone Reed is the exception: 9 canes give 4 redstone dust. Plant on Snad to make it grow faster.",
+  ],
+  "task.6EFCC9790C249F7F.title": "Growable Ores | Growable Ores",
+}

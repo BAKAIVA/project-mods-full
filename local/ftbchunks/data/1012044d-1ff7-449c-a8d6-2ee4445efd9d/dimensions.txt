@@ -1,0 +1,5 @@
+minecraft:overworld
+aether_ii:aether_holy_isles
+allthemodium:mining
+minecraft:the_nether
+allthemodium:the_other

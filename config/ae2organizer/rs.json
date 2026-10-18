@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "settings": {},
+  "windows": [
+    {
+      "id": "main"
+    }
+  ],
+  "tabs": [
+    {
+      "id": "enchanted",
+      "name": "Enchanted",
+      "icon": "minecraft:enchanted_book",
+      "conditions": [
+        {
+          "match": "enchanted",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "id": "ingots",
+      "name": "Ingots",
+      "icon": "minecraft:iron_ingot",
+      "conditions": [
+        {
+          "tag": "c:ingots",
+          "type": "tag"
+        }
+      ]
+    },
+    {
+      "id": "named",
+      "name": "Named",
+      "icon": "minecraft:name_tag",
+      "conditions": [
+        {
+          "match": "named",
+          "type": "component"
+        }
+      ]
+    }
+  ],
+  "terminalNames": {
+    "refinedstorage:crafting_grid": "Crafting Grid"
+  }
+}

@@ -1,0 +1,163 @@
+{
+  id: "47B144D1678D3322",
+  order_index: 0,
+  icon: {
+    id: "ftbquests:custom_icon",
+    count: 1,
+    components: {
+      "ftbquests:icon": "refurbished_furniture:textures/tv_channels/silly_face.png",
+    },
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "6107F2D4B5290D41",
+      item: {
+        id: "minecraft:bread",
+        count: 1,
+      },
+      count: 16,
+    },
+    {
+      id: "585D8DF3507EEC59",
+      item: {
+        id: "minecraft:torch",
+        count: 1,
+      },
+      count: 8,
+    },
+    {
+      id: "46C3B1069E2D336A",
+      item: {
+        id: "minecraft:iron_ingot",
+        count: 1,
+      },
+      count: 8,
+      weight: 0.5,
+    },
+    {
+      id: "6A54C460BA045DA3",
+      item: {
+        id: "minecraft:coal",
+        count: 1,
+      },
+      count: 16,
+    },
+    {
+      id: "737C0C6C689AA525",
+      item: {
+        id: "minecraft:redstone",
+        count: 1,
+      },
+      count: 16,
+      weight: 0.5,
+    },
+    {
+      id: "5224CC048AB120EC",
+      item: {
+        id: "minecraft:gold_ingot",
+        count: 1,
+      },
+      count: 8,
+      weight: 0.5,
+    },
+    {
+      id: "0809519CF2853DC3",
+      item: {
+        id: "minecraft:experience_bottle",
+        count: 1,
+      },
+      count: 15,
+    },
+    {
+      id: "2C6119D009E00742",
+      item: {
+        id: "minecraft:cooked_beef",
+        count: 1,
+      },
+      count: 8,
+    },
+    {
+      id: "3E19D74A75AB5073",
+      item: {
+        id: "minecraft:name_tag",
+        count: 1,
+      },
+    },
+    {
+      id: "53DB506196B9158F",
+      item: {
+        id: "minecraft:golden_apple",
+        count: 1,
+      },
+      count: 2,
+      weight: 0.3,
+    },
+    {
+      id: "46CCDA42D61D9828",
+      item: {
+        id: "minecraft:oak_log",
+        count: 1,
+      },
+      count: 16,
+    },
+    {
+      id: "03D4068B0300A2C5",
+      item: {
+        id: "minecraft:lantern",
+        count: 1,
+      },
+      count: 10,
+    },
+    {
+      id: "23ECD26D007DBCDD",
+      item: {
+        id: "minecraft:stone_bricks",
+        count: 1,
+      },
+      count: 32,
+    },
+    {
+      id: "4E6D0DF12C025AA9",
+      item: {
+        id: "croptopia:tomato",
+        count: 1,
+      },
+      count: 16,
+    },
+    {
+      id: "34A9842DC6105EDF",
+      item: {
+        id: "croptopia:mango_sapling",
+        count: 1,
+      },
+      count: 2,
+    },
+    {
+      id: "12EF8556BB8D1C16",
+      item: {
+        id: "mysticalagriculture:inferium_essence",
+        count: 1,
+      },
+      count: 64,
+      weight: 0.5,
+    },
+    {
+      id: "2F8B54517A6A69AE",
+      item: {
+        id: "croptopia:mango_sapling",
+        count: 1,
+      },
+    },
+    {
+      id: "3F49E16B15DD2120",
+      item: {
+        id: "croptopia:strawberry",
+        count: 1,
+      },
+      count: 25,
+    },
+  ],
+}

@@ -1,0 +1,12 @@
+#Strainers Startup Config
+[Strainers]
+	#Add crops to the seed bag. Supports: 'minecraft:wheat' (block), '#minecraft:crops' (tag), 'minecraft:*' (all blocks from a mod)
+	add_to_seed_bag = [""]
+	#Remove crops from the seed bag. Supports: 'minecraft:wheat' (block), '#minecraft:crops' (tag), 'minecraft:*' (all blocks from a mod)
+	remove_from_seed_bag = ["minecraft:pitcher_crop", "minecraft:torchflower_crop"]
+	#Add saplings to the sapling bag. Supports: 'minecraft:oak_sapling' (block), '#minecraft:saplings' (tag), 'minecraft:*' (all blocks from a mod)
+	add_to_sapling_bag = [""]
+	#Remove saplings from the sapling bag. Supports: 'minecraft:oak_sapling' (block), '#minecraft:saplings' (tag), 'minecraft:*' (all blocks from a mod)
+	remove_from_sapling_bag = [""]
+	#Whether Strainers consume fluid per recipe
+	strainers_consume_fluid = false

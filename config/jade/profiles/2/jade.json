@@ -1,0 +1,419 @@
+{
+  "name": "@jade.profile_preset.minimalism",
+  "general": {
+    "displayTooltip": true,
+    "displayBlocks": true,
+    "displayEntities": true,
+    "displayBosses": true,
+    "displayMode": "LITE",
+    "fluidMode": "ANY",
+    "perspectiveMode": "CAMERA",
+    "extendedReach": 0.0,
+    "debug": false,
+    "itemModNameTooltip": true,
+    "bossBarOverlapMode": "HIDE_TOOLTIP",
+    "builtinCamouflage": true,
+    "hideFromTabList": true,
+    "hideFromGUIs": true
+  },
+  "overlay": {
+    "activeTheme": "jade:dark/slim",
+    "overlayPosX": 0.5,
+    "overlayPosY": 1.0,
+    "overlayScale": 1.0,
+    "overlayAnchorX": 0.5,
+    "overlayAnchorY": 0.0,
+    "autoScaleThreshold": 0.4,
+    "alpha": 0.0,
+    "iconMode": "INLINE",
+    "animation": true,
+    "disappearingDelay": 0.0
+  },
+  "formatting": {
+    "itemModNameStyle": {
+      "color": "blue",
+      "italic": true
+    }
+  },
+  "accessibility": {
+    "enableTextToSpeech": false,
+    "ttsMode": "TOGGLE",
+    "enableAccessibilityPlugin": false,
+    "textBackgroundOpacity": 0.0,
+    "flipMainHand": false,
+    "narrateKeys": false
+  },
+  "plugin": {
+    "thaumaturge": {
+      "display.everfull_urns": "GOGGLES",
+      "display.crystalizers": "GOGGLES",
+      "display.tubes": "GOGGLES",
+      "display.golem_builders": "GOGGLES",
+      "display.node_transducers": "GOGGLES",
+      "display.void_siphons": "GOGGLES",
+      "display.reservoirs": "GOGGLES",
+      "display.focal_manipulators": "GOGGLES",
+      "display.flux_scrubbers": "GOGGLES",
+      "display.valves": "GOGGLES",
+      "display.crucibles": "GOGGLES",
+      "display.one_way_tubes": "GOGGLES",
+      "display.centrifuges": "GOGGLES",
+      "display.restricted_tubes": "GOGGLES",
+      "display.smelters": "GOGGLES",
+      "display": true,
+      "display.nodes": "GOGGLES",
+      "display.advanced_alchemical_furnaces": "GOGGLES",
+      "display.thaumatoriums": "GOGGLES",
+      "display.jars": "GOGGLES",
+      "display.vis_relays": "GOGGLES",
+      "display.spas": "GOGGLES",
+      "display.buffers": "GOGGLES",
+      "display.filter_tubes": "GOGGLES",
+      "display.alembics": "GOGGLES",
+      "display.infernal_furnaces": "GOGGLES",
+      "display.golems": "GOGGLES",
+      "display.deconstruction_tables": "GOGGLES"
+    },
+    "ae2": {
+      "part_icon": true,
+      "debug": true,
+      "charger": true,
+      "part_tooltip": true,
+      "grid_node_state": true,
+      "pattern_provider": true,
+      "part_mod_name": true,
+      "power_storage": true,
+      "crafting_monitor": true,
+      "part_name": true
+    },
+    "scc": {
+      "requester": true,
+      "newblocks": true,
+      "controller": true,
+      "star": true,
+      "monitor": true,
+      "wormhole": true,
+      "terminal": true,
+      "storage": true,
+      "storage_connector": true,
+      "cable_bus": true,
+      "processor": true,
+      "collector": true,
+      "security": true,
+      "transfer": true,
+      "crafter": true,
+      "wireless": true,
+      "emitter": true,
+      "cable": true,
+      "breaking": true
+    },
+    "ae2lt": {
+      "lightning_collector": true
+    },
+    "tesseract": {
+      "tesseract": true,
+      "remove_default": true
+    },
+    "agritechevolved": {
+      "planter_info": true
+    },
+    "mekanism": {
+      "chemical": true,
+      "remove_builtin": true,
+      "fluid": true,
+      "energy": true,
+      "tooltip_renderer": true
+    },
+    "productivemetalworks": {
+      "casting": true
+    },
+    "evilcraft": {
+      "box_of_eternal_closure": true,
+      "broom": true
+    },
+    "dimstorage": {
+      "dim_block_base": true,
+      "dim_tank": true
+    },
+    "jade_access": {
+      "npc_description": true,
+      "held_item": true,
+      "sign": true,
+      "block": true,
+      "entity": true,
+      "entity_variant": true
+    },
+    "oritech": {
+      "machine_core_controller": true
+    },
+    "voidminersremastered": {
+      "solars": true,
+      "miners": true
+    },
+    "logisticsnetworks": {
+      "logistics_node_entity": true,
+      "node_attached": true
+    },
+    "apotheosis": {
+      "adventure": true
+    },
+    "iceandfire": {
+      "dragon_egg_entity": true,
+      "multipart": true,
+      "dragon_egg_block": true,
+      "dragon": true
+    },
+    "rangedwirelessredstone": {
+      "wireless_block": true
+    },
+    "balm": {
+      "jade": true
+    },
+    "integrateddynamicscompat": {
+      "proxy": true,
+      "mechanical_squeezer": true,
+      "mechanical_drying_basin": true,
+      "drying_basin": true,
+      "part": true,
+      "squeezer": true
+    },
+    "xycraft": {
+      "energy_pipe_debug": true,
+      "extractor_component": true
+    },
+    "mysticalagradditions": {
+      "infused_farmland": true
+    },
+    "stellaris": {
+      "proxy_as_main": true,
+      "flag_owner": true,
+      "oxygen_distributor": true,
+      "energy_rate": true
+    },
+    "ftbic": {
+      "cable_tier": true,
+      "energy": true
+    },
+    "mysticalagriculture": {
+      "infused_farmland": true,
+      "crop": true,
+      "inferium_crop": true
+    },
+    "productivefarming": {
+      "agritech_planter": true,
+      "external_crop": true,
+      "crop": true
+    },
+    "tconstruct": {
+      "tank_fluid": true
+    },
+    "minecraft": {
+      "item_storage.show_name_amount": 5,
+      "furnace": true,
+      "harvest_tool.show_unbreakable": false,
+      "animal_owner": true,
+      "harvest_tool.effective_tool": true,
+      "energy_storage.style": "PROGRESS_BAR",
+      "item_storage.normal_amount": 9,
+      "item_storage": true,
+      "harvest_tool": false,
+      "armor_stand": true,
+      "fluid_storage.detailed": false,
+      "next_entity_drop": true,
+      "entity_armor.max_for_render": 20,
+      "energy_storage": true,
+      "breaking_progress": false,
+      "tnt_stability": true,
+      "item_storage.items_per_line": 9,
+      "item_frame": true,
+      "shelf": true,
+      "crop_progress": true,
+      "command_block": true,
+      "mob_growth": true,
+      "harvest_tool.new_line": false,
+      "waxed": true,
+      "entity_health.max_for_render": 40,
+      "entity_health.show_fractions": false,
+      "mob_spawner": true,
+      "redstone": true,
+      "fluid_storage": true,
+      "jukebox": true,
+      "brewing_stand": true,
+      "potion_effects.limit": 7,
+      "energy_storage.detailed": false,
+      "note_block": true,
+      "beehive": true,
+      "fluid_storage.style": "PROGRESS_BAR",
+      "item_storage.detailed_amount": 54,
+      "player_head": true,
+      "lectern": true,
+      "entity_armor": true,
+      "pet_armor": "SHOW_DAMAGEABLE",
+      "harvest_tool.creative": false,
+      "horse_stats": true,
+      "item_tooltip": false,
+      "entity_health": true,
+      "enchantment_power": true,
+      "zombie_villager": true,
+      "villager_profession": true,
+      "mob_breeding": true,
+      "entity_health.icons_per_line": 10,
+      "total_enchantment_power": true,
+      "item_storage.sort": false,
+      "potion_effects": true,
+      "painting": true
+    },
+    "apothic_spawners": {
+      "spawner": true
+    },
+    "entangled": {
+      "entangled_block_component": true
+    },
+    "ftbquests": {
+      "barrier": true
+    },
+    "growthacceleratortiers": {
+      "boosted_growth_accelerator": true,
+      "directional_growth_accelerator": true
+    },
+    "jade": {
+      "coordinates.rel": false,
+      "registry_name.special": false,
+      "block_states": false,
+      "mod_name.translated": true,
+      "distance": false,
+      "object_name": true,
+      "block_face": false,
+      "coordinates": false,
+      "registry_name": "OFF",
+      "block_properties": false,
+      "loot_table": false,
+      "mod_name": "ON"
+    },
+    "allthemodium": {
+      "teleport_pad": true
+    },
+    "extendedae": {
+      "jade_chamber": true,
+      "jade_wireless": true
+    },
+    "theurgy": {
+      "mercury_flux": true
+    },
+    "auroral": {
+      "glacial_basin": true
+    },
+    "fluidtank": {
+      "short_info": false,
+      "jade_plugin": true,
+      "compact_number": false
+    },
+    "enderio": {
+      "soul_bound": true
+    },
+    "easy_villagers": {
+      "villager": true,
+      "converter": true,
+      "breeder": true
+    },
+    "reliquary": {
+      "pedestal": true,
+      "altar": true,
+      "mortar": true,
+      "cauldron": true
+    },
+    "neovitae": {
+      "block_info": true
+    },
+    "securitycraft": {
+      "showowner": true,
+      "showmodules": true,
+      "block_info": true,
+      "entity_info": true,
+      "showcustomname": true
+    },
+    "framedblocks": {
+      "framed_item_frame": true,
+      "framed_block_generic": true
+    },
+    "railcraft": {
+      "signals": true,
+      "track_component": true,
+      "locomotive": true,
+      "switch_track": true
+    },
+    "tombstone": {
+      "decorative_graves": true,
+      "player_graves": true
+    },
+    "skylogistics": {
+      "sky_distributor": true,
+      "node": true,
+      "simple_pipe": true,
+      "fluid_vault": true,
+      "item_vault": true
+    },
+    "chisel": {
+      "jade_plugin": true
+    },
+    "occultism": {
+      "foliot": true,
+      "sacrificial": true
+    },
+    "apothic_enchanting": {
+      "ench": true
+    },
+    "functionalstorage": {
+      "armory": true,
+      "drawer": true
+    },
+    "productivebees": {
+      "bee": true,
+      "advanced_beehive": true,
+      "solitary_nest": true,
+      "canvas_expansion_box": true,
+      "canvas_beehive": true,
+      "bee_attributes": true
+    },
+    "modularrouters": {
+      "router": true
+    },
+    "irontanks": {
+      "tank": true
+    },
+    "nautec": {
+      "aquatic_catalyst": true,
+      "energy_converter": true,
+      "laser_junction": true,
+      "laser_crafting_matrix": true,
+      "beam_speed": true,
+      "prismarine_crystal": true,
+      "crystal_cradle": true,
+      "drain": true,
+      "fe_generator": true,
+      "laser_power": true,
+      "fusion_controller": true,
+      "mixer": true,
+      "confined_spawner": true
+    },
+    "jadeaddons": {
+      "equipment_requirement": ""
+    },
+    "jadeaddons.lootr": {
+      "info": true
+    },
+    "toms_storage": {
+      "inventory_hopper": true,
+      "inventory_config": true,
+      "inventory_connector": true
+    },
+    "arsmagicalegacy": {
+      "altar": true,
+      "tier": true,
+      "etherium": true
+    },
+    "omni_pipes": {
+      "pipe": true
+    }
+  }
+}

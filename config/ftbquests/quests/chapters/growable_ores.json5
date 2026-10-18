@@ -1,0 +1,271 @@
+{
+  id: "360501433693A72E",
+  group: "032129E2D107982C",
+  order_index: 2,
+  icon: {
+    id: "growable_ores:diamond_cane",
+    count: 1,
+  },
+  filename: "growable_ores",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  quests: [
+    {
+      icon: {
+        id: "snad:snad",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
+      size: 1.0,
+      id: "6AC30F45EA222B51",
+      tasks: [
+        {
+          id: "52E7A677378D6BEE",
+          type: "item",
+          item: {
+            id: "snad:snad",
+            count: 1,
+          },
+        },
+        {
+          id: "3FE638034628D309",
+          type: "item",
+          item: {
+            id: "justdynathings:ferricore_clock",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "641E8A10F670C9D2",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:sugar_cane",
+        count: 1,
+      },
+      x: 0.0,
+      y: 1.5,
+      shape: "rsquare",
+      dependencies: [
+        "6AC30F45EA222B51",
+      ],
+      size: 1.0,
+      id: "0BA88AF974A511BF",
+      tasks: [
+        {
+          id: "6EFCC9790C249F7F",
+          type: "checkmark",
+        },
+        {
+          id: "1A568D2D6D88CDDC",
+          type: "item",
+          item: {
+            id: "minecraft:sugar_cane",
+            count: 1,
+          },
+          count: 32,
+        },
+      ],
+      rewards: [
+        {
+          id: "679554E657174DB9",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: 3.5,
+      shape: "diamond",
+      dependencies: [
+        "0BA88AF974A511BF",
+      ],
+      size: 1.0,
+      id: "7FFFFD8D6007EECF",
+      tasks: [
+        {
+          id: "6142B08450D13368",
+          type: "item",
+          item: {
+            id: "growable_ores:coal_cane",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: 3.5,
+      shape: "diamond",
+      dependencies: [
+        "0BA88AF974A511BF",
+      ],
+      size: 1.0,
+      id: "5A03811D7A1C4120",
+      tasks: [
+        {
+          id: "364B7CCDFC703A54",
+          type: "item",
+          item: {
+            id: "growable_ores:iron_cane",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: 3.5,
+      shape: "diamond",
+      dependencies: [
+        "0BA88AF974A511BF",
+      ],
+      size: 1.0,
+      id: "0A3E7B00971E2E7C",
+      tasks: [
+        {
+          id: "11CB77704200435B",
+          type: "item",
+          item: {
+            id: "growable_ores:copper_cane",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 3.5,
+      shape: "diamond",
+      dependencies: [
+        "0BA88AF974A511BF",
+      ],
+      size: 1.0,
+      id: "1E673D2789036581",
+      tasks: [
+        {
+          id: "4458684D5F7BDC4D",
+          type: "item",
+          item: {
+            id: "growable_ores:lapis_cane",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 3.5,
+      shape: "diamond",
+      dependencies: [
+        "0BA88AF974A511BF",
+      ],
+      size: 1.0,
+      id: "41B452247283F429",
+      tasks: [
+        {
+          id: "41419C9C44CC3968",
+          type: "item",
+          item: {
+            id: "growable_ores:redstone_cane",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: 3.5,
+      shape: "diamond",
+      dependencies: [
+        "0BA88AF974A511BF",
+      ],
+      size: 1.0,
+      id: "2B75521CD8965ED0",
+      tasks: [
+        {
+          id: "7650B22D44550C6B",
+          type: "item",
+          item: {
+            id: "growable_ores:emerald_cane",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 3.5,
+      shape: "diamond",
+      dependencies: [
+        "0BA88AF974A511BF",
+      ],
+      size: 1.0,
+      id: "45D6D4DBF3F1DDE3",
+      tasks: [
+        {
+          id: "485C94CABF887359",
+          type: "item",
+          item: {
+            id: "growable_ores:diamond_cane",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: 3.5,
+      shape: "diamond",
+      dependencies: [
+        "0BA88AF974A511BF",
+      ],
+      size: 1.0,
+      id: "70D233028ECE8C27",
+      tasks: [
+        {
+          id: "7FEBAFB90048D8CC",
+          type: "item",
+          item: {
+            id: "growable_ores:nether_quartz_cane",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: 3.5,
+      shape: "diamond",
+      dependencies: [
+        "0BA88AF974A511BF",
+      ],
+      size: 1.0,
+      id: "5F62E85B6A8DEFA3",
+      tasks: [
+        {
+          id: "20B0755CE0223FF2",
+          type: "item",
+          item: {
+            id: "growable_ores:gold_cane",
+            count: 1,
+          },
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+  ],
+}

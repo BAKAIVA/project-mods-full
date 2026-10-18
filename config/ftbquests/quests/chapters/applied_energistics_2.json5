@@ -1,0 +1,832 @@
+{
+  id: "0AA3B86A6A057DD8",
+  group: "17E2AB316D282CBF",
+  order_index: 3,
+  icon: {
+    id: "ae2:controller",
+    count: 1,
+  },
+  filename: "applied_energistics_2",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  quests: [
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "ae2extras:block/crafting/16m_storage_light",
+        },
+      },
+      x: 0.0,
+      y: 0.0,
+      size: 1.0,
+      id: "4E8C30EFD6DF3B67",
+      tasks: [
+        {
+          id: "3EA6AF7B6CF17792",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "20A725DEAE304C71",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:certus_quartz_crystal",
+        count: 1,
+      },
+      x: 2.0,
+      y: 0.0,
+      dependencies: [
+        "4E8C30EFD6DF3B67",
+        "5A4B079DB5B5F80C",
+      ],
+      size: 1.0,
+      id: "77B7518FA0242679",
+      tasks: [
+        {
+          id: "42CD15F08D4B3A8E",
+          type: "item",
+          item: {
+            id: "ae2:sky_stone_block",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "28C0B9727C593A21",
+          type: "item",
+          item: {
+            id: "ae2:certus_quartz_crystal",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "24A0DC8159894994",
+          type: "observation",
+          icon: {
+            id: "ae2:mysterious_cube",
+            count: 1,
+          },
+          timer: 0,
+          observation_type: "block",
+          to_observe: "ae2:mysterious_cube",
+        },
+      ],
+      rewards: [
+        {
+          id: "4B4636F8DC4A02A9",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: 0.0,
+      dependencies: [
+        "77B7518FA0242679",
+      ],
+      size: 1.0,
+      id: "040F2708F07C7104",
+      tasks: [
+        {
+          id: "05B817B61520A1DB",
+          type: "item",
+          item: {
+            id: "ae2:calculation_processor_press",
+            count: 1,
+          },
+        },
+        {
+          id: "57CBF853D6A68D53",
+          type: "item",
+          item: {
+            id: "ae2:engineering_processor_press",
+            count: 1,
+          },
+        },
+        {
+          id: "3E8B1230945C330F",
+          type: "item",
+          item: {
+            id: "ae2:logic_processor_press",
+            count: 1,
+          },
+        },
+        {
+          id: "792371A2F65ED1AA",
+          type: "item",
+          item: {
+            id: "ae2:silicon_press",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "071127EA8535E9FF",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:fluix_crystal",
+        count: 1,
+      },
+      x: 6.0,
+      y: 0.0,
+      dependencies: [
+        "040F2708F07C7104",
+      ],
+      size: 1.0,
+      id: "7286B45E02AB4C7D",
+      tasks: [
+        {
+          id: "78F96DBE795EAB8A",
+          type: "item",
+          item: {
+            id: "ae2:charger",
+            count: 1,
+          },
+        },
+        {
+          id: "69C6B0A46FC12AF8",
+          type: "item",
+          item: {
+            id: "ae2:charged_certus_quartz_crystal",
+            count: 1,
+          },
+        },
+        {
+          id: "0D14B83D358B5C21",
+          type: "item",
+          item: {
+            id: "ae2:fluix_crystal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7B17C7C1E48CED73",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: 0.0,
+      dependencies: [
+        "7286B45E02AB4C7D",
+      ],
+      size: 1.0,
+      id: "5116A79EC8EB9C61",
+      tasks: [
+        {
+          id: "0F9F29C6B310C6DF",
+          type: "item",
+          item: {
+            id: "ae2:inscriber",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "61C4F25C4B476DE4",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 10.0,
+      y: 0.0,
+      dependencies: [
+        "5116A79EC8EB9C61",
+      ],
+      size: 1.0,
+      id: "2820DF135F130283",
+      tasks: [
+        {
+          id: "3BC8B0B3D023FE20",
+          type: "item",
+          item: {
+            id: "energizedpower:silicon",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2C486CD85F7771CD",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 12.0,
+      y: 0.0,
+      dependencies: [
+        "2820DF135F130283",
+      ],
+      size: 1.0,
+      id: "7D3B59423F87CF63",
+      tasks: [
+        {
+          id: "7CD253B9BCAA0F70",
+          type: "item",
+          item: {
+            id: "ae2:logic_processor",
+            count: 1,
+          },
+        },
+        {
+          id: "384AC4EF27969C1F",
+          type: "item",
+          item: {
+            id: "ae2:calculation_processor",
+            count: 1,
+          },
+        },
+        {
+          id: "1D3D29297B6FE0DF",
+          type: "item",
+          item: {
+            id: "ae2:engineering_processor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "48526837073ED341",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 1202638453860120863,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: -1.0,
+      shape: "pentagon",
+      dependency_requirement: "one_started",
+      size: 1.0,
+      id: "5A4B079DB5B5F80C",
+      tasks: [
+        {
+          id: "627CECBE08027671",
+          type: "item",
+          item: {
+            id: "ae2:meteorite_compass",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 14.0,
+      y: 0.0,
+      dependencies: [
+        "7D3B59423F87CF63",
+      ],
+      size: 1.0,
+      id: "490CBCD216E294B6",
+      tasks: [
+        {
+          id: "12E2CCB78D421185",
+          type: "item",
+          item: {
+            id: "ae2:energy_acceptor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1F0777C099027662",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 10.0,
+      y: -2.0,
+      dependencies: [
+        "7D3B59423F87CF63",
+      ],
+      size: 1.0,
+      id: "15516CFFABC93ED7",
+      tasks: [
+        {
+          id: "44968C55D7E419AD",
+          type: "item",
+          item: {
+            id: "ae2:crafting_terminal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6E728FC337F944A7",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 1202638453860120863,
+        },
+        {
+          id: "4C5A37603B0D9510",
+          type: "item",
+          item: {
+            id: "ae2lt:pigmee_fumo",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 12.0,
+      y: -2.0,
+      dependencies: [
+        "7D3B59423F87CF63",
+      ],
+      size: 1.0,
+      id: "4023C6008BC5FCC4",
+      tasks: [
+        {
+          id: "2A7D38573691E2C0",
+          type: "item",
+          item: {
+            id: "ae2:pattern_encoding_terminal",
+            count: 1,
+          },
+        },
+        {
+          id: "5B71D2810ACCF570",
+          type: "item",
+          item: {
+            id: "ae2:blank_pattern",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+      rewards: [
+        {
+          id: "53460E37C6CF6116",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 1202638453860120863,
+        },
+      ],
+    },
+    {
+      x: 14.0,
+      y: -2.0,
+      dependencies: [
+        "7D3B59423F87CF63",
+      ],
+      size: 1.0,
+      id: "3FEF3171539D6BC2",
+      tasks: [
+        {
+          id: "72AC2D8D88186034",
+          type: "item",
+          item: {
+            id: "ae2:drive",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3DC60BACCC4F3934",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 10.0,
+      y: 2.0,
+      dependencies: [
+        "7D3B59423F87CF63",
+      ],
+      size: 1.0,
+      id: "5E38F34E49323505",
+      tasks: [
+        {
+          id: "16F6BC4FD3908A34",
+          type: "item",
+          item: {
+            id: "ae2:item_storage_cell_16k",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+      rewards: [
+        {
+          id: "17E80711BC0CD986",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 1202638453860120863,
+        },
+      ],
+    },
+    {
+      x: 13.5,
+      y: 2.0,
+      dependencies: [
+        "7D3B59423F87CF63",
+      ],
+      size: 1.0,
+      id: "002D9D7A851B2A1F",
+      tasks: [
+        {
+          id: "45C7B4B3EA539DC2",
+          type: "item",
+          item: {
+            id: "ae2:storage_bus",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "13E3E349210B1B8A",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 18.5,
+      y: 5.0,
+      dependencies: [
+        "1DD93F7263FB3934",
+      ],
+      size: 1.0,
+      id: "67158BA7006A44F6",
+      tasks: [
+        {
+          id: "1CA62BE116BA6ABC",
+          type: "item",
+          item: {
+            id: "ae2:molecular_assembler",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0653D608FF508B07",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 18.5,
+      y: 2.0,
+      dependencies: [
+        "5FC958BA11B59732",
+      ],
+      size: 1.0,
+      id: "1DD93F7263FB3934",
+      tasks: [
+        {
+          id: "7DD6E98ACDFAB290",
+          type: "item",
+          item: {
+            id: "ae2:pattern_provider",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: -1.0,
+      shape: "pentagon",
+      dependencies: [
+        "7286B45E02AB4C7D",
+      ],
+      size: 1.0,
+      id: "2AD8AFD1BE64E400",
+      tasks: [
+        {
+          id: "014CA256991F3ECA",
+          type: "item",
+          item: {
+            id: "ae2:fluix_glass_cable",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 18.5,
+      y: 0.0,
+      dependencies: [
+        "3754BA736B5FD97D",
+      ],
+      size: 1.0,
+      id: "5FC958BA11B59732",
+      tasks: [
+        {
+          id: "538747AED8EB6E75",
+          type: "item",
+          item: {
+            id: "ae2:crafting_accelerator",
+            count: 1,
+          },
+        },
+        {
+          id: "25CFD113476A558C",
+          type: "item",
+          item: {
+            id: "ae2:4k_crafting_storage",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+      rewards: [
+        {
+          id: "08126CFCDA8BC491",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 16.5,
+      y: -2.0,
+      shape: "rsquare",
+      dependencies: [
+        "490CBCD216E294B6",
+      ],
+      size: 1.5,
+      id: "3754BA736B5FD97D",
+      tasks: [
+        {
+          id: "2111BF5850A0B548",
+          type: "item",
+          item: {
+            id: "ae2:controller",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+      rewards: [
+        {
+          id: "69C358EB76D37CB3",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5588771312301384621,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 1.0,
+      shape: "octagon",
+      dependencies: [
+        "4E8C30EFD6DF3B67",
+      ],
+      size: 1.0,
+      id: "58264738C734FB88",
+      tasks: [
+        {
+          id: "7DD93B0EE54F18A4",
+          type: "checkmark",
+        },
+      ],
+    },
+    {
+      x: 18.5,
+      y: 8.0,
+      dependencies: [
+        "67158BA7006A44F6",
+      ],
+      size: 1.0,
+      id: "1D34BB686B158421",
+      tasks: [
+        {
+          id: "27D60DB944B00264",
+          type: "item",
+          item: {
+            id: "ae2:wireless_access_point",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0FFE7D6CAC945B45",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 17.0,
+      y: 8.0,
+      dependencies: [
+        "1D34BB686B158421",
+      ],
+      size: 1.0,
+      id: "1ACFED650E641177",
+      tasks: [
+        {
+          id: "38D8BC5A8CF73974",
+          type: "item",
+          item: {
+            id: "ae2:wireless_booster",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "35E88B07052A4494",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 12.5,
+      y: 8.0,
+      shape: "gear",
+      dependencies: [
+        "633E66FD121CD9D5",
+      ],
+      size: 2.5,
+      id: "06B1DFCBC5B06F69",
+      tasks: [
+        {
+          id: "27097418939FCB1A",
+          type: "item",
+          item: {
+            id: "ae2:quantum_ring",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "032BC1DFBED6BB61",
+          type: "item",
+          item: {
+            id: "ae2:quantum_link",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 15.0,
+      y: 8.0,
+      dependencies: [
+        "1ACFED650E641177",
+      ],
+      size: 1.0,
+      id: "633E66FD121CD9D5",
+      tasks: [
+        {
+          id: "7251AFF5A034A438",
+          type: "item",
+          item: {
+            id: "ae2:singularity",
+            count: 1,
+          },
+        },
+        {
+          id: "70F6EA9C297F9917",
+          type: "item",
+          item: {
+            id: "ae2:quantum_entangled_singularity",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+      rewards: [
+        {
+          id: "32F73FB9AB4A8F9A",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 1202638453860120863,
+        },
+      ],
+    },
+    {
+      x: 18.5,
+      y: 9.5,
+      shape: "rsquare",
+      dependencies: [
+        "1D34BB686B158421",
+      ],
+      size: 1.0,
+      id: "7FD0B15FA28230D9",
+      tasks: [
+        {
+          id: "0E10F25FA1C5BACC",
+          type: "item",
+          item: {
+            id: "ae2wtlib:wireless_universal_terminal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "11867959FC67A6A4",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 16.0,
+      y: -6.5,
+      width: 19.0,
+      height: 16.0,
+      rotation: 0.0,
+      image: "nlp:textures/questpics/2026-08-18_17.07.35.png",
+      id: "3D028EB7CD6A2556",
+    },
+    {
+      x: 23.0,
+      y: -3.0,
+      width: 18.0,
+      height: 18.0,
+      rotation: 0.0,
+      image: "nlp:textures/questpics/2026-08-18_17.29.02.png",
+      id: "58272B88ACEED5F0",
+    },
+    {
+      x: 16.5,
+      y: 3.0,
+      width: 15.0,
+      height: 13.0,
+      rotation: 0.0,
+      image: "nlp:textures/questpics/2026-08-18_17.32.27.png",
+      id: "300285E6C87522AB",
+    },
+    {
+      x: 6.5,
+      y: -6.0,
+      width: 13.0,
+      height: 9.0,
+      rotation: 0.0,
+      image: "nlp:textures/questpics/2026-08-18_17.24.42.png",
+      id: "6D6212A3C84BD372",
+    },
+    {
+      x: 8.0,
+      y: 7.5,
+      width: 14.0,
+      height: 10.0,
+      rotation: 0.0,
+      image: "nlp:textures/questpics/2026-08-18_17.06.49.png",
+      id: "14E85ED286DE2A17",
+    },
+  ],
+}

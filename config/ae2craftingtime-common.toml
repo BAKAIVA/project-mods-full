@@ -1,0 +1,16 @@
+#Track and show real AE2 crafting performance.
+enabled = true
+#Show TTC stats in AE2: Crafting Tree when it is installed.
+showInTree = true
+#Post Ctrl-click TTC details and reset notices in chat.
+showChatMessages = true
+#Privately notify the craft owner when an output becomes delayed.
+notifyOnDelayed = true
+#How many recent samples to keep for each crafted output.
+# Default: 10
+# Range: 1 ~ 100
+maxSamples = 10
+#Ignore samples this many times slower or faster than the median.
+# Default: 4.0
+# Range: 1.0 ~ 1000.0
+outlierMultiplier = 4.0

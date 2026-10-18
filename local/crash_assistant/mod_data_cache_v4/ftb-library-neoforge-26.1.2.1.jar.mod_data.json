@@ -1,0 +1,1 @@
+{"jarName":"ftb-library-neoforge-26.1.2.1.jar","modId":"ftblibrary","name":"FTB Library","version":"26.1.2.1","mixinConfigs":["ftblibrary-common.mixins.json"],"jarJarMods":[{"jarName":"json5-java-3.0.0.jar","mixinConfigs":[],"jarJarMods":[],"pathFromJarJar":"/META-INF/jarjar/"}],"curseForgeHash":4105562335,"modrinthHash":"e6aba73733a7bac0e6471bff98660d498a567147"}

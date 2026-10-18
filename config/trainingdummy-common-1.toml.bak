@@ -1,0 +1,24 @@
+#How far (in blocks) mobs are pulled from to attack a dummy holding the lure bait in its main hand.
+# Default: 128.0
+# Range: 1.0 ~ 128.0
+baitRadius = 128.0
+#Identifies this server's modpack to the scoreboard dummy's leaderboard worker. Every server meant to share the same leaderboard must use the same value here. Leave blank to use the mod's built-in default shared leaderboard instead of a dedicated one.
+modpackId = ""
+#Friendly name shown in the global leaderboard's title (e.g. "ATM 11"). Purely cosmetic - has no effect on which leaderboard is used, that's still modpackId. Leave blank to just show a generic title.
+modpackDisplayName = ""
+#Minimum time between re-fetching the leaderboard from the worker. Clients ask this server for the leaderboard on demand (opening the scoreboard dummy's screen); this only limits how often the server itself re-checks the worker for updates.
+# Default: 600
+# Range: 10 ~ 86400
+leaderboardRefreshSeconds = 600
+#After a hit qualifies for the top 10, how long to wait (without an even bigger qualifying hit from the same player) before actually submitting it. Prevents sending a record that's immediately beaten by the same player's next swing.
+# Default: 20
+# Range: 5 ~ 3600
+recordDebounceSeconds = 20
+#Base URL of the leaderboard worker (e.g. http://127.0.0.1:8787 for a local `wrangler dev` you're running yourself). Leave blank to use the mod's built-in worker.
+workerBaseUrl = ""
+#Sent as the X-Api-Key header on every submission, if set. Must match modpackId's own key on the worker. Leave blank to use the mod's built-in default modpack's key.
+workerApiKey = ""
+#Whether the scoreboard dummy uses the cross-server global leaderboard at all - fetching it, showing it in the screen, and submitting records to it. Turning this off disables every global code path regardless of modpackId; the local (this server only) leaderboard is unaffected either way. On by default.
+globalLeaderboardEnabled = true
+#Extra item IDs that can never score a leaderboard hit, ADDED ON TOP of the mod's own built-in blacklist (mahoutsukai:morgan, every Avaritia and Modern Industrialization item, and anything with "infinity" or "quantum" in its ID). A hit dealt with a blacklisted item in the player's main hand is ignored entirely, both locally and globally, as if it never happened. Three formats: an exact item ID ("minecraft:netherite_sword"), a whole mod's namespace with "modid:*" ("avaritia:*" blocks every Avaritia item), or - for anything with no ":" at all, a case-insensitive substring match against every item's ID, so "sword" blocks any item from any mod whose ID contains "sword". Leave empty to add nothing beyond the built-in blacklist.
+weaponBlacklist = []

@@ -1,0 +1,628 @@
+{
+  id: "42E466FEAECA6CD0",
+  group: "17E2AB316D282CBF",
+  order_index: 1,
+  icon: {
+    id: "functionalstorage:storage_controller",
+    count: 1,
+  },
+  filename: "function_storage",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  quests: [
+    {
+      x: -3.0,
+      y: -3.0,
+      shape: "hexagon",
+      size: 1.0,
+      id: "5371A7A37841D52D",
+      tasks: [
+        {
+          id: "63BD5393251B63D7",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(functionalstorage:drawer)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "22FE21CB6FCAA69D",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+        {
+          id: "0911D9995306F94F",
+          type: "xp_levels",
+          xp_levels: 4,
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: 0.0,
+      dependencies: [
+        "533172460EBCD3D6",
+      ],
+      size: 1.0,
+      id: "754AF4E53AC752BF",
+      tasks: [
+        {
+          id: "6D3D9878AE95F4C5",
+          type: "item",
+          item: {
+            id: "functionalstorage:fluid_1",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: -1.5,
+      dependencies: [
+        "5371A7A37841D52D",
+      ],
+      size: 1.0,
+      id: "533172460EBCD3D6",
+      tasks: [
+        {
+          id: "72397F76A2D366BD",
+          type: "item",
+          item: {
+            id: "functionalstorage:compacting_drawer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "08AA874C98DBDE80",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: -2.0,
+      dependencies: [
+        "7200F02C585446EA",
+      ],
+      size: 1.0,
+      id: "7639EB13FA39A4DB",
+      tasks: [
+        {
+          id: "5E1838461D85F1BA",
+          type: "item",
+          item: {
+            id: "functionalstorage:controller_extension",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0C132F533D8BF37E",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: -2.0,
+      shape: "rsquare",
+      dependencies: [
+        "2B37CC8AA931CD1B",
+      ],
+      size: 1.0,
+      id: "7200F02C585446EA",
+      tasks: [
+        {
+          id: "73D4919481D75068",
+          type: "item",
+          item: {
+            id: "functionalstorage:storage_controller",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "110806820DF6B737",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+        {
+          id: "3A4849F4643B0AE5",
+          type: "xp_levels",
+          xp_levels: 8,
+        },
+        {
+          id: "087C7505630131CC",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5588771312301384621,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: 0.0,
+      shape: "gear",
+      dependencies: [
+        "35D1BAD848CC9126",
+      ],
+      size: 1.0,
+      id: "4BF0CDCE665EC637",
+      tasks: [
+        {
+          id: "3C090026334855A0",
+          type: "item",
+          item: {
+            id: "functionalstorage:linking_tool",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6E397F43897E9C05",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: -2.0,
+      shape: "gear",
+      dependencies: [
+        "4BF0CDCE665EC637",
+      ],
+      size: 1.0,
+      id: "2B37CC8AA931CD1B",
+      tasks: [
+        {
+          id: "5239B616BBFA1F7F",
+          type: "item",
+          item: {
+            id: "functionalstorage:configuration_tool",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "73AB3D531BBA84AB",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 3.5,
+      dependencies: [
+        "7F8E5277616E7E87",
+      ],
+      size: 1.0,
+      id: "453861442506B44C",
+      tasks: [
+        {
+          id: "582E2548818AE5E2",
+          type: "item",
+          item: {
+            id: "functionalstorage:diamond_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4805ED4216A5D497",
+          type: "xp_levels",
+          xp_levels: 8,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: 3.5,
+      dependencies: [
+        "7F8E5277616E7E87",
+      ],
+      size: 1.0,
+      id: "758C28ABC3AE0148",
+      tasks: [
+        {
+          id: "30F215B107E4D083",
+          type: "item",
+          item: {
+            id: "functionalstorage:netherite_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4E0EAB40CF4CB69E",
+          type: "xp_levels",
+          xp_levels: 15,
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: 0.0,
+      dependencies: [
+        "7F8E5277616E7E87",
+      ],
+      size: 1.0,
+      id: "30760CBACEA2C7DF",
+      tasks: [
+        {
+          id: "0B2CB2F38649A1C2",
+          type: "item",
+          item: {
+            id: "functionalstorage:iron_downgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2CF75210F6A6EBCC",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: 2.0,
+      dependencies: [
+        "0FD1D644DC12CA48",
+      ],
+      size: 1.0,
+      id: "65679ECE6E0CA618",
+      tasks: [
+        {
+          id: "0A9B0AA523E9337E",
+          type: "item",
+          item: {
+            id: "functionalstorage:collector_upgrade",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 9.0,
+      y: 2.0,
+      dependencies: [
+        "0FD1D644DC12CA48",
+      ],
+      size: 1.0,
+      id: "4B4C12B5FAD886E5",
+      tasks: [
+        {
+          id: "592236038E5D1617",
+          type: "item",
+          item: {
+            id: "functionalstorage:puller_upgrade",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: 3.5,
+      dependencies: [
+        "0FD1D644DC12CA48",
+      ],
+      size: 1.0,
+      id: "5CBBE0A3EB4C022C",
+      tasks: [
+        {
+          id: "7F103A32CF9B587E",
+          type: "item",
+          item: {
+            id: "functionalstorage:pusher_upgrade",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: 0.0,
+      dependencies: [
+        "30760CBACEA2C7DF",
+      ],
+      size: 1.0,
+      id: "141B543FE12A7372",
+      tasks: [
+        {
+          id: "0BFB6AA295CF77F5",
+          type: "item",
+          item: {
+            id: "functionalstorage:void_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6CD92236024B4691",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: 2.0,
+      dependencies: [
+        "66B002B5918DEE88",
+      ],
+      size: 1.0,
+      id: "35D1BAD848CC9126",
+      tasks: [
+        {
+          id: "29F24F8DA3B05168",
+          type: "item",
+          item: {
+            id: "functionalstorage:armory_cabinet",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "121551E12A95B9FC",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: 2.0,
+      dependencies: [
+        "754AF4E53AC752BF",
+      ],
+      size: 1.0,
+      id: "66B002B5918DEE88",
+      tasks: [
+        {
+          id: "368C329C7C3D8E68",
+          type: "item",
+          item: {
+            id: "functionalstorage:ender_drawer",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: -2.0,
+      dependencies: [
+        "141B543FE12A7372",
+      ],
+      size: 1.0,
+      id: "3DF8BD8A2A807234",
+      tasks: [
+        {
+          id: "0B0A93A886BCA7C0",
+          type: "item",
+          item: {
+            id: "functionalstorage:redstone_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5EE51BF7CF481D9C",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 9.0,
+      y: -3.5,
+      dependencies: [
+        "3DF8BD8A2A807234",
+      ],
+      size: 1.0,
+      id: "5A689805E90C6B4F",
+      tasks: [
+        {
+          id: "703DE79DDEF537B6",
+          type: "item",
+          item: {
+            id: "functionalstorage:dripping_upgrade",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 9.0,
+      y: -0.5,
+      dependencies: [
+        "3DF8BD8A2A807234",
+      ],
+      size: 1.0,
+      id: "573D78886AA48F4D",
+      tasks: [
+        {
+          id: "1064237BA3ADF5E0",
+          type: "item",
+          item: {
+            id: "functionalstorage:water_generator_upgrade",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 9.0,
+      y: -2.0,
+      dependencies: [
+        "3DF8BD8A2A807234",
+      ],
+      size: 1.0,
+      id: "3AAB96F2619FCA5C",
+      tasks: [
+        {
+          id: "6EDDB5772DE7569F",
+          type: "item",
+          item: {
+            id: "functionalstorage:obsidian_upgrade",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "functionalstorage:max_storage_upgrade",
+        count: 1,
+      },
+      x: 3.0,
+      y: 2.0,
+      dependencies: [
+        "7639EB13FA39A4DB",
+      ],
+      size: 1.0,
+      id: "7F8E5277616E7E87",
+      tasks: [
+        {
+          id: "28A7EBD34FA1A27E",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "6484E639E86FBC9E",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+        {
+          id: "64A4D47C665B6B8D",
+          type: "xp_levels",
+          xp_levels: 7,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: 3.5,
+      dependencies: [
+        "7F8E5277616E7E87",
+      ],
+      size: 1.0,
+      id: "62FFB0CE3D53A42D",
+      tasks: [
+        {
+          id: "00E845276D3555A7",
+          type: "item",
+          item: {
+            id: "functionalstorage:copper_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6CC8E90871727F11",
+          type: "xp_levels",
+          xp_levels: 8,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: 2.0,
+      dependencies: [
+        "7F8E5277616E7E87",
+      ],
+      size: 1.0,
+      id: "1DA64F112D405621",
+      tasks: [
+        {
+          id: "3D169DDCC7AB3FA3",
+          type: "item",
+          item: {
+            id: "functionalstorage:gold_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7C21B20DD670807C",
+          type: "xp_levels",
+          xp_levels: 7,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:redstone",
+        count: 1,
+      },
+      x: 7.5,
+      y: 2.0,
+      dependencies: [
+        "141B543FE12A7372",
+      ],
+      size: 1.0,
+      id: "0FD1D644DC12CA48",
+      tasks: [
+        {
+          id: "2FC6CF5C61F73F2F",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "6ADDB41C193EAE17",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+        {
+          id: "0417AB44ED8285E1",
+          type: "xp_levels",
+          xp_levels: 7,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+  ],
+}

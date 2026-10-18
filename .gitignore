@@ -1,0 +1,15 @@
+mods/
+saves/
+logs/
+crash-reports/
+screenshots/
+backups/
+cache/
+shaderpacks/
+journeymap/
+xaero/
+options.txt
+servers.dat
+usercache.json
+minecraftinstance.json
+*.log

@@ -1,0 +1,216 @@
+[vaults]
+	#Maximum item/fluid type slots a Celestial Vault can be expanded to with capacity nectar.
+	# Default: 36
+	# Range: 1 ~ 63
+	maxVaultTypes = 36
+	#Maximum serialized NBT bytes allowed for one distinct item stored in an item vault.
+	# Default: 8192
+	# Range: 128 ~ 1048576
+	maxVaultItemEntryNbtBytes = 8192
+	#Maximum serialized NBT bytes allowed for one distinct fluid stored in a fluid vault.
+	# Default: 4096
+	# Range: 128 ~ 1048576
+	maxVaultFluidEntryNbtBytes = 4096
+
+[transfers]
+	#Maximum item count moved by a logistics node per normal item transfer operation.
+	# Default: 2147483647
+	# Range: > 1
+	nodeItemTransferLimit = 2147483647
+	#Maximum energy moved by a logistics node per energy transfer operation.
+	# Default: 2147483647
+	# Range: > 1
+	nodeEnergyTransferLimit = 2147483647
+	#Whether simple item pipes connect to inventories and transfer items.
+	enableSimpleItemPipe = true
+	#Whether simple fluid pipes connect to tanks and transfer fluids.
+	enableSimpleFluidPipe = true
+	#Whether simple energy pipes connect to FE storages and transfer energy.
+	enableSimpleEnergyPipe = true
+	#Maximum items moved by each extracting simple item pipe per tick. A transfer still uses at most one source slot and one target slot.
+	# Default: 64
+	# Range: > 1
+	simpleItemPipeTransferRate = 64
+	#Maximum fluid amount in mB moved by each extracting simple fluid pipe per tick.
+	# Default: 10000
+	# Range: > 1
+	simpleFluidPipeTransferRate = 10000
+	#Maximum FE moved by each extracting simple energy pipe per tick.
+	# Default: 100000
+	# Range: > 1
+	simpleEnergyPipeTransferRate = 100000
+	#Maximum Mekanism chemical amount moved by each extracting simple fluid pipe per tick.
+	# Default: 10000
+	# Range: > 1
+	simpleChemicalPipeTransferRate = 10000
+	#Maximum Botania mana moved by each extracting simple energy pipe per tick.
+	# Default: 50
+	# Range: > 1
+	simpleManaPipeTransferRate = 50
+	#Maximum Ars Nouveau source moved by each extracting simple energy pipe per tick.
+	# Default: 50
+	# Range: > 1
+	simpleSourcePipeTransferRate = 50
+	#Maximum connected blocks in one simple pipe line. New pipe edges that would exceed this limit stay disconnected.
+	# Default: 256
+	# Range: 16 ~ 65536
+	simplePipeMaxConnectedBlocks = 256
+	#Maximum amount moved per direct transfer operation between Sky Logistics vault containers.
+	# Default: 9223372036854775807
+	# Range: 1 ~ 9223372036854775807
+	skyContainerTransferLimit = 9223372036854775807
+	#Maximum endpoint, slot, tank, and energy transfer operations Sky Logistics may process per server tick.
+	# Default: 32768
+	# Range: 1 ~ 1000000
+	serverOpsPerTick = 32768
+	#Maximum endpoint, slot, tank, and energy transfer operations one logistics line may consume per server tick.
+	# Default: 256
+	# Range: 1 ~ 1000000
+	lineOpsPerTick = 256
+	#Maximum receiving endpoints one source endpoint may try after failures for one transfer candidate. A successful transfer still stops immediately.
+	# Default: 4
+	# Range: 1 ~ 1000000
+	endpointTargetAttempts = 4
+	#Maximum external fluid tanks one source endpoint may scan per tick. Node operation rate still applies.
+	# Default: 8
+	# Range: 1 ~ 1000000
+	externalTankScansPerEndpoint = 8
+	#Maximum slot/tank cursor positions one source endpoint may skip while searching for work in one transfer attempt.
+	# Default: 64
+	# Range: 1 ~ 1000000
+	sourceSearchAttemptsPerEndpoint = 64
+	#Maximum item slot keep limit configurable on a logistics face. Face value 0 still means unlimited.
+	# Default: 36
+	# Range: 1 ~ 999
+	maxItemSlotLimit = 36
+	#Whether Sky ME Interfaces may transfer items stored in AE2 networks.
+	allowAe2ItemTransfer = true
+	#Whether Sky ME Interfaces may transfer fluids stored in AE2 networks.
+	allowAe2FluidTransfer = true
+	#Whether Sky RS Interfaces may transfer items stored in Refined Storage networks.
+	allowRefinedStorageItemTransfer = true
+	#Whether Sky RS Interfaces may transfer fluids stored in Refined Storage networks.
+	allowRefinedStorageFluidTransfer = true
+	#Whether fluid-enabled logistics faces may also transfer Mekanism chemicals.
+	allowFluidChemicalTransfer = true
+	#Whether energy-enabled logistics faces may also transfer Botania mana.
+	allowEnergyManaTransfer = true
+	#Whether energy-enabled logistics faces may also transfer Ars Nouveau source.
+	allowEnergySourceTransfer = true
+	#Whether Sky ME Interfaces may transfer AppFlux FE stored in AE2 networks.
+	allowAe2AppFluxEnergyTransfer = true
+	#Whether Sky ME Interfaces may transfer Applied Mekanistics chemicals stored in AE2 networks.
+	allowAe2AppliedMekanisticsChemicalTransfer = true
+	#Whether Sky Dimension Interfaces may transfer items stored in Beyond Dimensions networks.
+	allowBeyondDimensionsItemTransfer = true
+	#Whether Sky Dimension Interfaces may transfer fluids stored in Beyond Dimensions networks.
+	allowBeyondDimensionsFluidTransfer = true
+	#Whether Sky Dimension Interfaces may transfer FE stored in Beyond Dimensions networks.
+	allowBeyondDimensionsEnergyTransfer = true
+	#Whether Sky Dimension Interfaces may transfer Mekanism chemicals stored in Beyond Dimensions networks.
+	allowBeyondDimensionsMekanismChemicalTransfer = true
+	#Whether Sky Dimension Interfaces may transfer Ars Nouveau source stored in Beyond Dimensions networks.
+	allowBeyondDimensionsSourceTransfer = true
+	#Whether Sky ME Interfaces may transfer Applied Botanics mana stored in AE2 networks.
+	allowAe2AppliedBotanicsManaTransfer = true
+	#Whether Sky ME Interfaces may transfer Ars Energistique source stored in AE2 networks.
+	allowAe2ArsEnergistiqueSourceTransfer = true
+	#Number of successful item source slots remembered as hot slots per source endpoint.
+	# Default: 9
+	# Range: 1 ~ 256
+	preferredItemSlotCacheSize = 9
+	#Target item insertion cursor lanes per multi-slot endpoint. Single-slot targets bypass cursors; the active count never exceeds the target slot count; 0 disables cursor-based slot ordering.
+	# Default: 9
+	# Range: 0 ~ 64
+	targetItemInsertionCursorCount = 9
+	#Maximum recent item, fluid, or chemical accept-reject records remembered per receiving endpoint.
+	# Default: 9
+	# Range: 1 ~ 64
+	rejectedAcceptCacheSize = 9
+	#Ticks to wait after the first failed transfer attempt. Shared by sending endpoint failures and receiving endpoint accept-reject retries.
+	# Default: 5
+	# Range: 1 ~ 1200
+	transferRetryFirstTicks = 5
+	#Ticks to wait after the second consecutive failed transfer attempt.
+	# Default: 10
+	# Range: 1 ~ 1200
+	transferRetrySecondTicks = 10
+	#Ticks to wait after the third consecutive failed transfer attempt.
+	# Default: 20
+	# Range: 1 ~ 1200
+	transferRetryThirdTicks = 20
+	#Ticks to wait after the fourth and later consecutive failed transfer attempts.
+	# Default: 40
+	# Range: 1 ~ 1200
+	transferRetryMaxTicks = 40
+
+	[transfers.astages]
+		#Whether AStages player stages limit and unlock per-operation transfer amounts. Requires AStages 2.x.
+		enabled = false
+		#AStages unlock entries. Each entry requires stage and may define any of: items, fluids, chemicals, energy, mana, source.
+		#Example: [{ stage = "logistics_tier_1", items = 128, fluids = 20000 }]
+		stageRates = []
+
+		[transfers.astages.initialRates]
+			# Default: 64
+			# Range: 1 ~ 9223372036854775807
+			items = 64
+			# Default: 10000
+			# Range: 1 ~ 9223372036854775807
+			fluids = 10000
+			# Default: 10000
+			# Range: 1 ~ 9223372036854775807
+			chemicals = 10000
+			# Default: 100000
+			# Range: 1 ~ 9223372036854775807
+			energy = 100000
+			# Default: 100000
+			# Range: 1 ~ 9223372036854775807
+			mana = 100000
+			# Default: 100000
+			# Range: 1 ~ 9223372036854775807
+			source = 100000
+
+[distributor]
+	#Whether Celestial Distributors proxy item storage.
+	enableItems = true
+	#Whether Celestial Distributors proxy fluid storage.
+	enableFluids = true
+	#Whether Celestial Distributors proxy energy storage.
+	enableEnergy = true
+	#Maximum adjacent container targets discovered by one Celestial Distributor. Higher values increase scan and proxy costs.
+	# Default: 16
+	# Range: 1 ~ 64
+	maxTargets = 16
+	#Maximum BFS positions one Celestial Distributor may inspect per server tick. This budget is independent from transfer operations.
+	# Default: 16
+	# Range: 1 ~ 4096
+	scanOpsPerTick = 16
+	#Maximum transfer probes one Celestial Distributor may perform per server tick. A target and its first slot count as one probe; each additional slot counts separately. BFS discovery uses scanOpsPerTick instead.
+	# Default: 64
+	# Range: 1 ~ 4096
+	opsPerTick = 64
+
+[necklaces]
+	#Server ticks between Sky Necklace work scans. Higher values reduce player inventory and backpack scanning frequency.
+	# Default: 10
+	# Range: 1 ~ 1200
+	skyNecklaceTickInterval = 10
+	#Maximum inventory, backpack, or network item slots one Sky Necklace may scan each work tick.
+	# Default: 64
+	# Range: 1 ~ 1000000
+	skyNecklaceSlotScansPerTick = 64
+	#Maximum logistics endpoints one Sky Necklace may visit during one work interval (outputs while extracting, inputs while inserting).
+	# Default: 1
+	# Range: 1 ~ 1000000
+	skyNecklaceTargetAttemptsPerWork = 1
+
+[rituals]
+	#Minimum block Y for Eulogia Crystals to charge and sky offering altars to work.
+	# Default: 200
+	# Range: -64 ~ 320
+	skyRitualMinY = 200
+	#Seconds an uncharged Eulogia Crystal must spend at or above skyRitualMinY before it becomes charged. One second is 20 ticks.
+	# Default: 60
+	# Range: 1 ~ 3600
+	eulogiaCrystalChargeSeconds = 60

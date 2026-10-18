@@ -1,0 +1,12 @@
+#How far in each direction the Invisible Light Spreader looks for dark spots
+# Default: 32
+# Range: 1 ~ 64
+range = 32
+#Spots with a block light level below this are considered dark
+# Default: 6
+# Range: 1 ~ 15
+minimumLightLevel = 6
+#Ticks between each scan, one light block is placed per scan
+# Default: 30
+# Range: 1 ~ 1200
+scanIntervalTicks = 30

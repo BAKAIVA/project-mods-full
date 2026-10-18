@@ -1,0 +1,4 @@
+#Casting Tools Startup Config
+["Casting Tools"]
+	#The cost of experience to use the Upgrader block.
+	costForUpgrader = 16000

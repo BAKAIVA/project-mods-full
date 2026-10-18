@@ -1,0 +1,1 @@
+{"jarName":"nerolandcore-neoforge-26.1.2-1.5.0.jar","modId":"nerolandcore","name":"Neroland Core","version":"1.5.0","mixinConfigs":["nerolandcore-common.mixins.json"],"jarJarMods":[{"jarName":"sentry-8.45.0.jar","mixinConfigs":[],"jarJarMods":[],"pathFromJarJar":"/META-INF/jarjar/"}],"curseForgeHash":1097464763,"modrinthHash":"5b3b428faf57810a14f5effd29d6d8a84cfbc84c"}

@@ -1,0 +1,15 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"energizedpower:silicon"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderio:silicon"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"casting:molten_silicon"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"guideme:guide","components":{"guideme:guide_id":"logisticsnetworks:guide"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"entangled:block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"everrose:raw_everrose"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"everrose:everrose_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"everrose:everrose_nugget"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"everrose:everrose_upgrade_template"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"everrose:everrose_shovel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"everrose:everrose_sword"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"forbidden_arcanus:apply_modifier_smithing_template"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

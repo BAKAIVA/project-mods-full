@@ -1,0 +1,590 @@
+{
+  id: "7592FF969C3F6C70",
+  group: "17E2AB316D282CBF",
+  order_index: 2,
+  icon: {
+    id: "refinedstorage:creative_controller",
+    count: 1,
+  },
+  filename: "refined_storage",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  quests: [
+    {
+      x: 0.0,
+      y: 1.0,
+      shape: "hexagon",
+      size: 2.0,
+      id: "237DAE3E9BE6683D",
+      tasks: [
+        {
+          id: "39BD134E2A86DCEC",
+          type: "item",
+          item: {
+            id: "refinedstorage:quartz_enriched_iron",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "34F777B3D557CA9B",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -1.5,
+      dependencies: [
+        "237DAE3E9BE6683D",
+      ],
+      size: 1.0,
+      id: "4F83FC59AB72279F",
+      tasks: [
+        {
+          id: "6790B6A7D4729EEA",
+          type: "item",
+          item: {
+            id: "refinedstorage:quartz_enriched_copper",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "74993CEE8BEB1F1A",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -3.0,
+      dependencies: [
+        "26F848FB251E9D74",
+      ],
+      size: 1.0,
+      id: "011CBBAC004F26A6",
+      tasks: [
+        {
+          id: "0F25023D80EF1027",
+          type: "item",
+          item: {
+            id: "refinedstorage:basic_processor",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: -5.0,
+      shape: "diamond",
+      dependencies: [
+        "011CBBAC004F26A6",
+      ],
+      size: 1.0,
+      id: "25ADBB18A2A8FE28",
+      tasks: [
+        {
+          id: "5E056623334BEC8E",
+          type: "item",
+          item: {
+            id: "refinedstorage:improved_processor",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -4.5,
+      shape: "diamond",
+      dependencies: [
+        "011CBBAC004F26A6",
+      ],
+      size: 1.0,
+      id: "2B6B7A405256A586",
+      tasks: [
+        {
+          id: "47F752787F70405F",
+          type: "item",
+          item: {
+            id: "refinedstorage:advanced_processor",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -5.5,
+      shape: "diamond",
+      dependencies: [
+        "011CBBAC004F26A6",
+      ],
+      size: 1.0,
+      id: "51C101698F5E69EA",
+      tasks: [
+        {
+          id: "6CC0971F2D6312FC",
+          type: "item",
+          item: {
+            id: "refinedstorage:construction_core",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: -5.0,
+      shape: "diamond",
+      dependencies: [
+        "011CBBAC004F26A6",
+      ],
+      size: 1.0,
+      id: "322A157B976FDF20",
+      tasks: [
+        {
+          id: "286ECC878D77B450",
+          type: "item",
+          item: {
+            id: "refinedstorage:destruction_core",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: -1.5,
+      dependencies: [
+        "4F83FC59AB72279F",
+      ],
+      size: 1.0,
+      id: "2E556A24B6D5C40D",
+      tasks: [
+        {
+          id: "4A1337A7143136DC",
+          type: "item",
+          item: {
+            id: "refinedstorage:silicon",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: -1.5,
+      dependencies: [
+        "55B99D82C7A12473",
+      ],
+      size: 1.0,
+      id: "5CDC941BE74774D0",
+      tasks: [
+        {
+          id: "1B6BBB063E5F405F",
+          type: "item",
+          item: {
+            id: "refinedstorage:disk_drive",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0CA12EE73279894A",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: -3.0,
+      dependencies: [
+        "30022FB0A9BB3E4A",
+      ],
+      size: 1.0,
+      id: "55B99D82C7A12473",
+      tasks: [
+        {
+          id: "61A886F5CBAEFB22",
+          type: "item",
+          item: {
+            id: "refinedstorage:crafting_grid",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1BC2EAB3CDC62351",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5588771312301384621,
+        },
+      ],
+    },
+    {
+      x: 9.0,
+      y: 0.0,
+      shape: "diamond",
+      dependencies: [
+        "16638C5CE5849CEB",
+      ],
+      size: 1.0,
+      id: "76FE3E65CE83B84D",
+      tasks: [
+        {
+          id: "4D875AE0CA8D91DD",
+          type: "item",
+          item: {
+            id: "refinedstorage:external_storage",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0844F168313056DF",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 1202638453860120863,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: -4.0,
+      dependencies: [
+        "55B99D82C7A12473",
+      ],
+      size: 1.0,
+      id: "174EDB6082D0BEF8",
+      tasks: [
+        {
+          id: "627849BB00664049",
+          type: "item",
+          item: {
+            id: "refinedstorage:pattern_grid",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4434BF35DC6ED53E",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+        {
+          id: "4BE22C43E137C5A0",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 1202638453860120863,
+        },
+      ],
+    },
+    {
+      x: 8.5,
+      y: 0.5,
+      shape: "diamond",
+      dependencies: [
+        "6AD5E1B033320534",
+      ],
+      size: 1.0,
+      id: "16638C5CE5849CEB",
+      tasks: [
+        {
+          id: "368D1396DB9CA243",
+          type: "item",
+          item: {
+            id: "refinedstorage:exporter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2D8F906A2A66CFA5",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 1202638453860120863,
+        },
+      ],
+    },
+    {
+      x: 10.5,
+      y: -3.0,
+      shape: "gear",
+      dependencies: [
+        "55B99D82C7A12473",
+      ],
+      size: 2.0,
+      id: "2E738D7A3038A8B3",
+      tasks: [
+        {
+          id: "46B3465609C48B9A",
+          type: "item",
+          item: {
+            id: "refinedstorage:autocrafter",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: 0.0,
+      dependencies: [
+        "5CDC941BE74774D0",
+      ],
+      size: 1.0,
+      id: "30139C08943890D3",
+      tasks: [
+        {
+          id: "7D4A7779A7235275",
+          type: "item",
+          item: {
+            id: "refinedstorage:16k_storage_disk",
+            count: 1,
+            components: {
+              "refinedstorage:storage_reference": [
+                -729475001,
+                -884519197,
+                -2108686568,
+                1505581062,
+              ],
+            },
+          },
+          count: 2,
+        },
+      ],
+      rewards: [
+        {
+          id: "562A01ED153EE716",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: 0.0,
+      shape: "diamond",
+      dependencies: [
+        "30139C08943890D3",
+      ],
+      size: 1.0,
+      id: "6AD5E1B033320534",
+      tasks: [
+        {
+          id: "6FAB0918711B1664",
+          type: "item",
+          item: {
+            id: "refinedstorage:importer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "04EB6DC0E59EB80C",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: -3.0,
+      dependencies: [
+        "348A71D9F3363D61",
+      ],
+      size: 1.0,
+      id: "30022FB0A9BB3E4A",
+      tasks: [
+        {
+          id: "4EC70BEBCA5F2E01",
+          type: "item",
+          item: {
+            id: "refinedstorage:cable",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "45553198F01488F9",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: -3.0,
+      dependencies: [
+        "2E556A24B6D5C40D",
+      ],
+      size: 1.0,
+      id: "26F848FB251E9D74",
+      tasks: [
+        {
+          id: "632DA3DEC96FEE8E",
+          type: "item",
+          item: {
+            id: "refinedstorage:processor_binding",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: -3.0,
+      dependencies: [
+        "011CBBAC004F26A6",
+      ],
+      size: 1.0,
+      id: "531390EADC019AC7",
+      tasks: [
+        {
+          id: "23993DCCCF7C6259",
+          type: "item",
+          item: {
+            id: "refinedstorage:machine_casing",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: -3.0,
+      dependencies: [
+        "531390EADC019AC7",
+      ],
+      size: 1.0,
+      id: "348A71D9F3363D61",
+      tasks: [
+        {
+          id: "031D3637BDE7A02D",
+          type: "item",
+          item: {
+            id: "refinedstorage:controller",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2E96D57A941A2A20",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5588771312301384621,
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: 0.5,
+      shape: "diamond",
+      dependencies: [
+        "76FE3E65CE83B84D",
+      ],
+      size: 1.0,
+      id: "07B5807FEAEA32C2",
+      tasks: [
+        {
+          id: "31304D3005B258DC",
+          type: "item",
+          item: {
+            id: "refinedstorage:constructor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7A6CB3C881F6E45D",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 1202638453860120863,
+        },
+      ],
+    },
+    {
+      x: 10.0,
+      y: 0.0,
+      shape: "diamond",
+      dependencies: [
+        "07B5807FEAEA32C2",
+      ],
+      size: 1.0,
+      id: "6A220C1CB3011428",
+      tasks: [
+        {
+          id: "2A148202A803DBA2",
+          type: "item",
+          item: {
+            id: "refinedstorage:destructor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "64CB5F8B573D086C",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 1202638453860120863,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: -5.0,
+      dependencies: [
+        "174EDB6082D0BEF8",
+      ],
+      size: 1.0,
+      id: "3007189691488778",
+      tasks: [
+        {
+          id: "3D37735CF19E0A99",
+          type: "item",
+          item: {
+            id: "refinedstorage:pattern",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "108FC6A651AD5A79",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+  ],
+}

@@ -1,0 +1,1 @@
+{"jarName":"tcdcommons-5.3.2+fn-26.1.jar","modId":"tcdcommons","name":"TCDCommons API","version":"5.3.2+neoforge-26.1","mixinConfigs":["tcdcommons.client.mixin.events.json","tcdcommons.client.mixin.hooks.json","tcdcommons.mixin.events.json","tcdcommons.mixin.hooks.json"],"jarJarMods":[],"curseForgeHash":2545817950,"modrinthHash":"a6a189d142750e23d5fb03721b853659b7ef0772"}

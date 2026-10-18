@@ -1,0 +1,777 @@
+{
+  id: "48E07F3A695117CC",
+  group: "032129E2D107982C",
+  order_index: 3,
+  icon: {
+    id: "productivebees:bee_cage",
+    count: 1,
+  },
+  filename: "productives_bees",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  quests: [
+    {
+      x: -0.5,
+      y: -1.5,
+      shape: "hexagon",
+      size: 2.5,
+      id: "47EFB5264C0B8404",
+      tasks: [
+        {
+          id: "403C9A45C3BA348D",
+          type: "item",
+          item: {
+            id: "productivebees:bee_cage",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "309D2B0EB6527156",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: -1.5,
+      dependencies: [
+        "47EFB5264C0B8404",
+      ],
+      size: 1.0,
+      id: "6FA2FF2A8071494C",
+      tasks: [
+        {
+          id: "0A432BB03AFBE289",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(productivebees:solitary_overworld_nests)",
+            },
+          },
+        },
+        {
+          id: "310608111E0F6ED7",
+          type: "item",
+          item: {
+            id: "productivebees:nest_locator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "04562FBCFEB88259",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: 0.0,
+      dependencies: [
+        "6FA2FF2A8071494C",
+      ],
+      size: 1.0,
+      id: "3ACC114A5808E048",
+      tasks: [
+        {
+          id: "71DA762D9CAAD324",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(productivebees:advanced_beehives)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0B3CE85672875B76",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: 0.0,
+      dependencies: [
+        "3ACC114A5808E048",
+      ],
+      size: 1.0,
+      id: "73C95C88637CA495",
+      tasks: [
+        {
+          id: "62DC87D4ADA93417",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(productivebees:expansion_boxes)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1E8DDA5745F2CF08",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: -1.5,
+      dependencies: [
+        "73C95C88637CA495",
+      ],
+      size: 1.0,
+      id: "02EA9CC0B51484DF",
+      tasks: [
+        {
+          id: "76AA7A651A04F9E8",
+          type: "item",
+          item: {
+            id: "productivebees:centrifuge",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "609EBAA419F8DD55",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 7.0,
+      y: -1.5,
+      dependencies: [
+        "02EA9CC0B51484DF",
+      ],
+      size: 1.0,
+      id: "2FBCDA9D72981AE7",
+      tasks: [
+        {
+          id: "7D56A345E745B4A4",
+          type: "item",
+          item: {
+            id: "productivebees:bottler",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7EDC1780CE98FEFE",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 7.0,
+      y: 0.0,
+      dependencies: [
+        "2FBCDA9D72981AE7",
+      ],
+      size: 1.0,
+      id: "3AF55916F5BDE628",
+      tasks: [
+        {
+          id: "369DA33121C16FAD",
+          type: "item",
+          item: {
+            id: "productivebees:feeder",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "382B878E16A79EFE",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 9.0,
+      y: 0.0,
+      dependencies: [
+        "3AF55916F5BDE628",
+      ],
+      size: 1.0,
+      id: "3BBAF6483A9E91B8",
+      tasks: [
+        {
+          id: "76C5ED3E8522A6EE",
+          type: "item",
+          item: {
+            id: "productivebees:breeding_chamber",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "67FC7CFDCD61812E",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 1202638453860120863,
+        },
+      ],
+    },
+    {
+      x: 11.0,
+      y: 0.0,
+      dependencies: [
+        "3BBAF6483A9E91B8",
+      ],
+      size: 1.0,
+      id: "509DE45D745FDE56",
+      tasks: [
+        {
+          id: "6C5709252253AF12",
+          type: "item",
+          item: {
+            id: "productivebees:honey_generator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "60A66E2EBC587756",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+      ],
+    },
+    {
+      x: 13.0,
+      y: 0.0,
+      dependencies: [
+        "509DE45D745FDE56",
+      ],
+      size: 1.0,
+      id: "41977E9A20F5B9E3",
+      tasks: [
+        {
+          id: "40D261C459AA2A6F",
+          type: "item",
+          item: {
+            id: "productivebees:honey_treat",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7A5F94D75D1F04C6",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 1202638453860120863,
+        },
+      ],
+    },
+    {
+      x: 15.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "41977E9A20F5B9E3",
+      ],
+      size: 2.5,
+      id: "490F84E4C333DAB6",
+      tasks: [
+        {
+          id: "23DBDFA630675752",
+          type: "item",
+          item: {
+            id: "productivebees:gene_indexer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "410711096A6603B4",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5588771312301384621,
+        },
+      ],
+    },
+    {
+      x: 7.0,
+      y: 2.0,
+      shape: "diamond",
+      size: 1.0,
+      id: "7BAC70F0792E6FF8",
+      tasks: [
+        {
+          id: "699A4681D0D5EADD",
+          type: "item",
+          item: {
+            id: "productivelib:upgrade_time",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: 1.5,
+      shape: "diamond",
+      size: 1.0,
+      id: "467C85B409AA130D",
+      tasks: [
+        {
+          id: "7099CFB54D582EAB",
+          type: "item",
+          item: {
+            id: "productivelib:upgrade_entity_filter",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 10.0,
+      y: 2.0,
+      shape: "diamond",
+      size: 1.0,
+      id: "10DAD012FB21C076",
+      tasks: [
+        {
+          id: "6B20D686AC56ED57",
+          type: "item",
+          item: {
+            id: "productivelib:upgrade_range",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 10.5,
+      y: 1.5,
+      shape: "diamond",
+      size: 1.0,
+      id: "5A2B10879C87D9EF",
+      tasks: [
+        {
+          id: "7D68CDD26BE15D34",
+          type: "item",
+          item: {
+            id: "productivelib:upgrade_gene_sampler",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 11.0,
+      y: 2.0,
+      shape: "diamond",
+      size: 1.0,
+      id: "2922D0341A92A3F8",
+      tasks: [
+        {
+          id: "27F9111607B650A8",
+          type: "item",
+          item: {
+            id: "productivelib:upgrade_simulator",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 10.5,
+      y: 2.5,
+      shape: "diamond",
+      size: 1.0,
+      id: "554E2E56DEF42B5C",
+      tasks: [
+        {
+          id: "51E59C2CD1E8BFC7",
+          type: "item",
+          item: {
+            id: "productivelib:upgrade_productivity",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 13.5,
+      y: 1.5,
+      shape: "diamond",
+      size: 1.0,
+      id: "7EB6D2DB3AF6B95F",
+      tasks: [
+        {
+          id: "00823D362155118E",
+          type: "item",
+          item: {
+            id: "productivelib:upgrade_productivity_2",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 14.0,
+      y: 2.0,
+      shape: "diamond",
+      size: 1.0,
+      id: "0316380A48342083",
+      tasks: [
+        {
+          id: "2AA3C293F98F7EB8",
+          type: "item",
+          item: {
+            id: "productivelib:upgrade_productivity_3",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: 2.5,
+      shape: "diamond",
+      size: 1.0,
+      id: "581D9D6072F8CBF7",
+      tasks: [
+        {
+          id: "465EC70E7BDF8840",
+          type: "item",
+          item: {
+            id: "productivelib:upgrade_time_2",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: 2.0,
+      shape: "diamond",
+      size: 1.0,
+      id: "1771157BD9C81B9D",
+      tasks: [
+        {
+          id: "644BDE174BE21B74",
+          type: "item",
+          item: {
+            id: "productivelib:upgrade_block",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 13.0,
+      y: 2.0,
+      shape: "diamond",
+      size: 1.0,
+      id: "581841303B0636B6",
+      tasks: [
+        {
+          id: "14D30229342B9DB3",
+          type: "item",
+          item: {
+            id: "productivelib:upgrade_productivity_4",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "797E69B77DA41F2D",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5588771312301384621,
+        },
+      ],
+    },
+    {
+      x: 13.5,
+      y: 2.5,
+      shape: "diamond",
+      size: 1.0,
+      id: "4B1D06EBF5CA0510",
+      tasks: [
+        {
+          id: "15EBE486E5C610F3",
+          type: "item",
+          item: {
+            id: "productivelib:upgrade_base",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: 3.0,
+      shape: "octagon",
+      dependencies: [
+        "73C95C88637CA495",
+      ],
+      size: 1.0,
+      id: "4DD3355AD1A8312C",
+      tasks: [
+        {
+          id: "67E32A827E214F1D",
+          type: "item",
+          item: {
+            id: "productivebees:configurable_honeycomb",
+            count: 1,
+            components: {
+              "productivebees:bee_type": "productivebees:raw_materials/iron",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: 5.0,
+      shape: "octagon",
+      dependencies: [
+        "4DD3355AD1A8312C",
+      ],
+      size: 1.0,
+      id: "07B10154C091A948",
+      tasks: [
+        {
+          id: "738E8D2144136073",
+          type: "item",
+          item: {
+            id: "productivebees:configurable_honeycomb",
+            count: 1,
+            components: {
+              "productivebees:bee_type": "productivebees:raw_materials/copper",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 5.5,
+      y: 2.5,
+      shape: "octagon",
+      dependencies: [
+        "4DD3355AD1A8312C",
+      ],
+      size: 1.0,
+      id: "121489CC059A2B08",
+      tasks: [
+        {
+          id: "4CF3AE53AD7E6419",
+          type: "item",
+          item: {
+            id: "productivebees:configurable_honeycomb",
+            count: 1,
+            components: {
+              "productivebees:bee_type": "productivebees:raw_materials/gold",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 4.5,
+      shape: "octagon",
+      dependencies: [
+        "4DD3355AD1A8312C",
+      ],
+      size: 1.0,
+      id: "631C6AFE89322DD0",
+      tasks: [
+        {
+          id: "72D7CE4EA7EB06D8",
+          type: "item",
+          item: {
+            id: "productivebees:configurable_honeycomb",
+            count: 1,
+            components: {
+              "productivebees:bee_type": "productivebees:gems/emerald",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 5.5,
+      y: 4.5,
+      shape: "octagon",
+      dependencies: [
+        "4DD3355AD1A8312C",
+      ],
+      size: 1.0,
+      id: "437CD3E5487C27DF",
+      tasks: [
+        {
+          id: "6820B5B227F3FCFB",
+          type: "item",
+          item: {
+            id: "productivebees:configurable_honeycomb",
+            count: 1,
+            components: {
+              "productivebees:bee_type": "productivebees:gems/diamond",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 2.5,
+      shape: "octagon",
+      dependencies: [
+        "4DD3355AD1A8312C",
+      ],
+      size: 1.0,
+      id: "048201DA04C6BE49",
+      tasks: [
+        {
+          id: "386DBEF72E0373DB",
+          type: "item",
+          item: {
+            id: "productivebees:configurable_honeycomb",
+            count: 1,
+            components: {
+              "productivebees:bee_type": "productivebees:raw_materials/netherite",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: 3.5,
+      shape: "octagon",
+      dependencies: [
+        "4DD3355AD1A8312C",
+      ],
+      size: 1.0,
+      id: "0FF39453B76FBA8D",
+      tasks: [
+        {
+          id: "2E5AC5050DC1D206",
+          type: "item",
+          item: {
+            id: "productivebees:configurable_honeycomb",
+            count: 1,
+            components: {
+              "productivebees:bee_type": "productivebees:refinedstorage/quartz_enriched_iron",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: 3.5,
+      shape: "octagon",
+      dependencies: [
+        "4DD3355AD1A8312C",
+      ],
+      size: 1.0,
+      id: "719C5EC5201659C3",
+      tasks: [
+        {
+          id: "3AB440859C4293E5",
+          type: "item",
+          item: {
+            id: "productivebees:configurable_honeycomb",
+            count: 1,
+            components: {
+              "productivebees:bee_type": "productivebees:gems/lapis",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: 6.0,
+      shape: "octagon",
+      dependencies: [
+        "4DD3355AD1A8312C",
+      ],
+      size: 1.0,
+      id: "0D800BDF9B5C9F03",
+      tasks: [
+        {
+          id: "43EDA0C9FC961902",
+          type: "item",
+          item: {
+            id: "productivebees:configurable_honeycomb",
+            count: 1,
+            components: {
+              "productivebees:bee_type": "productivebees:dusts/redstone",
+            },
+          },
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 2.7,
+      y: -1.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "productivebees:block/advanced_beehive/oak_beehive_front_honey",
+      id: "7BC121BB0AB552A8",
+    },
+    {
+      x: 9.0,
+      y: -1.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "productivebees:textures/item/honey_treat_type.png",
+      id: "7BFBBB169A200469",
+    },
+    {
+      x: -1.0,
+      y: 4.5,
+      width: 4.0,
+      height: 4.0,
+      rotation: 0.0,
+      image: "nlp:textures/questpics/productivesbee.png",
+      id: "6B50EBC7EBDE2CCC",
+    },
+  ],
+}

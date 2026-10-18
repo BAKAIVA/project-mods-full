@@ -1,0 +1,6 @@
+# === Energized Power Server Config ===
+
+# The config version of this config file
+# [Default value]: 2.18.1
+# [Validation]: This value should not be changed
+config_version = 2.18.1

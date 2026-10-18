@@ -1,0 +1,62 @@
+#General Lightload client settings
+[general]
+	enabled = true
+	profiling = true
+	showLoadingTime = true
+	aggressiveStartup = true
+	#Allowed Values: AUTO, LIGHTLOAD_FULL, CONSERVATIVE
+	optimizationProfile = "AUTO"
+
+#Resource indexing and reload optimizations
+[resources]
+	memoryCache = true
+	persistentCache = true
+	cacheResourceRoutes = false
+	cacheResourceExistence = true
+	# Default: 256
+	# Range: 16 ~ 2048
+	maxExistenceCacheMiB = 256
+	cacheResourceContent = false
+	# Default: 256
+	# Range: 16 ~ 1024
+	maxContentCacheMiB = 256
+	# Default: 1024
+	# Range: 16 ~ 8192
+	maxCachedResourceKiB = 1024
+	parallelResourceLookup = true
+	# Default: 16
+	# Range: 2 ~ 64
+	parallelLookupMinPacks = 16
+	dedicatedReloadExecutor = true
+	# Default: 0
+	# Range: 0 ~ 64
+	reloadThreads = 0
+	isolateModdedResourceReloadFailures = true
+	isolatedResourceReloadListenerPatterns = "*"
+
+#Startup optimizations
+[startup]
+	lazyDataFixer = true
+	progressiveModelWarmup = true
+	fastTextureStitching = true
+	lazyBlockStateCache = true
+	deferRemoteConfigDownloads = true
+	deferYaclImagePreload = true
+	forgeRegistryLookupCache = true
+	mixinTargetIndex = true
+	voxelShapeCache = true
+
+#Compatibility switches
+[compatibility]
+	connectorCompatibilityMode = true
+	lightspeedModernFixInterop = true
+	oculusPathValidationPatch = true
+
+#Optional Java agent settings
+[agent]
+	earlyAgent = true
+	parallelJarJarMetadata = false
+	# Default: 4
+	# Range: 1 ~ 8
+	jarJarThreads = 4
+	runtimeTransformerPatches = true

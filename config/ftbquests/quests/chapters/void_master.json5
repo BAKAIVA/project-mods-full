@@ -1,0 +1,1409 @@
+{
+  id: "1514F2D6DCF25A38",
+  group: "032129E2D107982C",
+  order_index: 0,
+  icon: {
+    id: "voidminersremastered:amethystine_miner",
+    count: 1,
+  },
+  filename: "void_master",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  quests: [
+    {
+      x: -6.5,
+      y: -1.0,
+      shape: "gear",
+      dependencies: [
+        "5996A1098F2E94B0",
+      ],
+      size: 1.0,
+      id: "4CF687D8BC6025BE",
+      tasks: [
+        {
+          id: "27F370C416CB18C1",
+          type: "item",
+          item: {
+            id: "voidminersremastered:structure_builder",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: 4.0,
+      size: 1.0,
+      id: "7A7B3119F6535D8C",
+      tasks: [
+        {
+          id: "230009B48F0D1656",
+          type: "item",
+          item: {
+            id: "voidminersremastered:face_configurator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5221B2783B08A0BC",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 5165985913746830114,
+        },
+        {
+          id: "689D0F4620F83B5A",
+          type: "xp_levels",
+          xp_levels: 7,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: -5.0,
+      dependencies: [
+        "43E2061B264F25C0",
+      ],
+      size: 1.0,
+      id: "0CB1B83188736939",
+      tasks: [
+        {
+          id: "57911D0C1BA13CC0",
+          type: "item",
+          item: {
+            id: "voidminersremastered:frame_base",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: 1.5,
+      dependencies: [
+        "7A7B3119F6535D8C",
+      ],
+      size: 1.0,
+      id: "5996A1098F2E94B0",
+      tasks: [
+        {
+          id: "58CD1D55A3D2A2EA",
+          type: "item",
+          item: {
+            id: "voidminersremastered:structure_panel",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: -3.0,
+      dependencies: [
+        "0CB1B83188736939",
+        "4CF687D8BC6025BE",
+      ],
+      size: 1.0,
+      id: "0BFA591A8DFB25D5",
+      tasks: [
+        {
+          id: "08E060DE10F8A436",
+          type: "item",
+          item: {
+            id: "voidminersremastered:glass_panel",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: -6.5,
+      dependencies: [
+        "65BF97C04D4C3C58",
+      ],
+      size: 1.0,
+      id: "43E2061B264F25C0",
+      tasks: [
+        {
+          id: "31953CAD17CDB072",
+          type: "item",
+          item: {
+            id: "voidminersremastered:null_modifier",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: -6.5,
+      size: 1.0,
+      id: "65BF97C04D4C3C58",
+      tasks: [
+        {
+          id: "43C4E11814406202",
+          type: "item",
+          item: {
+            id: "voidminersremastered:rubetine",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: -6.5,
+      dependencies: [
+        "65BF97C04D4C3C58",
+      ],
+      size: 1.0,
+      id: "6719F3A3771F6B89",
+      tasks: [
+        {
+          id: "36C82D730EC78CAC",
+          type: "item",
+          item: {
+            id: "voidminersremastered:rubetine_block",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: -6.5,
+      dependencies: [
+        "6719F3A3771F6B89",
+      ],
+      size: 1.0,
+      id: "66D8BD4122CF0425",
+      tasks: [
+        {
+          id: "5E1CCCE3B92C2F00",
+          type: "item",
+          item: {
+            id: "voidminersremastered:rubetine_miner",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: -6.5,
+      dependencies: [
+        "66D8BD4122CF0425",
+      ],
+      size: 1.0,
+      id: "37DD5C1AFC3CCE55",
+      tasks: [
+        {
+          id: "71260E516CC0D062",
+          type: "item",
+          item: {
+            id: "voidminersremastered:rubetine_frame",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 7.0,
+      y: -6.5,
+      dependencies: [
+        "37DD5C1AFC3CCE55",
+      ],
+      size: 1.0,
+      id: "3A4B01FC9647FFBA",
+      tasks: [
+        {
+          id: "3AB6097AE7AC75B5",
+          type: "item",
+          item: {
+            id: "voidminersremastered:rubetine_energy_modifier",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: -6.5,
+      dependencies: [
+        "3A4B01FC9647FFBA",
+      ],
+      size: 1.0,
+      id: "492B73D665E465ED",
+      tasks: [
+        {
+          id: "47F4226BD96F1D92",
+          type: "item",
+          item: {
+            id: "voidminersremastered:rubetine_speed_modifier",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: -6.5,
+      dependencies: [
+        "492B73D665E465ED",
+      ],
+      size: 1.0,
+      id: "3CDC58DEA983F6F3",
+      tasks: [
+        {
+          id: "1072A93A1F939C15",
+          type: "item",
+          item: {
+            id: "voidminersremastered:rubetine_item_modifier",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: -5.0,
+      dependencies: [
+        "65BF97C04D4C3C58",
+      ],
+      size: 1.0,
+      id: "6BFF647252569331",
+      tasks: [
+        {
+          id: "5CAC01D4E5F67E30",
+          type: "item",
+          item: {
+            id: "voidminersremastered:aurantium",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: -5.0,
+      dependencies: [
+        "6BFF647252569331",
+      ],
+      size: 1.0,
+      id: "30E4EA042909F7FA",
+      tasks: [
+        {
+          id: "1E419392AF0D6616",
+          type: "item",
+          item: {
+            id: "voidminersremastered:aurantium_block",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: -5.0,
+      dependencies: [
+        "30E4EA042909F7FA",
+      ],
+      size: 1.0,
+      id: "5BE45F78371762D1",
+      tasks: [
+        {
+          id: "092670A7FAE37A93",
+          type: "item",
+          item: {
+            id: "voidminersremastered:aurantium_miner",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: -5.0,
+      dependencies: [
+        "5BE45F78371762D1",
+      ],
+      size: 1.0,
+      id: "006D1C49D1F57EE7",
+      tasks: [
+        {
+          id: "6BB50F1FA79A921A",
+          type: "item",
+          item: {
+            id: "voidminersremastered:aurantium_frame",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 7.0,
+      y: -5.0,
+      dependencies: [
+        "006D1C49D1F57EE7",
+      ],
+      size: 1.0,
+      id: "71E8A8CE67817031",
+      tasks: [
+        {
+          id: "5F5A5EE754AFC469",
+          type: "item",
+          item: {
+            id: "voidminersremastered:aurantium_energy_modifier",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: -5.0,
+      dependencies: [
+        "71E8A8CE67817031",
+      ],
+      size: 1.0,
+      id: "57837F930A8F3626",
+      tasks: [
+        {
+          id: "2A3AEF057BCF2CDB",
+          type: "item",
+          item: {
+            id: "voidminersremastered:aurantium_speed_modifier",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: -5.0,
+      dependencies: [
+        "57837F930A8F3626",
+      ],
+      size: 1.0,
+      id: "471D42E14B1B4012",
+      tasks: [
+        {
+          id: "268FF3E876B5474A",
+          type: "item",
+          item: {
+            id: "voidminersremastered:aurantium_item_modifier",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: -3.5,
+      dependencies: [
+        "6BFF647252569331",
+      ],
+      size: 1.0,
+      id: "536F8861CD1AAD1A",
+      tasks: [
+        {
+          id: "594520D9C2D8F19E",
+          type: "item",
+          item: {
+            id: "voidminersremastered:citrinetine",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: -3.5,
+      dependencies: [
+        "536F8861CD1AAD1A",
+      ],
+      size: 1.0,
+      id: "300A7CDD490551CD",
+      tasks: [
+        {
+          id: "63BD6691FFFFBBF7",
+          type: "item",
+          item: {
+            id: "voidminersremastered:citrinetine_block",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: -3.5,
+      dependencies: [
+        "300A7CDD490551CD",
+      ],
+      size: 1.0,
+      id: "2938C21CD98C3D62",
+      tasks: [
+        {
+          id: "33B3C8E62F0ED173",
+          type: "item",
+          item: {
+            id: "voidminersremastered:citrinetine_miner",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: -3.5,
+      dependencies: [
+        "2938C21CD98C3D62",
+      ],
+      size: 1.0,
+      id: "5A5008F0BC211894",
+      tasks: [
+        {
+          id: "190E9D9D4D05639C",
+          type: "item",
+          item: {
+            id: "voidminersremastered:citrinetine_frame",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 7.0,
+      y: -3.5,
+      dependencies: [
+        "5A5008F0BC211894",
+      ],
+      size: 1.0,
+      id: "188A094B799E5817",
+      tasks: [
+        {
+          id: "074EA662C7B22271",
+          type: "item",
+          item: {
+            id: "voidminersremastered:citrinetine_energy_modifier",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: -3.5,
+      dependencies: [
+        "188A094B799E5817",
+      ],
+      size: 1.0,
+      id: "03599A8AE725DCB5",
+      tasks: [
+        {
+          id: "1C2897D55D03EB0F",
+          type: "item",
+          item: {
+            id: "voidminersremastered:citrinetine_speed_modifier",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: -3.5,
+      dependencies: [
+        "03599A8AE725DCB5",
+      ],
+      size: 1.0,
+      id: "0769CDD66CCB3B0A",
+      tasks: [
+        {
+          id: "1DEEBFBC6B6E76FC",
+          type: "item",
+          item: {
+            id: "voidminersremastered:citrinetine_item_modifier",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: -2.0,
+      dependencies: [
+        "536F8861CD1AAD1A",
+      ],
+      size: 1.0,
+      id: "53310CA0B17884D8",
+      tasks: [
+        {
+          id: "63D99C57AC5E7611",
+          type: "item",
+          item: {
+            id: "voidminersremastered:verdium",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: -2.0,
+      dependencies: [
+        "53310CA0B17884D8",
+      ],
+      size: 1.0,
+      id: "59605D49DD500E08",
+      tasks: [
+        {
+          id: "531956D165C51D01",
+          type: "item",
+          item: {
+            id: "voidminersremastered:verdium_block",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: -2.0,
+      dependencies: [
+        "59605D49DD500E08",
+      ],
+      size: 1.0,
+      id: "5E970FE45B3B473E",
+      tasks: [
+        {
+          id: "330732D2A3F9D28A",
+          type: "item",
+          item: {
+            id: "voidminersremastered:verdium_miner",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: -2.0,
+      dependencies: [
+        "5E970FE45B3B473E",
+      ],
+      size: 1.0,
+      id: "6EC535135EFE6817",
+      tasks: [
+        {
+          id: "27ED25321A314536",
+          type: "item",
+          item: {
+            id: "voidminersremastered:verdium_frame",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 7.0,
+      y: -2.0,
+      dependencies: [
+        "6EC535135EFE6817",
+      ],
+      size: 1.0,
+      id: "2FAB610DD0AA4302",
+      tasks: [
+        {
+          id: "0FCAE3C76033D3CE",
+          type: "item",
+          item: {
+            id: "voidminersremastered:verdium_energy_modifier",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: -2.0,
+      dependencies: [
+        "2FAB610DD0AA4302",
+      ],
+      size: 1.0,
+      id: "370C5CC26C413CB8",
+      tasks: [
+        {
+          id: "2262E05F7471D25C",
+          type: "item",
+          item: {
+            id: "voidminersremastered:verdium_speed_modifier",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: -2.0,
+      dependencies: [
+        "370C5CC26C413CB8",
+      ],
+      size: 1.0,
+      id: "748D8715D27A0159",
+      tasks: [
+        {
+          id: "02CEC0C968B2D5DC",
+          type: "item",
+          item: {
+            id: "voidminersremastered:verdium_item_modifier",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: -0.5,
+      dependencies: [
+        "53310CA0B17884D8",
+      ],
+      size: 1.0,
+      id: "630CC8491D5A3125",
+      tasks: [
+        {
+          id: "0402060DEE05D07F",
+          type: "item",
+          item: {
+            id: "voidminersremastered:azurine",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: -0.5,
+      dependencies: [
+        "31C06A75F6681ECC",
+      ],
+      size: 1.0,
+      id: "0C308E6C59F45C99",
+      tasks: [
+        {
+          id: "4FA39C1AD7D2231C",
+          type: "item",
+          item: {
+            id: "voidminersremastered:azurine_frame",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 7.0,
+      y: -0.5,
+      dependencies: [
+        "0C308E6C59F45C99",
+      ],
+      size: 1.0,
+      id: "00E15E0AF1095E6C",
+      tasks: [
+        {
+          id: "1A373239CD3A81D4",
+          type: "item",
+          item: {
+            id: "voidminersremastered:azurine_energy_modifier",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: -0.5,
+      dependencies: [
+        "00E15E0AF1095E6C",
+      ],
+      size: 1.0,
+      id: "0A019135F6D359AF",
+      tasks: [
+        {
+          id: "150D252ABFEB9EDD",
+          type: "item",
+          item: {
+            id: "voidminersremastered:azurine_speed_modifier",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: -0.5,
+      dependencies: [
+        "0A019135F6D359AF",
+      ],
+      size: 1.0,
+      id: "283DF25433D6099E",
+      tasks: [
+        {
+          id: "17513B5952A37CCF",
+          type: "item",
+          item: {
+            id: "voidminersremastered:azurine_item_modifier",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 1.0,
+      dependencies: [
+        "630CC8491D5A3125",
+      ],
+      size: 1.0,
+      id: "3B1DE0534E563431",
+      tasks: [
+        {
+          id: "532F78475F549B02",
+          type: "item",
+          item: {
+            id: "voidminersremastered:caerium",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: 1.0,
+      dependencies: [
+        "3B1DE0534E563431",
+      ],
+      size: 1.0,
+      id: "3A109B0DEDFB3BCA",
+      tasks: [
+        {
+          id: "4E0444BDD1DBFED5",
+          type: "item",
+          item: {
+            id: "voidminersremastered:caerium_block",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: 1.0,
+      dependencies: [
+        "3A109B0DEDFB3BCA",
+      ],
+      size: 1.0,
+      id: "1C7FB3C89095D297",
+      tasks: [
+        {
+          id: "6111A81EBA42479C",
+          type: "item",
+          item: {
+            id: "voidminersremastered:caerium_miner",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: 1.0,
+      dependencies: [
+        "1C7FB3C89095D297",
+      ],
+      size: 1.0,
+      id: "5F20C3D59158498A",
+      tasks: [
+        {
+          id: "7DE584D65BA9D724",
+          type: "item",
+          item: {
+            id: "voidminersremastered:caerium_frame",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 7.0,
+      y: 1.0,
+      dependencies: [
+        "5F20C3D59158498A",
+      ],
+      size: 1.0,
+      id: "6300AB5851DA94F2",
+      tasks: [
+        {
+          id: "0B29E9EFA8E2B8E3",
+          type: "item",
+          item: {
+            id: "voidminersremastered:caerium_energy_modifier",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: 1.0,
+      dependencies: [
+        "6300AB5851DA94F2",
+      ],
+      size: 1.0,
+      id: "60E4BA26D18BC0B6",
+      tasks: [
+        {
+          id: "3FD7ABC2AE3D91C1",
+          type: "item",
+          item: {
+            id: "voidminersremastered:caerium_speed_modifier",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: 1.0,
+      dependencies: [
+        "60E4BA26D18BC0B6",
+      ],
+      size: 1.0,
+      id: "35C244CAC6542E2E",
+      tasks: [
+        {
+          id: "74D495CA7C41827D",
+          type: "item",
+          item: {
+            id: "voidminersremastered:caerium_item_modifier",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 2.5,
+      dependencies: [
+        "3B1DE0534E563431",
+      ],
+      size: 1.0,
+      id: "615347A2EBC7959E",
+      tasks: [
+        {
+          id: "7309A7946CFD86BE",
+          type: "item",
+          item: {
+            id: "voidminersremastered:amethystine",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: 2.5,
+      dependencies: [
+        "615347A2EBC7959E",
+      ],
+      size: 1.0,
+      id: "6E56DA274AFB6550",
+      tasks: [
+        {
+          id: "5B12EED2EC6C7AB7",
+          type: "item",
+          item: {
+            id: "voidminersremastered:amethystine_block",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: 2.5,
+      dependencies: [
+        "6E56DA274AFB6550",
+      ],
+      size: 1.0,
+      id: "46F6544A7B85B84D",
+      tasks: [
+        {
+          id: "22F1B08FE46B9175",
+          type: "item",
+          item: {
+            id: "voidminersremastered:amethystine_miner",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: 2.5,
+      dependencies: [
+        "46F6544A7B85B84D",
+      ],
+      size: 1.0,
+      id: "533427F96FF2BEB8",
+      tasks: [
+        {
+          id: "5EC2B37E98B5A5C8",
+          type: "item",
+          item: {
+            id: "voidminersremastered:amethystine_frame",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 7.0,
+      y: 2.5,
+      dependencies: [
+        "533427F96FF2BEB8",
+      ],
+      size: 1.0,
+      id: "715790C0E0C211C6",
+      tasks: [
+        {
+          id: "1E859D6BB3D26FCB",
+          type: "item",
+          item: {
+            id: "voidminersremastered:amethystine_energy_modifier",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: 2.5,
+      dependencies: [
+        "042AA9315D30EC15",
+      ],
+      size: 1.0,
+      id: "5400288C4BFEE948",
+      tasks: [
+        {
+          id: "60117F8F5F07C970",
+          type: "item",
+          item: {
+            id: "voidminersremastered:amethystine_item_modifier",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: 2.5,
+      dependencies: [
+        "715790C0E0C211C6",
+      ],
+      size: 1.0,
+      id: "042AA9315D30EC15",
+      tasks: [
+        {
+          id: "3A7EBBAAF61F2662",
+          type: "item",
+          item: {
+            id: "voidminersremastered:amethystine_speed_modifier",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: -0.5,
+      dependencies: [
+        "630CC8491D5A3125",
+      ],
+      size: 1.0,
+      id: "44647C5467F8B18C",
+      tasks: [
+        {
+          id: "102D8754E72FDF1C",
+          type: "item",
+          item: {
+            id: "voidminersremastered:azurine_block",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: -0.5,
+      dependencies: [
+        "44647C5467F8B18C",
+      ],
+      size: 1.0,
+      id: "31C06A75F6681ECC",
+      tasks: [
+        {
+          id: "0257E6F0B645DF2D",
+          type: "item",
+          item: {
+            id: "voidminersremastered:azurine_miner",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 4.0,
+      dependencies: [
+        "615347A2EBC7959E",
+      ],
+      size: 1.0,
+      id: "1934E421D08E3E03",
+      tasks: [
+        {
+          id: "5D7430489A0FE1D1",
+          type: "item",
+          item: {
+            id: "voidminersremastered:rosarium",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: 4.0,
+      dependencies: [
+        "1934E421D08E3E03",
+      ],
+      size: 1.0,
+      id: "67CFC46E4F19DBC9",
+      tasks: [
+        {
+          id: "7CC8E5E104777FD3",
+          type: "item",
+          item: {
+            id: "voidminersremastered:rosarium_block",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: 4.0,
+      dependencies: [
+        "67CFC46E4F19DBC9",
+      ],
+      size: 1.0,
+      id: "2FAC79A11202601A",
+      tasks: [
+        {
+          id: "15B9B5684C1BF21D",
+          type: "item",
+          item: {
+            id: "voidminersremastered:rosarium_miner",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: 4.0,
+      dependencies: [
+        "2FAC79A11202601A",
+      ],
+      size: 1.0,
+      id: "1F38D5EE4B3AFCEE",
+      tasks: [
+        {
+          id: "03E8AB4B116232DE",
+          type: "item",
+          item: {
+            id: "voidminersremastered:rosarium_frame",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 7.0,
+      y: 4.0,
+      dependencies: [
+        "1F38D5EE4B3AFCEE",
+      ],
+      size: 1.0,
+      id: "0596EA5ECB5BEC77",
+      tasks: [
+        {
+          id: "64A5CD64AA0DC756",
+          type: "item",
+          item: {
+            id: "voidminersremastered:rosarium_energy_modifier",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: 4.0,
+      dependencies: [
+        "0596EA5ECB5BEC77",
+      ],
+      size: 1.0,
+      id: "1A2E6DCD4EEF18F7",
+      tasks: [
+        {
+          id: "28586ED08E001C41",
+          type: "item",
+          item: {
+            id: "voidminersremastered:rosarium_speed_modifier",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: 4.0,
+      dependencies: [
+        "1A2E6DCD4EEF18F7",
+      ],
+      size: 1.0,
+      id: "54E6520B4249283B",
+      tasks: [
+        {
+          id: "56B0AEDEBB70FEDD",
+          type: "item",
+          item: {
+            id: "voidminersremastered:rosarium_item_modifier",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 5.5,
+      dependencies: [
+        "1934E421D08E3E03",
+      ],
+      size: 1.0,
+      id: "182749237D2D84B7",
+      tasks: [
+        {
+          id: "43A4B52347515C9A",
+          type: "item",
+          item: {
+            id: "voidminersremastered:ultimate_block",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: 5.5,
+      dependencies: [
+        "1CE0D98B350D3C60",
+      ],
+      size: 1.0,
+      id: "7FD21CB8BE8B9E3F",
+      tasks: [
+        {
+          id: "3EA45CAB1032135E",
+          type: "item",
+          item: {
+            id: "voidminersremastered:ultimate_frame",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: 5.5,
+      dependencies: [
+        "182749237D2D84B7",
+      ],
+      size: 1.0,
+      id: "1CE0D98B350D3C60",
+      tasks: [
+        {
+          id: "0C272049F99B3C72",
+          type: "item",
+          item: {
+            id: "voidminersremastered:ultimate_miner",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 7.0,
+      y: 5.5,
+      dependencies: [
+        "7FD21CB8BE8B9E3F",
+      ],
+      size: 1.0,
+      id: "2297F118DE915C59",
+      tasks: [
+        {
+          id: "5EE33A0FE7DCFC0C",
+          type: "item",
+          item: {
+            id: "voidminersremastered:ultimate_energy_modifier",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: 5.5,
+      dependencies: [
+        "2297F118DE915C59",
+      ],
+      size: 1.0,
+      id: "381C936054ACB4B9",
+      tasks: [
+        {
+          id: "3EBA07DA47A97F79",
+          type: "item",
+          item: {
+            id: "voidminersremastered:ultimate_speed_modifier",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: 5.5,
+      dependencies: [
+        "381C936054ACB4B9",
+      ],
+      size: 1.0,
+      id: "4A17A2C246809896",
+      tasks: [
+        {
+          id: "3ED4E70569D873E7",
+          type: "item",
+          item: {
+            id: "voidminersremastered:ultimate_item_modifier",
+            count: 1,
+          },
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: -2.0,
+      y: -9.5,
+      width: 6.0,
+      height: 6.0,
+      rotation: 0.0,
+      image: "nlp:textures/questpics/voidminers.png",
+      id: "21AA7F969DAFF227",
+    },
+    {
+      x: 6.0,
+      y: -8.0,
+      width: 10.0,
+      height: 2.5,
+      rotation: 0.0,
+      image: "nlp:textures/questpics/tier1rubenite.png",
+      id: "0C757C4889C949EF",
+    },
+    {
+      x: -2.0,
+      y: -5.0,
+      width: 10.0,
+      height: 2.5,
+      rotation: 0.0,
+      image: "nlp:textures/questpics/tier2aurantium.png",
+      id: "0F301AA3F9117284",
+    },
+    {
+      x: -2.0,
+      y: -3.5,
+      width: 10.0,
+      height: 2.5,
+      rotation: 0.0,
+      image: "nlp:textures/questpics/tier3citrinetine.png",
+      id: "2E4761880BA0D8F8",
+    },
+    {
+      x: -2.0,
+      y: -2.0,
+      width: 10.0,
+      height: 2.5,
+      rotation: 0.0,
+      image: "nlp:textures/questpics/tier4verdium.png",
+      id: "3721CFA813AD8B0D",
+    },
+    {
+      x: -2.0,
+      y: -0.5,
+      width: 10.0,
+      height: 2.5,
+      rotation: 0.0,
+      image: "nlp:textures/questpics/tier5azurine.png",
+      id: "4103C329BF58753A",
+    },
+    {
+      x: -2.0,
+      y: 1.0,
+      width: 10.0,
+      height: 2.5,
+      rotation: 0.0,
+      image: "nlp:textures/questpics/tier6caerium.png",
+      id: "0E9D1E7F7C6FDF80",
+    },
+    {
+      x: -2.0,
+      y: 2.5,
+      width: 10.0,
+      height: 2.5,
+      rotation: 0.0,
+      image: "nlp:textures/questpics/tier7amethystine.png",
+      id: "012F676D381EAAC8",
+    },
+    {
+      x: -2.0,
+      y: 4.0,
+      width: 10.0,
+      height: 2.5,
+      rotation: 0.0,
+      image: "nlp:textures/questpics/tier8rosarium.png",
+      id: "669601C2E1497C32",
+    },
+    {
+      x: -2.0,
+      y: 5.5,
+      width: 10.0,
+      height: 2.5,
+      rotation: 0.0,
+      image: "nlp:textures/questpics/tier9ultimate.png",
+      id: "43F512D12C20FB4F",
+    },
+  ],
+}

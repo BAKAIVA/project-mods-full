@@ -1,0 +1,1 @@
+{"jarName":"hdr_mod-neoforge-2.4.0-26.1.jar","modId":"hdr_mod","name":"HDR Mod","version":"2.4.0-26.1","mixinConfigs":["hdr_mod.mixins.json"],"jarJarMods":[{"jarName":"pngj-2.1.0.jar","mixinConfigs":[],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}],"curseForgeHash":324751293,"modrinthHash":"de0ef81f565dee2cb2e99fc4de0d2a1af3eb7940"}
